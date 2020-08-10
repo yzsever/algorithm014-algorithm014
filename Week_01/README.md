@@ -101,27 +101,27 @@
 #### Array
 |题目编号| 题目名称   | 难度| #1[自己实现/看高票答案]预计时间/实际时间  | #2[优化算法Leetcode提交] | #3[一天后]   | #4[一周后] | #5[面试前一周] |
 |------ | ----      | ----|----                |----  |----  |----| ---- | 
-|11     | https://leetcode.com/problems/container-with-most-water/  | Medium  |20200810 / 20200810 | 20200810 / 20200810 | 20200811 / | 20200818 / |  |
-|283    | https://leetcode.com/problems/move-zeroes/   |   Easy   |20200810 / 20200810| 20200810 / 20200810 | 20200811 / | 20200818 /| |
-|70     | https://leetcode.com/problems/climbing-stairs/    |   Easy  |20200810 / 20200810 | 20200810 / 20200810 |20200811 / | 20200818 /| |
-|15     | https://leetcode.com/problems/3sum/ | Medium | 20200810 / 20200810| 20200810 / 20200810 | 20200811 / | 20200818 /| |
+|11     | https://leetcode.com/problems/container-with-most-water/  | Medium  |0810 / 0810 | 0810 / 0810 | 0811 / | 0818 / |  |
+|283    | https://leetcode.com/problems/move-zeroes/   |   Easy   |0810 / 0810| 0810 / 0810 | 0811 / | 0818 /| |
+|70     | https://leetcode.com/problems/climbing-stairs/    |   Easy  |0810 / 0810 | 0810 / 0810 |0811 / | 0818 /| |
+|15     | https://leetcode.com/problems/3sum/ | Medium | 0810 / 0810| 0810 / 0810 | 0811 / | 0818 /| |
 
 #### Linked List
 |题目编号| 题目名称   | 难度| #1(预计时间/实际时间)  | #2 | #3 | #4 | #5  |
 |------ | ----      | ----|----                |----  |----  |----| ---- | 
-|206        |https://leetcode.com/problems/reverse-linked-list/   |  Easy   |20200811 /  | | | | | 
-|24          |https://leetcode.com/problems/swap-nodes-in-pairs/ | Medium  |20200811 /   | | | | |  
-|141        |https://leetcode.com/problems/linked-list-cycle/  | Easy  |20200811 /   | | | | |  
-|142        |https://leetcode.com/problems/linked-list-cycle-ii/ | Medium  |20200811 /    | | | | | 
-|25          |https://leetcode.com/problems/reverse-nodes-in-k-group/  | Hard |20200812 /   | | | | |  
+|206        |https://leetcode.com/problems/reverse-linked-list/   |  Easy   |0811 /  | | | | | 
+|24          |https://leetcode.com/problems/swap-nodes-in-pairs/ | Medium  |0811 /   | | | | |  
+|141        |https://leetcode.com/problems/linked-list-cycle/  | Easy  |0811 /   | | | | |  
+|142        |https://leetcode.com/problems/linked-list-cycle-ii/ | Medium  |0811 /    | | | | | 
+|25          |https://leetcode.com/problems/reverse-nodes-in-k-group/  | Hard |0812 /   | | | | |  
 
 #### Homework
 |题目编号| 题目名称   | 难度| #1(预计时间/实际时间)  | #2 | #3 | #4 | #5 
 |------ | ----      | ----|----                |----  |----  |----| ---- | 
-|26          |https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | Easy  |20200812 /   | | | | |  
-|189        |https://leetcode.com/problems/rotate-array/  | Easy  |20200812 /  | | | | |   
-|21          |https://leetcode.com/problems/merge-two-sorted-lists/  | Easy  |20200812 /  | | | | |   
-|88          |https://leetcode.com/problems/merge-sorted-array/  | Easy  |20200813 /  | | | | |   
-|1            |https://leetcode.com/problems/two-sum/  | Easy  |20200813 /  | | | | |    
+|26          |https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | Easy  |0812 /   | | | | |  
+|189        |https://leetcode.com/problems/rotate-array/  | Easy  |0812 /  | | | | |   
+|21          |https://leetcode.com/problems/merge-two-sorted-lists/  | Easy  |0812 /  | | | | |   
+|88          |https://leetcode.com/problems/merge-sorted-array/  | Easy  |0813 /  | | | | |   
+|1            |https://leetcode.com/problems/two-sum/  | Easy  |0813 /  | | | | |    
 |283(同实战) | https://leetcode.com/problems/move-zeroes/   |   Easy   | | | | | | | 
-|66           |https://leetcode.com/problems/plus-one/ | Easy  |20200813 /  | | | | |   
+|66           |https://leetcode.com/problems/plus-one/ | Easy  |0813 /  | | | | |   
