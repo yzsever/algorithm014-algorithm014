@@ -123,7 +123,7 @@
 |21          |https://leetcode.com/problems/merge-two-sorted-lists/  | Easy  |0812 /  | | | | |   
 |88          |https://leetcode.com/problems/merge-sorted-array/  | Easy  |0813 /  | | | | |   
 |1            |https://leetcode.com/problems/two-sum/  | Easy  |0813 /  | | | | |    
-|283(同实战) | https://leetcode.com/problems/move-zeroes/   |   Easy   | | | | | | | 
+|283(同实战) | https://leetcode.com/problems/move-zeroes/   |   Easy   |/ | /| /| /| /| /| 
 |66           |https://leetcode.com/problems/plus-one/ | Easy  |0813 /  | | | | |   
 
 ---
@@ -139,7 +139,7 @@
    
 ### 复杂度分析
 
-![Image of complexity](https://github.com/yzsever/algorithm014-algorithm014/tree/master/Week_01/05-Image/01-complexity.png)
+![Image of complexity](https://github.com/yzsever/algorithm014-algorithm014/blob/master/Week_01/05-Image/01-complexity.png?raw=true)
 
 ### 课后作业1
 **用add first或add last这套新的API改写Deque的代码**
