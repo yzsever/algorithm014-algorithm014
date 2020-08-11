@@ -3,8 +3,8 @@
 ## 如何高效学习算法训练营课程
 
 ### 三分看视频理解、七分练习
-1、视频：1.5～2.0倍数播放、难点（暂停+反复）
-实践尝试：2倍速看完，难点或者觉得重要的点结合PPT做笔记，如果思考后又不理解的地方再回看视频对应位置直到弄懂。
+1. 视频：1.5～2.0倍数播放、难点（暂停+反复）
+2. 实践尝试：2倍速看完，难点或者觉得重要的点结合PPT做笔记，如果思考后又不理解的地方再回看视频对应位置直到弄懂。
 
 ---
 
@@ -128,7 +128,7 @@
    
 ### 复杂度分析
 
-![Image of complexity](https://github.com/yzsever/algorithm014-algorithm014/blob/master/Week_01/05-Image/01-complexity.png?raw=true)
+![Image of complexity](https://github.com/yzsever/algorithm014-algorithm014/blob/master/Week_01/00-Image/01-complexity.png?raw=true)
 
 ### 课后作业1 [0812/]
 **用add first或add last这套新的API改写Deque的代码**
