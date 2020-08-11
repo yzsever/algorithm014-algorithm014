@@ -61,6 +61,7 @@
 - O(n^3): N cubic Complexity 立方
 - O(2^n):Exponential Growth 指数
 - O(n!): Factorial 阶乘
+
 注意：只看最高复杂度的运算
 
 ---
@@ -101,18 +102,18 @@
 #### Array
 |题目编号| 题目名称   | 难度| #1[自己实现/看高票答案]预计时间/实际时间  | #2[优化算法Leetcode提交] | #3[一天后]   | #4[一周后] | #5[面试前一周] |
 |------ | ----      | ----|----                |----  |----  |----| ---- | 
-|11     | https://leetcode.com/problems/container-with-most-water/ | Medium |0810 / 0810| 0810 / 0810 | 0811 / | 0818 /|  |
-|283    | https://leetcode.com/problems/move-zeroes/               | Easy   |0810 / 0810| 0810 / 0810 | 0811 / | 0818 /|  |
-|70     | https://leetcode.com/problems/climbing-stairs/           | Easy   |0810 / 0810| 0810 / 0810 | 0811 / | 0818 /|  |
-|15     | https://leetcode.com/problems/3sum/                      | Medium |0810 / 0810| 0810 / 0810 | 0811 / | 0818 /|  |
+|11     | https://leetcode.com/problems/container-with-most-water/ | Medium |0810 / 0810|0810 / 0810|0811 / |0818 /|  |
+|283    | https://leetcode.com/problems/move-zeroes/               | Easy   |0810 / 0810|0810 / 0810|0811 / |0818 /|  |
+|70     | https://leetcode.com/problems/climbing-stairs/           | Easy   |0810 / 0810|0810 / 0810|0811 / |0818 /|  |
+|15     | https://leetcode.com/problems/3sum/                      | Medium |0810 / 0810|0810 / 0810|0811 / |0818 /|  |
 
 #### Linked List
 |题目编号| 题目名称   | 难度| #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ----|----                |----  |----  |----| ---- | 
-|206    |https://leetcode.com/problems/reverse-linked-list/      | Easy  |0811 /   |0811 / | | | | 
-|24     |https://leetcode.com/problems/swap-nodes-in-pairs/      | Medium|0811 /   |0811 / | | | |  
-|141    |https://leetcode.com/problems/linked-list-cycle/        | Easy  |0811 /   |0811 / | | | |  
-|142    |https://leetcode.com/problems/linked-list-cycle-ii/     | Medium|0811 /   |0811 / | | | | 
+|206    |https://leetcode.com/problems/reverse-linked-list/      | Easy  |0811 / 0811|0811 / 0811|0812 / |0819 / | |
+|24     |https://leetcode.com/problems/swap-nodes-in-pairs/      | Medium|0811 / 0811|0811 / 0811|0812 / |0819 / | |
+|141    |https://leetcode.com/problems/linked-list-cycle/        | Easy  |0811 / 0811|0811 / 0811|0812 / |0819 / | | 
+|142    |https://leetcode.com/problems/linked-list-cycle-ii/     | Medium|0811 / 0811|0811 / 0811|0812 / |0819 / | | 
 |25     |https://leetcode.com/problems/reverse-nodes-in-k-group/ | Hard  |0812 /   |0812 / | | | |  
 
 ---
