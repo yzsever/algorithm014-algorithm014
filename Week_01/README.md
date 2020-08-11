@@ -125,3 +125,37 @@
 |1            |https://leetcode.com/problems/two-sum/  | Easy  |0813 /  | | | | |    
 |283(同实战) | https://leetcode.com/problems/move-zeroes/   |   Easy   | | | | | | | 
 |66           |https://leetcode.com/problems/plus-one/ | Easy  |0813 /  | | | | |   
+
+---
+
+## 第四课 栈、队列、双端队列、优先队列
+### 栈和队列的基本实现和特性
+- Stack：先入后出；添加、删除皆为O(1)，查找O(n)
+- Queue: 先入先出；添加、删除皆为O(1)，查找O(n)
+- Deque（Double-End Queue）：添加、删除皆为O(1)
+- Priority Queue: 
+   - 插入O(1), 取出O(logN):按元素的优先级取出
+   - 底层具体实现的数据结构较为多样和复杂：heap、bst、treap
+   
+### 复杂度分析
+
+![Image of complexity](https://github.com/yzsever/algorithm014-algorithm014/tree/master/Week_01/05-Image/01-complexity.png)
+
+### 课后作业1
+**用add first或add last这套新的API改写Deque的代码**
+
+### 课后作业2
+**分析Queue和Priority Queue的源码**
+
+
+---
+#### Daily每日一题推荐
+|日期|题目编号| 题目名称   | 重复来源|难度| #1 | #2 | #3 | #4 | #5 
+|---- |------ | ----      | ----|----|----                |----  |----  |----| ---- | 
+|0810|70  | https://leetcode.com/problems/climbing-stairs/  |Array实战| Easy  | /  | / | / | / | / |  
+|0811|66  |https://leetcode.com/problems/plus-one/    |LinkedList实战| Easy   | /  | / | / | / | / |   
+|0812| | | | | | | | | |   
+|0813| | | | | | | | | |   
+|0814| | | | | | | | | |    
+|0815| | | | | | | | | | 
+|0816| | | | | | | | | |   
