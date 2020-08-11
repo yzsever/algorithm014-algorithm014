@@ -100,12 +100,14 @@
 ### 实战题目
 
 #### Array
-|题目编号| 题目名称   | 难度| #1[实现/高票答案] 预计/实际时间  | #2[优化算法] | #3[一天后]   | #4[一周后] | #5[面试前一周] |
+|题目编号| 题目名称   | 难度| #1[实现/高票] | #2[优化] | #3[一天后]   | #4[一周后] | #5[面试前一周] |
 |------ | ----      | ----|----                |----  |----  |----| ---- | 
 |[11](https://leetcode.com/problems/container-with-most-water/)|container-with-most-water | Medium |0810/0810|0810/0810|0811/0811|0818/|  |
 |[283](https://leetcode.com/problems/move-zeroes/)             |move-zeroes               | Easy   |0810/0810|0810/0810|0811/0811|0818/|  |
 |[70](https://leetcode.com/problems/climbing-stairs/)          |climbing-stairs           | Easy   |0810/0810|0810/0810|0811/0811|0818/|  |
 |[15](https://leetcode.com/problems/3sum/)                     |3sum                      | Medium |0810/0810|0810/0810|0811/0811|0818/|  |
+
+> 时间标注为：计划时间/实际执行时间
 
 #### Linked List
 |题目编号| 题目名称   | 难度| #1  | #2 | #3 | #4 | #5  |
