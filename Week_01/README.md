@@ -116,7 +116,7 @@
 |[24](https://leetcode.com/problems/swap-nodes-in-pairs/)     |swap-nodes-in-pairs      | Medium|0811/0811|0811/0811|0812/ |0819/ | |
 |[141](https://leetcode.com/problems/linked-list-cycle/)      |linked-list-cycle        | Easy  |0811/0811|0811/0811|0812/ |0819/ | | 
 |[142](https://leetcode.com/problems/linked-list-cycle-ii/)   |linked-list-cycle-ii     | Medium|0811/0811|0811/0811|0812/ |0819/ | | 
-|[25](https://leetcode.com/problems/reverse-nodes-in-k-group/)|reverse-nodes-in-k-group | Hard  |0812/   |0812/ | | | |  
+|[25](https://leetcode.com/problems/reverse-nodes-in-k-group/)|reverse-nodes-in-k-group | Hard  |0812/0812|0812/0812|0813/ |0820/ | |  
 
 ---
 
@@ -143,8 +143,8 @@
 
 |题目编号| 题目名称   | 难度| #1 | #2 | #3 | #4 | #5 
 |------ | ----      | ----|----                |----  |----  |----| ---- | 
-|[20](https://leetcode.com/problems/valid-parentheses/)             |valid-parentheses             | Easy  |0812/   | | | | |  
-|[155](https://leetcode.com/problems/min-stack/)                    |min-stack                     | Easy  |0812/   | | | | |  
+|[20](https://leetcode.com/problems/valid-parentheses/)             |valid-parentheses             | Easy  |0812/0812|0812/0812|0813/ |0820/ | |   
+|[155](https://leetcode.com/problems/min-stack/)                    |min-stack                     | Easy  |0812/0812|0812/0812|0813/ |0820/ | |   
 |[84](https://leetcode.com/problems/largest-rectangle-in-histogram/)|largest-rectangle-in-histogram| Hard  |0813/   | | | | | 
 |[239](https://leetcode.com/problems/sliding-window-maximum/)       |sliding-window-maximum        | Hard  |0813/   | | | | | 
 
@@ -158,7 +158,7 @@
 |[21](https://leetcode.com/problems/merge-two-sorted-lists/)             |merge-two-sorted-lists             | Easy  |0814/  | | | | |   
 |[88](https://leetcode.com/problems/merge-sorted-array/)                 |merge-sorted-array                 | Easy  |0814/  | | | | |   
 |[1](https://leetcode.com/problems/two-sum/)                             |two-sum                            | Easy  |0814/  | | | | |    
-|[283](https://leetcode.com/problems/move-zeroes/ )同实战                 |move-zeroes                        | Easy  |/       | /| /| /| /| /| 
+|[283](https://leetcode.com/problems/move-zeroes/ )同实战                 |move-zeroes                        | Easy  |/      | /| /| /| /| /| 
 |[66](https://leetcode.com/problems/plus-one/)                           |plus-one                           | Easy  |0814/  | | | | |   
 |[641](https://leetcode.com/problems/design-circular-deque/ )            |design-circular-deque              | Medium|0815/  | | | | |  
 |[42](https://leetcode.com/problems/trapping-rain-water/)                |trapping-rain-water                | Hard  |0815/  | | | | |  
@@ -170,7 +170,7 @@
 |----|------ | ----      | ----|----|----                |----  |----  |----| ---- | 
 |0810|[70](https://leetcode.com/problems/climbing-stairs/)|climbing-stairs |Array实战     | Easy  | /  | / | / | / | / |  
 |0811|[66](https://leetcode.com/problems/plus-one/)       |plus-one        |LinkedList实战| Easy  | /  | / | / | / | / |   
-|0812|    | | | | | | | | |   
+|0812|[1](https://leetcode.com/problems/two-sum/)         |two-sum         |Homework      |Easy  | /  | / | / | / | / |  
 |0813|    | | | | | | | | |   
 |0814|    | | | | | | | | |    
 |0815|    | | | | | | | | | 
