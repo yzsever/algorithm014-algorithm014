@@ -133,7 +133,7 @@
 
 ![Image of complexity](https://github.com/yzsever/algorithm014-algorithm014/blob/master/Week_01/00-Image/01-complexity.png?raw=true)
 
-### 课后作业1 [0812/]
+### 课后作业1 [0812/0811]
 **用add first或add last这套新的API改写Deque的代码**
 
 **原代码**
@@ -176,8 +176,136 @@ Comparison of Stack and Deque methods
         System.out.println(deque);
 ```
 
-### 课后作业2 [0812/]
+### 课后作业2 [0812/0812]
 **分析Queue和Priority Queue的源码**
+
+**Queue**是接口，提供了插入，提取和检查操作。这些方法中的每一种都以两种形式存在：一种在操作失败时引发异常，另一种返回一个特殊值（根据操作而为null或false）
+
+|Method|Throws exception|	Returns special value|
+|------|------|------|
+|Insert|add(e)|	offer(e)|
+|Remove|remove()|poll()|
+|Examine|element()|peek()|
+
+
+**Priority Queue**是Queue接口的一种实现，是基于优先级堆的无界优先级队列。
+> ** 以下分析基于jdk8源码 **
+
+#### 定义
+```java
+    private static final int DEFAULT_INITIAL_CAPACITY = 11;
+    transient Object[] queue;
+    private static final int MAX_ARRAY_SIZE = 2147483639;
+```
+1、队列保存在无序列化的数组中，设置了默认容量和最大容量
+
+#### 添加
+```java
+    public boolean add(E e) {
+        //  调用offer(e)
+        return this.offer(e);
+    }
+
+    public boolean offer(E e) {
+        if (e == null) {
+            throw new NullPointerException();
+        } else {
+            ++this.modCount;
+            int i = this.size;
+            if (i >= this.queue.length) {
+                this.grow(i + 1);
+            }
+            this.size = i + 1;
+            if (i == 0) {
+                this.queue[0] = e;
+            } else {
+                this.siftUp(i, e);
+            }
+            return true;
+        }
+    }
+```
+- add和offer方法实现一致，都不允许null元素并抛出空指针异常
+- 队列容量不足时，将调用grow方法进行扩容
+- 添加元素时调用siftUp方法加入元素并调整堆
+
+#### 扩容
+```java
+    private void grow(int minCapacity) {
+        int oldCapacity = this.queue.length;
+        int newCapacity = oldCapacity + (oldCapacity < 64 ? oldCapacity + 2 : oldCapacity >> 1);
+        if (newCapacity - 2147483639 > 0) {
+            newCapacity = hugeCapacity(minCapacity);
+        }
+        this.queue = Arrays.copyOf(this.queue, newCapacity);
+    }
+	
+```
+- 根据当前容量大小进行2倍或者1.5倍扩容
+- 扩容操作执行为建立新容量的数组
+
+
+#### 删除
+
+```java
+    public boolean remove(Object o) {
+        int i = this.indexOf(o);
+        if (i == -1) {
+            return false;
+        } else {
+            this.removeAt(i);
+            return true;
+        }
+    }
+
+    private E removeAt(int i) {
+        ++this.modCount;
+        int s = --this.size;
+        if (s == i) {
+            this.queue[i] = null;
+        } else {
+            E moved = this.queue[s];
+            this.queue[s] = null;
+            this.siftDown(i, moved);
+            if (this.queue[i] == moved) {
+                this.siftUp(i, moved);
+                if (this.queue[i] != moved) {
+                    return moved;
+                }
+            }
+        }
+        return null;
+    }
+
+    public E poll() {
+        if (this.size == 0) {
+            return null;
+        } else {
+            int s = --this.size;
+            ++this.modCount;
+            E result = this.queue[0];
+            E x = this.queue[s];
+            this.queue[s] = null;
+            if (s != 0) {
+                this.siftDown(0, x);
+            }
+            return result;
+        }
+    }
+```
+-  remove删除指定的元素
+-  poll删除队首元素并返回
+-  remove和poll方法的思想类似，都是取出要删除的queue[i]元素，然后调用siftDown方法将最后一个元素插入到queue[i]下沉调整堆结构。removeAt方法中下沉失败时，执行上浮操作
+
+#### 获取队首元素
+
+```java
+ public E peek() {
+        return this.size == 0 ? null : this.queue[0];
+ }
+```
+- 直接返回队首元素，不改变队列本身 
+- 无element方法实现，被废弃
 
 ### Stack & Queue
 
