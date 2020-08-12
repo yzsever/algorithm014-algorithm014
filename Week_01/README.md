@@ -112,10 +112,10 @@
 #### Linked List
 |题目编号| 题目名称   | 难度| #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ----|----                |----  |----  |----| ---- | 
-|[206](https://leetcode.com/problems/reverse-linked-list/)    |reverse-linked-list      | Easy  |0811/0811|0811/0811|0812/ |0819/ | |
-|[24](https://leetcode.com/problems/swap-nodes-in-pairs/)     |swap-nodes-in-pairs      | Medium|0811/0811|0811/0811|0812/ |0819/ | |
-|[141](https://leetcode.com/problems/linked-list-cycle/)      |linked-list-cycle        | Easy  |0811/0811|0811/0811|0812/ |0819/ | | 
-|[142](https://leetcode.com/problems/linked-list-cycle-ii/)   |linked-list-cycle-ii     | Medium|0811/0811|0811/0811|0812/ |0819/ | | 
+|[206](https://leetcode.com/problems/reverse-linked-list/)    |reverse-linked-list      | Easy  |0811/0811|0811/0811|0812/0812|0819/ | |
+|[24](https://leetcode.com/problems/swap-nodes-in-pairs/)     |swap-nodes-in-pairs      | Medium|0811/0811|0811/0811|0812/0812|0819/ | |
+|[141](https://leetcode.com/problems/linked-list-cycle/)      |linked-list-cycle        | Easy  |0811/0811|0811/0811|0812/0812|0819/ | | 
+|[142](https://leetcode.com/problems/linked-list-cycle-ii/)   |linked-list-cycle-ii     | Medium|0811/0811|0811/0811|0812/0812|0819/ | | 
 |[25](https://leetcode.com/problems/reverse-nodes-in-k-group/)|reverse-nodes-in-k-group | Hard  |0812/0812|0812/0812|0813/ |0820/ | |  
 
 ---
@@ -135,6 +135,46 @@
 
 ### 课后作业1 [0812/]
 **用add first或add last这套新的API改写Deque的代码**
+
+**原代码**
+```java
+
+        Deque<String> deque = new LinkedList<String>();
+        deque.push("a");
+        deque.push("b");
+        deque.push("c");
+        System.out.println(deque);
+        String str = deque.peek();
+        System.out.println(str);
+        System.out.println(deque);
+        while (deque.size() > 0) {
+            System.out.println(deque.pop()); }
+        System.out.println(deque);
+```
+
+Comparison of Stack and Deque methods
+
+| Stack Method    | Equivalent Deque Method   |
+| --------   | -------  |
+| push(e)      | addFirst(e)  |
+| pop()        |   removeFirst()   |
+| peek()       |    peekFirst()    |
+
+
+**用add first或add last这套新的API改写Deque的代码**
+```java
+        Deque<String> deque = new LinkedList<String>();
+        deque.addFirst("a");
+        deque.addFirst("b");
+        deque.addFirst("c");
+        System.out.println(deque);
+        String str = deque.peekFirst();
+        System.out.println(str);
+        System.out.println(deque);
+        while (deque.size() > 0) {
+            System.out.println(deque.removeFirst()); }
+        System.out.println(deque);
+```
 
 ### 课后作业2 [0812/]
 **分析Queue和Priority Queue的源码**

@@ -15,6 +15,9 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
+
+import com.magima.checkpoint.service.impl.CheckPointServiceImpl;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,6 +39,25 @@ class Solution {
         head.next = swapPairs(head.next.next);
         newHead.next = head;
         return newHead;
+
+        // 迭代法
+/*        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode newHead = head.next;
+        ListNode next, third;
+        ListNode prev = new ListNode(-1);
+        while (head != null && head.next != null) {
+            next = head.next;
+            third = next.next;
+            // swap
+            prev.next = next;
+            next.next = head;
+            head.next = third;
+            prev = head;
+            head = third;
+        }
+        return newHead;*/
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
