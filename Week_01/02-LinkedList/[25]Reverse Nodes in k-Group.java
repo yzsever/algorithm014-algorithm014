@@ -83,6 +83,27 @@ class Solution {
             }
         }
         return dummyNode.next;
+
+//        3、Remix,递归法
+/*        if(head == null || k <= 1){
+            return head;
+        }
+        ListNode dummyNode = new ListNode(-1);
+        dummyNode.next = head;
+        ListNode prev = dummyNode;
+        ListNode node = head;
+        int i = 0;
+        while (node != null) {
+            i++;
+            if (i % k == 0) {
+                ListNode end = reverseKGroup(node.next, k);
+                node.next = end;
+                reverse(prev, end);
+                break;
+            }
+            node = node.next;
+        }
+        return dummyNode.next;*/
     }
 
     private ListNode reverse(ListNode begin, ListNode end) {

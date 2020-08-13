@@ -116,7 +116,7 @@
 |[24](https://leetcode.com/problems/swap-nodes-in-pairs/)     |swap-nodes-in-pairs      | Medium|0811/0811|0811/0811|0812/0812|0819/ | |
 |[141](https://leetcode.com/problems/linked-list-cycle/)      |linked-list-cycle        | Easy  |0811/0811|0811/0811|0812/0812|0819/ | | 
 |[142](https://leetcode.com/problems/linked-list-cycle-ii/)   |linked-list-cycle-ii     | Medium|0811/0811|0811/0811|0812/0812|0819/ | | 
-|[25](https://leetcode.com/problems/reverse-nodes-in-k-group/)|reverse-nodes-in-k-group | Hard  |0812/0812|0812/0812|0813/ |0820/ | |  
+|[25](https://leetcode.com/problems/reverse-nodes-in-k-group/)|reverse-nodes-in-k-group | Hard  |0812/0812|0812/0812|0813/0813|0820/ | |  
 
 ---
 
@@ -311,8 +311,8 @@ Comparison of Stack and Deque methods
 
 |题目编号| 题目名称   | 难度| #1 | #2 | #3 | #4 | #5 
 |------ | ----      | ----|----                |----  |----  |----| ---- | 
-|[20](https://leetcode.com/problems/valid-parentheses/)             |valid-parentheses             | Easy  |0812/0812|0812/0812|0813/ |0820/ | |   
-|[155](https://leetcode.com/problems/min-stack/)                    |min-stack                     | Easy  |0812/0812|0812/0812|0813/ |0820/ | |   
+|[20](https://leetcode.com/problems/valid-parentheses/)             |valid-parentheses             | Easy  |0812/0812|0812/0812|0813/0813|0820/ | |   
+|[155](https://leetcode.com/problems/min-stack/)                    |min-stack                     | Easy  |0812/0812|0812/0812|0813/0813|0820/ | |   
 |[84](https://leetcode.com/problems/largest-rectangle-in-histogram/)|largest-rectangle-in-histogram| Hard  |0813/0813|0813/0813|0814/ |0821/ | | 
 |[239](https://leetcode.com/problems/sliding-window-maximum/)       |sliding-window-maximum        | Hard  |0813/0813|0813/0813|0814/ |0821/ | |
 
