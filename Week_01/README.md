@@ -197,7 +197,7 @@ Comparison of Stack and Deque methods
     transient Object[] queue;
     private static final int MAX_ARRAY_SIZE = 2147483639;
 ```
-1、队列保存在无序列化的数组中，设置了默认容量和最大容量
+- 队列保存在无序列化的数组中，设置了默认容量和最大容量
 
 #### 添加
 ```java
@@ -313,16 +313,16 @@ Comparison of Stack and Deque methods
 |------ | ----      | ----|----                |----  |----  |----| ---- | 
 |[20](https://leetcode.com/problems/valid-parentheses/)             |valid-parentheses             | Easy  |0812/0812|0812/0812|0813/ |0820/ | |   
 |[155](https://leetcode.com/problems/min-stack/)                    |min-stack                     | Easy  |0812/0812|0812/0812|0813/ |0820/ | |   
-|[84](https://leetcode.com/problems/largest-rectangle-in-histogram/)|largest-rectangle-in-histogram| Hard  |0813/   | | | | | 
-|[239](https://leetcode.com/problems/sliding-window-maximum/)       |sliding-window-maximum        | Hard  |0813/   | | | | | 
+|[84](https://leetcode.com/problems/largest-rectangle-in-histogram/)|largest-rectangle-in-histogram| Hard  |0813/0813|0813/0813|0814/ |0821/ | | 
+|[239](https://leetcode.com/problems/sliding-window-maximum/)       |sliding-window-maximum        | Hard  |0813/0813|0813/0813|0814/ |0821/ | |
 
 ---
 
 #### Weekly Homework
 |题目编号| 题目名称   | 难度| #1 | #2 | #3 | #4 | #5 
 |------ | ----      | ----|----                |----  |----  |----| ---- | 
-|[26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|remove-duplicates-from-sorted-array| Easy  |0813/  | | | | |  
-|[189](https://leetcode.com/problems/rotate-array/ )                     |rotate-array                       | Easy  |0813/  | | | | |   
+|[26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|remove-duplicates-from-sorted-array| Easy  |0813/0813|0813/0813|0814/ |0821/ | |  
+|[189](https://leetcode.com/problems/rotate-array/ )                     |rotate-array                       | Easy  |0813/0813|0813/0813|0814/ |0821/ | |  
 |[21](https://leetcode.com/problems/merge-two-sorted-lists/)             |merge-two-sorted-lists             | Easy  |0814/  | | | | |   
 |[88](https://leetcode.com/problems/merge-sorted-array/)                 |merge-sorted-array                 | Easy  |0814/  | | | | |   
 |[1](https://leetcode.com/problems/two-sum/)                             |two-sum                            | Easy  |0814/  | | | | |    
@@ -336,10 +336,10 @@ Comparison of Stack and Deque methods
 #### Daily每日一题推荐
 |日期 |题目编号| 题目名称   | 重复来源|难度| #1 | #2 | #3 | #4 | #5 
 |----|------ | ----      | ----|----|----                |----  |----  |----| ---- | 
-|0810|[70](https://leetcode.com/problems/climbing-stairs/)|climbing-stairs |Array实战     | Easy  | /  | / | / | / | / |  
-|0811|[66](https://leetcode.com/problems/plus-one/)       |plus-one        |LinkedList实战| Easy  | /  | / | / | / | / |   
-|0812|[1](https://leetcode.com/problems/two-sum/)         |two-sum         |Homework      |Easy  | /  | / | / | / | / |  
-|0813|    | | | | | | | | |   
+|0810|[70](https://leetcode.com/problems/climbing-stairs/)    |climbing-stairs    |Array实战     | Easy  | /  | / | / | / | / |  
+|0811|[66](https://leetcode.com/problems/plus-one/)           |plus-one           |LinkedList实战| Easy  | /  | / | / | / | / |   
+|0812|[1](https://leetcode.com/problems/two-sum/)             |two-sum            |Homework      |Easy  | /  | / | / | / | / |  
+|0813|[24](https://leetcode.com/problems/swap-nodes-in-pairs/)|swap-nodes-in-pairs|LinkedList实战| Medium| /  | / | / | / | / |    
 |0814|    | | | | | | | | |    
 |0815|    | | | | | | | | | 
 |0816|    | | | | | | | | |   
