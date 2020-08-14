@@ -323,11 +323,11 @@ Comparison of Stack and Deque methods
 |------ | ----      | ----|----                |----  |----  |----| ---- | 
 |[26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|remove-duplicates-from-sorted-array| Easy  |0813/0813|0813/0813|0814/ |0821/ | |  
 |[189](https://leetcode.com/problems/rotate-array/ )                     |rotate-array                       | Easy  |0813/0813|0813/0813|0814/ |0821/ | |  
-|[21](https://leetcode.com/problems/merge-two-sorted-lists/)             |merge-two-sorted-lists             | Easy  |0814/  | | | | |   
-|[88](https://leetcode.com/problems/merge-sorted-array/)                 |merge-sorted-array                 | Easy  |0814/  | | | | |   
-|[1](https://leetcode.com/problems/two-sum/)                             |two-sum                            | Easy  |0814/  | | | | |    
+|[21](https://leetcode.com/problems/merge-two-sorted-lists/)             |merge-two-sorted-lists             | Easy  |0814/0814|0814/0814|0815/ |0822/ | |   
+|[88](https://leetcode.com/problems/merge-sorted-array/)                 |merge-sorted-array                 | Easy  |0814/0814|0814/0814|0815/ |0822/ | |   
+|[1](https://leetcode.com/problems/two-sum/)                             |two-sum                            | Easy  |0814/0814|0814/0814|0815/ |0822/ | |
 |[283](https://leetcode.com/problems/move-zeroes/ )同实战                 |move-zeroes                        | Easy  |/      | /| /| /| /| /| 
-|[66](https://leetcode.com/problems/plus-one/)                           |plus-one                           | Easy  |0814/  | | | | |   
+|[66](https://leetcode.com/problems/plus-one/)                           |plus-one                           | Easy  |0814/0814|0814/0814|0815/ |0822/ | |   
 |[641](https://leetcode.com/problems/design-circular-deque/ )            |design-circular-deque              | Medium|0815/  | | | | |  
 |[42](https://leetcode.com/problems/trapping-rain-water/)                |trapping-rain-water                | Hard  |0815/  | | | | |  
 
