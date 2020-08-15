@@ -289,6 +289,15 @@ Comparison of Stack and Deque methods
 ---
 ### 本周学习心得
 
+老师提供的刷题方法颠覆了我原来的思想，之前做题都是就算用暴力法也要自己想办法做出来，证明自己至少是有能力做这些题的。好不容易AC了以后已经精疲力尽了，然后去看别人的高票答案只是感慨一下别人的想法真厉害，然后没有精力再去深究了。
+使用了五毒神掌以后，从一开始就能学到好的解法，然后把精力放到研究这些好的算法上来提升自我，并在做题的过程中觉得一直都有进步。
+
+第一周坚持下来，开始的时候算了下总题量，同时考虑到第二天和一周后需要复刷题目，相当于从第二周开始每天的题量就是每天新题的三倍，所以我控制每天的题目在4题。每天学习新题需要花费的时间比较长，平均1题可能需要1个小时，同时如果遇到hard题，
+时间会更长一点。所以难度高的题我会分散在不同的日子里。
+
+希望自己继续加油！
+
+
 ---
 
 ### 实战题目
@@ -339,8 +348,8 @@ Comparison of Stack and Deque methods
 #### 0815
 |题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
 |------ | ----      | ----|---- |----                |----  |----  |----| ---- |
-|[641](https://leetcode.com/problems/design-circular-deque/ ) |design-circular-deque| Medium |Queue、Array|0815/0815|0815/0815| | | |
-|[42](https://leetcode.com/problems/trapping-rain-water/)     |trapping-rain-water  | Hard   | |0815/  | | | | |
-|[146](https://leetcode.com/problems/lru-cache/)              |lru-cache            | Medium |Linked List |0815/ | | | | | |
-|[299](https://leetcode.com/problems/bulls-and-cows/)         |bulls-and-cows       | Easy   | |0815/ | | | | | |
+|[641](https://leetcode.com/problems/design-circular-deque/ ) |design-circular-deque| Medium |Queue、Array|0815/0815|0815/0815|0816/ |0823/ | |
+|[42](https://leetcode.com/problems/trapping-rain-water/)     |trapping-rain-water  | Hard   |Array、Stack|0815/0815|0815/0815|0816/ |0823/ | |
+|[146](https://leetcode.com/problems/lru-cache/)              |lru-cache            | Medium |Linked List |0815/0815|0815/0815|0816/ |0823/ | |
+|[299](https://leetcode.com/problems/bulls-and-cows/)         |bulls-and-cows       | Easy   |Array       |0815/0815|0815/0815|0816/ |0823/ | |
 
