@@ -97,27 +97,6 @@
 - insert O(logn)
 - delete O(logn)
 
-### 实战题目
-
-#### Array
-|题目编号| 题目名称   | 难度| #1[实现/高票] | #2[优化] | #3[一天后]   | #4[一周后] | #5[面试前一周] |
-|------ | ----      | ----|----                |----  |----  |----| ---- | 
-|[11](https://leetcode.com/problems/container-with-most-water/)|container-with-most-water | Medium |0810/0810|0810/0810|0811/0811|0818/|  |
-|[283](https://leetcode.com/problems/move-zeroes/)             |move-zeroes               | Easy   |0810/0810|0810/0810|0811/0811|0818/|  |
-|[70](https://leetcode.com/problems/climbing-stairs/)          |climbing-stairs           | Easy   |0810/0810|0810/0810|0811/0811|0818/|  |
-|[15](https://leetcode.com/problems/3sum/)                     |3sum                      | Medium |0810/0810|0810/0810|0811/0811|0818/|  |
-
-> 时间标注为：计划时间/实际执行时间
-
-#### Linked List
-|题目编号| 题目名称   | 难度| #1  | #2 | #3 | #4 | #5  |
-|------ | ----      | ----|----                |----  |----  |----| ---- | 
-|[206](https://leetcode.com/problems/reverse-linked-list/)    |reverse-linked-list      | Easy  |0811/0811|0811/0811|0812/0812|0819/ | |
-|[24](https://leetcode.com/problems/swap-nodes-in-pairs/)     |swap-nodes-in-pairs      | Medium|0811/0811|0811/0811|0812/0812|0819/ | |
-|[141](https://leetcode.com/problems/linked-list-cycle/)      |linked-list-cycle        | Easy  |0811/0811|0811/0811|0812/0812|0819/ | | 
-|[142](https://leetcode.com/problems/linked-list-cycle-ii/)   |linked-list-cycle-ii     | Medium|0811/0811|0811/0811|0812/0812|0819/ | | 
-|[25](https://leetcode.com/problems/reverse-nodes-in-k-group/)|reverse-nodes-in-k-group | Hard  |0812/0812|0812/0812|0813/0813|0820/ | |  
-
 ---
 
 ## 第四课 栈、队列、双端队列、优先队列
@@ -307,39 +286,58 @@ Comparison of Stack and Deque methods
 - 直接返回队首元素，不改变队列本身 
 - 无element方法实现，被废弃
 
-### Stack & Queue
 
-|题目编号| 题目名称   | 难度| #1 | #2 | #3 | #4 | #5 
-|------ | ----      | ----|----                |----  |----  |----| ---- | 
-|[20](https://leetcode.com/problems/valid-parentheses/)             |valid-parentheses             | Easy  |0812/0812|0812/0812|0813/0813|0820/ | |   
-|[155](https://leetcode.com/problems/min-stack/)                    |min-stack                     | Easy  |0812/0812|0812/0812|0813/0813|0820/ | |   
-|[84](https://leetcode.com/problems/largest-rectangle-in-histogram/)|largest-rectangle-in-histogram| Hard  |0813/0813|0813/0813|0814/0814|0821/ | | 
-|[239](https://leetcode.com/problems/sliding-window-maximum/)       |sliding-window-maximum        | Hard  |0813/0813|0813/0813|0814/0814|0821/ | |
+### 实战题目
 
----
+#### 0810
+|题目编号| 题目名称   | 难度  | 类型  |#1[实现/高票] | #2[优化] | #3[一天后]   | #4[一周后] | #5[面试前一周] |
+|------ | ----      | ----  | ----  | ----                |----  |----  |----| ---- |
+|[11](https://leetcode.com/problems/container-with-most-water/)|container-with-most-water | Medium |Array |0810/0810|0810/0810|0811/0811|0818/|  |
+|[283](https://leetcode.com/problems/move-zeroes/)             |move-zeroes               | Easy   |Array |0810/0810|0810/0810|0811/0811|0818/|  |
+|[70](https://leetcode.com/problems/climbing-stairs/)          |climbing-stairs           | Easy   |Array |0810/0810|0810/0810|0811/0811|0818/|  |
+|[15](https://leetcode.com/problems/3sum/)                     |3sum                      | Medium |Array |0810/0810|0810/0810|0811/0811|0818/|  |
 
-#### Weekly Homework
-|题目编号| 题目名称   | 难度| #1 | #2 | #3 | #4 | #5 
-|------ | ----      | ----|----                |----  |----  |----| ---- | 
-|[26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|remove-duplicates-from-sorted-array| Easy  |0813/0813|0813/0813|0814/0814|0821/ | |  
-|[189](https://leetcode.com/problems/rotate-array/ )                     |rotate-array                       | Easy  |0813/0813|0813/0813|0814/0814|0821/ | |  
-|[21](https://leetcode.com/problems/merge-two-sorted-lists/)             |merge-two-sorted-lists             | Easy  |0814/0814|0814/0814|0815/ |0822/ | |   
-|[88](https://leetcode.com/problems/merge-sorted-array/)                 |merge-sorted-array                 | Easy  |0814/0814|0814/0814|0815/ |0822/ | |   
-|[1](https://leetcode.com/problems/two-sum/)                             |two-sum                            | Easy  |0814/0814|0814/0814|0815/ |0822/ | |
-|[283](https://leetcode.com/problems/move-zeroes/ )同实战                 |move-zeroes                        | Easy  |/      | /| /| /| /| /| 
-|[66](https://leetcode.com/problems/plus-one/)                           |plus-one                           | Easy  |0814/0814|0814/0814|0815/ |0822/ | |   
-|[641](https://leetcode.com/problems/design-circular-deque/ )            |design-circular-deque              | Medium|0815/  | | | | |  
-|[42](https://leetcode.com/problems/trapping-rain-water/)                |trapping-rain-water                | Hard  |0815/  | | | | |  
+> 时间标注为：计划时间/实际执行时间
+
+#### 0811
+|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
+|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[206](https://leetcode.com/problems/reverse-linked-list/)    |reverse-linked-list      | Easy  |Linked List |0811/0811|0811/0811|0812/0812|0819/ | |
+|[24](https://leetcode.com/problems/swap-nodes-in-pairs/)     |swap-nodes-in-pairs      | Medium|Linked List |0811/0811|0811/0811|0812/0812|0819/ | |
+|[141](https://leetcode.com/problems/linked-list-cycle/)      |linked-list-cycle        | Easy  |Linked List |0811/0811|0811/0811|0812/0812|0819/ | |
+|[142](https://leetcode.com/problems/linked-list-cycle-ii/)   |linked-list-cycle-ii     | Medium|Linked List |0811/0811|0811/0811|0812/0812|0819/ | |
+|[25](https://leetcode.com/problems/reverse-nodes-in-k-group/)|reverse-nodes-in-k-group | Hard  |Linked List |0812/0812|0812/0812|0813/0813|0820/ | |
 
 
+#### 0812
+|题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
+|------ | ----      | ----|---- |----                |----  |----  |----| ---- |
+|/         |用add first或add last这套新的API改写Deque的代码 | /   |Queue |0812/0811 | | | | | |
+|/         |分析Queue和Priority Queue的源码               | /   |Queue |0812/0812 | | | | | |
+|[20](https://leetcode.com/problems/valid-parentheses/)             |valid-parentheses             | Easy  |Stack |0812/0812|0812/0812|0813/0813|0820/ | |
+|[155](https://leetcode.com/problems/min-stack/)                    |min-stack                     | Easy  |Stack |0812/0812|0812/0812|0813/0813|0820/ | |
 
-#### Daily每日一题推荐
-|日期 |题目编号| 题目名称   | 重复来源|难度| #1 | #2 | #3 | #4 | #5 
-|----|------ | ----      | ----|----|----                |----  |----  |----| ---- | 
-|0810|[70](https://leetcode.com/problems/climbing-stairs/)    |climbing-stairs    |Array实战     | Easy  | /  | / | / | / | / |  
-|0811|[66](https://leetcode.com/problems/plus-one/)           |plus-one           |LinkedList实战| Easy  | /  | / | / | / | / |   
-|0812|[1](https://leetcode.com/problems/two-sum/)             |two-sum            |Homework      |Easy  | /  | / | / | / | / |  
-|0813|[24](https://leetcode.com/problems/swap-nodes-in-pairs/)|swap-nodes-in-pairs|LinkedList实战| Medium| /  | / | / | / | / |    
-|0814|[21](https://leetcode.com/problems/merge-two-sorted-lists/)|merge-two-sorted-lists |Homework|Easy | /  | / | / | / | / |    
-|0815|    | | | | | | | | | 
-|0816|    | | | | | | | | |   
+#### 0813
+|题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
+|------ | ----      | ----|---- |----                |----  |----  |----| ---- |
+|[84](https://leetcode.com/problems/largest-rectangle-in-histogram/)     |largest-rectangle-in-histogram| Hard  |Stack |0813/0813|0813/0813|0814/0814|0821/ | |
+|[239](https://leetcode.com/problems/sliding-window-maximum/)            |sliding-window-maximum        | Hard  |Queue |0813/0813|0813/0813|0814/0814|0821/ | |
+|[26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|remove-duplicates-from-sorted-array| Easy  |Array |0813/0813|0813/0813|0814/0814|0821/ | |
+|[189](https://leetcode.com/problems/rotate-array/ )                     |rotate-array                       | Easy  |Array |0813/0813|0813/0813|0814/0814|0821/ | |
+
+#### 0814
+|题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
+|------ | ----      | ----|---- |----                |----  |----  |----| ---- |
+|[21](https://leetcode.com/problems/merge-two-sorted-lists/)             |merge-two-sorted-lists             | Easy  |Linked List |0814/0814|0814/0814|0815/ |0822/ | |
+|[88](https://leetcode.com/problems/merge-sorted-array/)                 |merge-sorted-array                 | Easy  |Array |0814/0814|0814/0814|0815/ |0822/ | |
+|[1](https://leetcode.com/problems/two-sum/)                             |two-sum                            | Easy  |Array |0814/0814|0814/0814|0815/ |0822/ | |
+|[66](https://leetcode.com/problems/plus-one/)                           |plus-one                           | Easy  |Array |0814/0814|0814/0814|0815/ |0822/ | |
+
+#### 0815
+|题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
+|------ | ----      | ----|---- |----                |----  |----  |----| ---- |
+|[641](https://leetcode.com/problems/design-circular-deque/ ) |design-circular-deque| Medium |Queue |0815/  | | | | |
+|[42](https://leetcode.com/problems/trapping-rain-water/)     |trapping-rain-water  | Hard   | |0815/  | | | | |
+|[146](https://leetcode.com/problems/lru-cache/)              |lru-cache            | Medium |Linked List |0815/ | | | | | |
+|[299](https://leetcode.com/problems/bulls-and-cows/)         |bulls-and-cows       | Easy   | |0815/ | | | | | |
+
