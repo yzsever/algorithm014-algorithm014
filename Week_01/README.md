@@ -286,6 +286,10 @@ Comparison of Stack and Deque methods
 - 直接返回队首元素，不改变队列本身 
 - 无element方法实现，被废弃
 
+---
+### 本周学习心得
+
+---
 
 ### 实战题目
 
@@ -306,16 +310,15 @@ Comparison of Stack and Deque methods
 |[24](https://leetcode.com/problems/swap-nodes-in-pairs/)     |swap-nodes-in-pairs      | Medium|Linked List |0811/0811|0811/0811|0812/0812|0819/ | |
 |[141](https://leetcode.com/problems/linked-list-cycle/)      |linked-list-cycle        | Easy  |Linked List |0811/0811|0811/0811|0812/0812|0819/ | |
 |[142](https://leetcode.com/problems/linked-list-cycle-ii/)   |linked-list-cycle-ii     | Medium|Linked List |0811/0811|0811/0811|0812/0812|0819/ | |
-|[25](https://leetcode.com/problems/reverse-nodes-in-k-group/)|reverse-nodes-in-k-group | Hard  |Linked List |0812/0812|0812/0812|0813/0813|0820/ | |
-
 
 #### 0812
 |题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
 |------ | ----      | ----|---- |----                |----  |----  |----| ---- |
 |/         |用add first或add last这套新的API改写Deque的代码 | /   |Queue |0812/0811 | | | | | |
 |/         |分析Queue和Priority Queue的源码               | /   |Queue |0812/0812 | | | | | |
-|[20](https://leetcode.com/problems/valid-parentheses/)             |valid-parentheses             | Easy  |Stack |0812/0812|0812/0812|0813/0813|0820/ | |
-|[155](https://leetcode.com/problems/min-stack/)                    |min-stack                     | Easy  |Stack |0812/0812|0812/0812|0813/0813|0820/ | |
+|[25](https://leetcode.com/problems/reverse-nodes-in-k-group/)|reverse-nodes-in-k-group | Hard  |Linked List |0812/0812|0812/0812|0813/0813|0820/ | |
+|[20](https://leetcode.com/problems/valid-parentheses/)       |valid-parentheses        | Easy  |Stack |0812/0812|0812/0812|0813/0813|0820/ | |
+|[155](https://leetcode.com/problems/min-stack/)              |min-stack                | Easy  |Stack |0812/0812|0812/0812|0813/0813|0820/ | |
 
 #### 0813
 |题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
@@ -336,7 +339,7 @@ Comparison of Stack and Deque methods
 #### 0815
 |题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
 |------ | ----      | ----|---- |----                |----  |----  |----| ---- |
-|[641](https://leetcode.com/problems/design-circular-deque/ ) |design-circular-deque| Medium |Queue |0815/  | | | | |
+|[641](https://leetcode.com/problems/design-circular-deque/ ) |design-circular-deque| Medium |Queue、Array|0815/0815|0815/0815| | | |
 |[42](https://leetcode.com/problems/trapping-rain-water/)     |trapping-rain-water  | Hard   | |0815/  | | | | |
 |[146](https://leetcode.com/problems/lru-cache/)              |lru-cache            | Medium |Linked List |0815/ | | | | | |
 |[299](https://leetcode.com/problems/bulls-and-cows/)         |bulls-and-cows       | Easy   | |0815/ | | | | | |
