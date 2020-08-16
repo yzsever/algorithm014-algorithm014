@@ -162,54 +162,46 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 
 ### 实战题目
 
-#### 0816 Sun
+#### 0817 Mon
 |题目编号| 题目名称   | 难度  | 类型  |#1[实现/高票] | #2[优化] | #3[一天后]   | #4[一周后] | #5[面试前一周] |
 |------ | ----      | ----  | ----  | ----                |----  |----  |----| ---- |
-|[242](https://leetcode.com/problems/valid-anagram/)               |valid-anagram                |Easy  |HashTable|0816/ | | | | |
-|[49](https://leetcode.com/problems/group-anagrams/)               |vgroup-anagrams              |Medium|HashTable|0816/ | | | | |
-|[94](https://leetcode.com/problems/binary-tree-inorder-traversal/)|binary-tree-inorder-traversal|Medium|Tree     |0816/ | | | | |
+|[242](https://leetcode.com/problems/valid-anagram/)               |valid-anagram                |Easy  |HashTable|0817/ | | | | |
+|[49](https://leetcode.com/problems/group-anagrams/)               |vgroup-anagrams              |Medium|HashTable|0817/ | | | | |
+|[94](https://leetcode.com/problems/binary-tree-inorder-traversal/)|binary-tree-inorder-traversal|Medium|Tree     |0817/ | | | | |
 
 
 > 时间标注为：计划时间/实际执行时间
 
-#### 0817 Mon
-|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
-|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|/    | 关于HashMap的小总结   | /  | HashMap |0817/ | | | | |
-|[144](https://leetcode.com/problems/binary-tree-preorder-traversal/)  |binary-tree-preorder-traversal  |Medium|Tree |0817/ | | | | |
-|[590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)  |n-ary-tree-postorder-traversal  |Easy  |Tree |0817/ | | | | |
-|[589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)   |n-ary-tree-preorder-traversal   |Easy  |Tree |0817/ | | | | |
-
-
 #### 0818 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|/    |[自学HeapSort](https://www.geeksforgeeks.org/heap-sort/)   | /  | Heap |0818/ | | | | |
-|[429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|n-ary-tree-level-order-traversal|Medium|Tree |0818/ | | | | |
-|[剑指Offer40](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)|最小的k个数     |Easy  |Heap |0818/ | | | | 
-|[239](https://leetcode-cn.com/problems/sliding-window-maximum/)|sliding-window-maximum  |Hard  |Heap |0818/ | | | | |
+|/    | 关于HashMap的小总结   | /  | HashMap |0817/ | | | | |
+|[144](https://leetcode.com/problems/binary-tree-preorder-traversal/)  |binary-tree-preorder-traversal  |Medium|Tree |0818/ | | | | |
+|[590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)  |n-ary-tree-postorder-traversal  |Easy  |Tree |0818/ | | | | |
+|[589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)   |n-ary-tree-preorder-traversal   |Easy  |Tree |0818/ | | | | |
 
 
 #### 0819 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[347](https://leetcode.com/problems/top-k-frequent-elements/)  |top-k-frequent-elements |Medium|Heap |0819/ | | | | |
-|[剑指Offer49](https://leetcode-cn.com/problems/chou-shu-lcof/)|丑数             |Medium|Heap |0819/ | | | | |
-|[]()    |      | Easy  | |0819/ | | | | |
-|[]()    |      | Easy  | |0819/ | | | | |
+|/    |[自学HeapSort](https://www.geeksforgeeks.org/heap-sort/)   | /  | Heap |0818/ | | | | |
+|[429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|n-ary-tree-level-order-traversal|Medium|Tree |0819/ | | | | |
+|[剑指Offer40](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)|最小的k个数     |Easy  |Heap |0819/ | | | | 
+|[239](https://leetcode-cn.com/problems/sliding-window-maximum/)|sliding-window-maximum  |Hard  |Heap |0819/ | | | | |
+
 
 #### 0820 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[200](https://leetcode.com/problems/number-of-islands/)      |number-of-islands|Medium|Graph|0820/ | | | | |
-|[]()    |      | Easy  | |0820/ | | | | |
-|[]()    |      | Easy  | |0820/ | | | | |
-|[]()    |      | Easy  | |0820/ | | | | |
+|[347](https://leetcode.com/problems/top-k-frequent-elements/)  |top-k-frequent-elements |Medium|Heap |0820/ | | | | |
+|[剑指Offer49](https://leetcode-cn.com/problems/chou-shu-lcof/)|丑数             |Medium|Heap |0820/ | | | | |
+|[]()    |      | Easy  | |0819/ | | | | |
+|[]()    |      | Easy  | |0819/ | | | | |
 
 #### 0821 Fri
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[]()    |      | Easy  | |0821/ | | | | |
+|[200](https://leetcode.com/problems/number-of-islands/)      |number-of-islands|Medium|Graph|0821/ | | | | |
 |[]()    |      | Easy  | |0821/ | | | | |
 |[]()    |      | Easy  | |0821/ | | | | |
 |[]()    |      | Easy  | |0821/ | | | | |
