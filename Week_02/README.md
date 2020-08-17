@@ -155,8 +155,30 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 
 
 ### 图
+#### 属性
+- Graph(V, E)
+- V-vertex：点
+   - 度-入度和出度
+   - 点与点之间：连通与否
+- E-edge：边
+    - 有向和无向（单行线）
+    - 权重（边长）
 
+#### 图的表示和分类
+1. 无向无权图
+2. 有向无权图
+3. 无向有权图
+4. 有向有权图
 
+#### 常见算法
+1. DFS
+2. BFS
+3. 拓扑排序[Topological Sorting](https://zhuanlan.zhihu.com/p/34871092)
+4. 最短路径 Shortest Path[Dijkstra](https://www.bilibili.com/video/av25829980?from=search&seid=13391343514095937158)
+5. 最小生成树[Minimum Spanning Tree](https://www.bilibili.com/video/av84820276?from=search&seid=17476598104352152051)
+
+#### 思考题:自己画一下有向有权图
+![有向有权图](https://github.com/yzsever/algorithm014-algorithm014/blob/master/Week_02/00-Image/01-有向有权图.png?raw=true)
 
 ---
 
@@ -184,7 +206,7 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 #### 0819 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|/    |[自学HeapSort](https://www.geeksforgeeks.org/heap-sort/)   | /  | Heap |0818/ | | | | |
+|/    |[自学HeapSort](https://www.geeksforgeeks.org/heap-sort/)   | /  | Heap |0819/ | | | | |
 |[429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|n-ary-tree-level-order-traversal|Medium|Tree |0819/ | | | | |
 |[剑指Offer40](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)|最小的k个数     |Easy  |Heap |0819/ | | | | 
 |[239](https://leetcode-cn.com/problems/sliding-window-maximum/)|sliding-window-maximum  |Hard  |Heap |0819/ | | | | |
