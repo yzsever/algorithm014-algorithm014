@@ -175,7 +175,7 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 #### 0818 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|/    | 关于HashMap的小总结   | /  | HashMap |0817/ | | | | |
+|/    | 关于HashMap的小总结   | /  | HashMap |0818/ | | | | |
 |[144](https://leetcode.com/problems/binary-tree-preorder-traversal/)  |binary-tree-preorder-traversal  |Medium|Tree |0818/ | | | | |
 |[590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)  |n-ary-tree-postorder-traversal  |Easy  |Tree |0818/ | | | | |
 |[589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)   |n-ary-tree-preorder-traversal   |Easy  |Tree |0818/ | | | | |
@@ -193,24 +193,24 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 #### 0820 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[347](https://leetcode.com/problems/top-k-frequent-elements/)  |top-k-frequent-elements |Medium|Heap |0820/ | | | | |
-|[剑指Offer49](https://leetcode-cn.com/problems/chou-shu-lcof/)|丑数             |Medium|Heap |0820/ | | | | |
-|[]()    |      | Easy  | |0819/ | | | | |
+|[347](https://leetcode.com/problems/top-k-frequent-elements/)      |top-k-frequent-elements      |Medium|Heap |0820/ | | | | |
+|[剑指Offer49](https://leetcode-cn.com/problems/chou-shu-lcof/)      |丑数                         |Medium|Heap |0820/ | | | | |
+|[350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|intersection-of-two-arrays-ii|Easy  |Array|0820/ | | | | |
 |[]()    |      | Easy  | |0819/ | | | | |
 
 #### 0821 Fri
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[200](https://leetcode.com/problems/number-of-islands/)      |number-of-islands|Medium|Graph|0821/ | | | | |
-|[]()    |      | Easy  | |0821/ | | | | |
-|[]()    |      | Easy  | |0821/ | | | | |
+|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Graph    |0821/ | | | | |
+|[70](https://leetcode.com/problems/climbing-stairs/)     |climbing-stairs     |Easy  |Recursion|0821/ | | | | |
+|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|Recursion|0821/ | | | | |
 |[]()    |      | Easy  | |0821/ | | | | |
 
 #### 0822 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[]()    |      | Easy  | |0822/ | | | | |
-|[]()    |      | Easy  | |0822/ | | | | |
-|[]()    |      | Easy  | |0822/ | | | | |
+|[50](https://leetcode.com/problems/powx-n/)  |powx-n   |Medium|Divide&Conquer|0822/ | | | | |
+|[78](https://leetcode.com/problems/subsets/) |subsets  |Medium|Backtracking  |0822/ | | | | |
+|[51](https://leetcode.com/problems/n-queens/)|n-queens |Hard  |Backtracking  |0822/ | | | | |
 |[]()    |      | Easy  | |0822/ | | | | |
 
