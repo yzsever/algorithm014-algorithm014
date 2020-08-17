@@ -66,30 +66,31 @@ public class TreeNode {
 
 ```java
 // 三种遍历代码递归实现，必会
+List<Integer> traversePath = new LinkedList<>();
+
 // 前序遍历
-private void preOrder(TreeNode root) {
-    LinkedList<Integer> traversePath = new LinkedList<>();
+private void preOrder(TreeNode root, List<Integer> traversePath) {
     if (root != null) {
         traversePath.add(root.val);
-        preOrder(root.left);
-        preOrder(root.right);
+        preOrder(root.left, traversePath);
+        preOrder(root.right, traversePath);
     }
 }
+
 // 中序遍历
-private void inOrder(TreeNode root) {
-    LinkedList<Integer> traversePath = new LinkedList<>();
+private void inOrder(TreeNode root, List<Integer> traversePath) {
     if (root != null) {
-        inOrder(root.left);
+        inOrder(root.left, traversePath);
         traversePath.add(root.val);
-        inOrder(root.right);
+        inOrder(root.right, traversePath);
     }
 }
+
 // 后序遍历
-private void postOrder(TreeNode root) {
-    LinkedList<Integer> traversePath = new LinkedList<>();
+private void postOrder(TreeNode root, List<Integer> traversePath) {
     if (root != null) {
-        inOrder(root.left);
-        inOrder(root.right);
+        inOrder(root.left, traversePath);
+        inOrder(root.right, traversePath);
         traversePath.add(root.val);
     }
 }
