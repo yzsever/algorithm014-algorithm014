@@ -188,9 +188,9 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 #### 0817 Mon
 |题目编号| 题目名称   | 难度  | 类型  |#1[实现/高票] | #2[优化] | #3[一天后]   | #4[一周后] | #5[面试前一周] |
 |------ | ----      | ----  | ----  | ----                |----  |----  |----| ---- |
-|[242](https://leetcode.com/problems/valid-anagram/)               |valid-anagram                |Easy  |HashTable|0817/0817|0817/0817|0818/ |0825/ | |
-|[49](https://leetcode.com/problems/group-anagrams/)               |vgroup-anagrams              |Medium|HashTable|0817/0817|0817/0817|0818/ |0825/ | |
-|[94](https://leetcode.com/problems/binary-tree-inorder-traversal/)|binary-tree-inorder-traversal|Medium|Tree     |0817/0817|0817/0817|0818/ |0825/ | |
+|[242](https://leetcode.com/problems/valid-anagram/)               |valid-anagram                |Easy  |HashTable|0817/0817|0817/0817|0818/0818|0825/ | |
+|[49](https://leetcode.com/problems/group-anagrams/)               |vgroup-anagrams              |Medium|HashTable|0817/0817|0817/0817|0818/0818|0825/ | |
+|[94](https://leetcode.com/problems/binary-tree-inorder-traversal/)|binary-tree-inorder-traversal|Medium|Tree     |0817/0817|0817/0817|0818/0818|0825/ | |
 
 
 > 时间标注为：计划时间/实际执行时间
