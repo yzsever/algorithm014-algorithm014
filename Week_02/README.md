@@ -209,32 +209,31 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |/    |[自学HeapSort](https://www.geeksforgeeks.org/heap-sort/)   | /  | Heap |0819/ | | | | |
-|[429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|n-ary-tree-level-order-traversal|Medium|Tree |0819/ | | | | |
-|[剑指Offer40](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)|最小的k个数     |Easy  |Heap |0819/ | | | | 
-|[239](https://leetcode-cn.com/problems/sliding-window-maximum/)|sliding-window-maximum  |Hard  |Heap |0819/ | | | | |
-
+|[429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|n-ary-tree-level-order-traversal|Medium|Tree |0819/0819| | | | |
+|[剑指Offer40](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)|最小的k个数                    |Easy  |Heap |0819/0819| | | | 
+|[239](https://leetcode.com/problems/sliding-window-maximum/)|sliding-window-maximum                    |Hard  |Heap |0819/0819X|X |X |X |X |
+|[347](https://leetcode.com/problems/top-k-frequent-elements/)|top-k-frequent-elements                  |Medium|Heap |0819/0819| | | | |
+|[剑指Offer49](https://leetcode-cn.com/problems/chou-shu-lcof/)      |丑数                               |Medium|Heap |0819/ | | | | |
 
 #### 0820 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[347](https://leetcode.com/problems/top-k-frequent-elements/)      |top-k-frequent-elements      |Medium|Heap |0820/ | | | | |
-|[剑指Offer49](https://leetcode-cn.com/problems/chou-shu-lcof/)      |丑数                         |Medium|Heap |0820/ | | | | |
-|[350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|intersection-of-two-arrays-ii|Easy  |Array|0820/ | | | | |
-|[]()    |      | Easy  | |0819/ | | | | |
+|[70](https://leetcode.com/problems/climbing-stairs/)               |climbing-stairs              |Easy  |Recursion|0820/ | | | | |
+|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Graph    |0820/ | | | | |
+|[22](https://leetcode.com/problems/generate-parentheses/) |generate-parentheses|Medium|Recursion     |0821/ | | | | |
 
 #### 0821 Fri
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Graph    |0821/ | | | | |
-|[70](https://leetcode.com/problems/climbing-stairs/)     |climbing-stairs     |Easy  |Recursion|0821/ | | | | |
-|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|Recursion|0821/ | | | | |
-|[]()    |      | Easy  | |0821/ | | | | |
+
+|[110](https://leetcode.com/problems/balanced-binary-tree/)|balanced-binary-tree|Easy  |Recursion     |0821/ | | | | |
+|[50](https://leetcode.com/problems/powx-n/)               |powx-n              |Medium|Divide&Conquer|0821/ | | | | |
+|[78](https://leetcode.com/problems/subsets/)                |subsets  |Medium|Backtracking  |0822/ | | | | |
 
 #### 0822 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[50](https://leetcode.com/problems/powx-n/)  |powx-n   |Medium|Divide&Conquer|0822/ | | | | |
-|[78](https://leetcode.com/problems/subsets/) |subsets  |Medium|Backtracking  |0822/ | | | | |
-|[51](https://leetcode.com/problems/n-queens/)|n-queens |Hard  |Backtracking  |0822/ | | | | |
-|[]()    |      | Easy  | |0822/ | | | | |
+|[51](https://leetcode.com/problems/n-queens/)               |n-queens |Hard  |Backtracking  |0822/ | | | | |
+|[647](https://leetcode.com/problems/palindromic-substrings/)|palindromic-substrings|Medium|DP |0822/ | | | | |
+|[350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|intersection-of-two-arrays-ii|Easy  |Array|0820/ | | | | |
 
