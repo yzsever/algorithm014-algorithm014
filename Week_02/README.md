@@ -198,7 +198,7 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 #### 0818 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|/    | 关于HashMap的小总结   | /  | HashMap |0818/ | | | | |
+|/    | 关于HashMap的小总结   | /  | HashMap |0818/0819 | | | | |
 |[144](https://leetcode.com/problems/binary-tree-preorder-traversal/)  |binary-tree-preorder-traversal  |Medium|Tree |0818/0818|0818/0818|0819/0819|0826/ | |
 |[590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)  |n-ary-tree-postorder-traversal  |Easy  |Tree |0818/0818|0818/0818|0819/0819|0826/ | |
 |[589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)   |n-ary-tree-preorder-traversal   |Easy  |Tree |0818/0818|0818/0818|0819/0819|0826/ | |
@@ -273,25 +273,39 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
     final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
                    boolean evict) {
         Node<K,V>[] tab; Node<K,V> p; int n, i;
+        // 如果桶的数量为0，则初始化
         if ((tab = table) == null || (n = tab.length) == 0)
+            // 调用resize()初始化
             n = (tab = resize()).length;
+        // (n - 1) & hash 确定元素放在哪个桶中，如果桶为空，则放在桶中第一个位置
         if ((p = tab[i = (n - 1) & hash]) == null)
+            // 新建一个节点放在桶中
             tab[i] = newNode(hash, key, value, null);
-        else {
+        else { // 桶不为空
             Node<K,V> e; K k;
+            // 判断桶中第一个元素key和待插入的key相同
             if (p.hash == hash &&
                 ((k = p.key) == key || (key != null && key.equals(k))))
+                // 用于后续统一修改val
                 e = p;
+            // 不是桶的第一元素后，需要判断当前的存储结构是链表还是红黑树，以便于遍历查找待插入元素的位置
+            // 第一元素是树节点，调用putTreeVal方法插入元素  
             else if (p instanceof TreeNode)
                 e = ((TreeNode<K,V>)p).putTreeVal(this, tab, hash, key, value);
             else {
+                // 不是树节点，则是链表存储
+                // binCount统计链表的长度，用于判断链表是否需要树化
                 for (int binCount = 0; ; ++binCount) {
+                    // 遍历结束，未找到相同k的元素，在链表最后插入一个新节点
                     if ((e = p.next) == null) {
                         p.next = newNode(hash, key, value, null);
+                        // 如果链表长度达到树化门槛，则需要树化
+                        // 因为第一个元素没有加到binCount中，所以减1
                         if (binCount >= TREEIFY_THRESHOLD - 1) // -1 for 1st
                             treeifyBin(tab, hash);
                         break;
                     }
+                    // 找到了和待插入元素相同key的元素，结束循环
                     if (e.hash == hash &&
                         ((k = e.key) == key || (key != null && key.equals(k))))
                         break;
@@ -300,53 +314,89 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
             }
             if (e != null) { // existing mapping for key
                 V oldValue = e.value;
+                // 判断是否需要替换旧值
                 if (!onlyIfAbsent || oldValue == null)
                     e.value = value;
                 afterNodeAccess(e);
+                // 返回旧值
                 return oldValue;
             }
         }
+        // 未找到元素
         ++modCount;
+        // 元素数量加1，判断是否需要扩容
         if (++size > threshold)
+            // 扩容
             resize();
         afterNodeInsertion(evict);
         return null;
     }
 
+```
+
+put方法的主要流程如下：
+1. 判断桶即table数组为空，初始化桶。
+   - 直接插入元素
+2. 查找key所在的桶中key与待插入的key相同的元素
+   - 判断key所在的桶中的第一个元素的key是否与待插入的key相同
+   - 树存储结构，调用putTreeVal()寻找元素或插入元素
+   - 遍历链表查找
+      - 如果未找到元素，则在链表最后插入一个新节点，再判断链表是否需要树化
+3. 如果找到了对应的key元素
+   - 判断是否需要替换旧值，并返回旧值
+4. 如果插入了元素，则数量加1，判断table是否需要扩容
+
+
+
+```java
     /**
      * 初始化或增加表大小。 如果为空，则根据字段阈值中保持的初始容量目标进行分配。
      * 否则，因为我们使用的是2的幂，所以每个bin中的元素必须保持相同的索引，或者在新表中以2的幂偏移。
      * @return the table
      */
     final Node<K,V>[] resize() {
+        // 旧数组
         Node<K,V>[] oldTab = table;
+        // 旧容量
         int oldCap = (oldTab == null) ? 0 : oldTab.length;
+        // 旧扩容门槛
         int oldThr = threshold;
         int newCap, newThr = 0;
         if (oldCap > 0) {
+            // 已达到最大容量，不需要扩容
             if (oldCap >= MAXIMUM_CAPACITY) {
                 threshold = Integer.MAX_VALUE;
                 return oldTab;
             }
+            // 旧容量的两倍小于最大容量，同时旧容量大于等于默认初始容量
             else if ((newCap = oldCap << 1) < MAXIMUM_CAPACITY &&
                      oldCap >= DEFAULT_INITIAL_CAPACITY)
+                // 扩容门槛变成两倍
                 newThr = oldThr << 1; // double threshold
         }
         else if (oldThr > 0) // initial capacity was placed in threshold
+            // 使用非默认构造方法创建的map，第一次插入元素会走到这里
+            // 如果旧容量为0且旧扩容门槛大于0，则把新容量赋值为旧门槛
             newCap = oldThr;
         else {               // zero initial threshold signifies using defaults
+            // 调用默认构造方法创建的map，第一次插入元素会走到这里
+            // 如果旧容量旧扩容门槛都是0，说明还未初始化过，则初始化容量为默认容量，扩容门槛为默认容量*默认装载因子
             newCap = DEFAULT_INITIAL_CAPACITY;
             newThr = (int)(DEFAULT_LOAD_FACTOR * DEFAULT_INITIAL_CAPACITY);
         }
+        // 如果新扩容门槛为0，则计算为容量*装载因子，但不能超过最大容量
         if (newThr == 0) {
             float ft = (float)newCap * loadFactor;
             newThr = (newCap < MAXIMUM_CAPACITY && ft < (float)MAXIMUM_CAPACITY ?
                       (int)ft : Integer.MAX_VALUE);
         }
+        // 更新扩容门槛
         threshold = newThr;
+        // 新建一个新容量的数组
         @SuppressWarnings({"rawtypes","unchecked"})
         Node<K,V>[] newTab = (Node<K,V>[])new Node[newCap];
         table = newTab;
+        // 旧数组不为空，搬移元素
         if (oldTab != null) {
             for (int j = 0; j < oldCap; ++j) {
                 Node<K,V> e;
@@ -355,13 +405,17 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
                     if (e.next == null)
                         newTab[e.hash & (newCap - 1)] = e;
                     else if (e instanceof TreeNode)
+                        // 如果第一个元素是树节点，则把这颗树打散成两颗树插入到新桶中去
                         ((TreeNode<K,V>)e).split(this, newTab, j, oldCap);
                     else { // preserve order
+                        // 如果这个链表不止一个元素且不是一颗树
+                        // 则分化成两个链表插入到新的桶中去
                         Node<K,V> loHead = null, loTail = null;
                         Node<K,V> hiHead = null, hiTail = null;
                         Node<K,V> next;
                         do {
                             next = e.next;
+                            // (e.hash & oldCap) == 0的元素放在低位链表中
                             if ((e.hash & oldCap) == 0) {
                                 if (loTail == null)
                                     loHead = e;
@@ -370,6 +424,7 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
                                 loTail = e;
                             }
                             else {
+                                // (e.hash & oldCap) != 0的元素放在高位链表中
                                 if (hiTail == null)
                                     hiHead = e;
                                 else
@@ -377,10 +432,13 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
                                 hiTail = e;
                             }
                         } while ((e = next) != null);
+                        // 遍历完成分化成两个链表了
+                        // 低位链表在新桶中的位置与旧桶一样
                         if (loTail != null) {
                             loTail.next = null;
                             newTab[j] = loHead;
                         }
+                        // 高位链表在新桶中的位置正好是原来的位置加上旧容量
                         if (hiTail != null) {
                             hiTail.next = null;
                             newTab[j + oldCap] = hiHead;
@@ -398,8 +456,10 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
     final void treeifyBin(Node<K,V>[] tab, int hash) {
         int n, index; Node<K,V> e;
         if (tab == null || (n = tab.length) < MIN_TREEIFY_CAPACITY)
+            // 如果桶数量小于MIN_TREEIFY_CAPACITY时，直接扩容。扩容之后，链表会分化成两个链表，达到减少元素的作用
             resize();
         else if ((e = tab[index = (n - 1) & hash]) != null) {
+            // 将节点转换成树节点
             TreeNode<K,V> hd = null, tl = null;
             do {
                 TreeNode<K,V> p = replacementTreeNode(e, null);
@@ -411,6 +471,7 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
                 }
                 tl = p;
             } while ((e = e.next) != null);
+            // 执行树化
             if ((tab[index] = hd) != null)
                 hd.treeify(tab);
         }
@@ -423,20 +484,7 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 **get方法**
 ```java
     /**
-     * Returns the value to which the specified key is mapped,
-     * or {@code null} if this map contains no mapping for the key.
-     *
-     * <p>More formally, if this map contains a mapping from a key
-     * {@code k} to a value {@code v} such that {@code (key==null ? k==null :
-     * key.equals(k))}, then this method returns {@code v}; otherwise
-     * it returns {@code null}.  (There can be at most one such mapping.)
-     *
-     * <p>A return value of {@code null} does not <i>necessarily</i>
-     * indicate that the map contains no mapping for the key; it's also
-     * possible that the map explicitly maps the key to {@code null}.
-     * The {@link #containsKey containsKey} operation may be used to
-     * distinguish these two cases.
-     *
+     * 返回指定键所映射到的值；如果此映射不包含键的映射关系，则返回{@code null}。
      * @see #put(Object, Object)
      */
     public V get(Object key) {
@@ -453,14 +501,19 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
      */
     final Node<K,V> getNode(int hash, Object key) {
         Node<K,V>[] tab; Node<K,V> first, e; int n; K k;
+        // 桶数组不为空，并且查找元素key所在桶的第一个元素不为null
         if ((tab = table) != null && (n = tab.length) > 0 &&
             (first = tab[(n - 1) & hash]) != null) {
+            // 判断桶内第一个元素的key是否与查找元素相同，如果是，直接返回
             if (first.hash == hash && // always check first node
                 ((k = first.key) == key || (key != null && key.equals(k))))
                 return first;
+            // 桶内超过1个元素时，遍历查找
             if ((e = first.next) != null) {
+                // 第一个元素是树节点，调用getTreeNode进行查找
                 if (first instanceof TreeNode)
                     return ((TreeNode<K,V>)first).getTreeNode(hash, key);
+                // 链表结构时，遍历链表查找元素
                 do {
                     if (e.hash == hash &&
                         ((k = e.key) == key || (key != null && key.equals(k))))
@@ -472,7 +525,11 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
     }
 ```
 
-
+get方法的主要流程如下：
+1. 判断桶即table数组不为空，并且key所在桶内的第一个元素不为空
+2. 判断第一个元素是否是查找元素，是则返回
+3. 如果第一个元素是树节点，则调用getTreeNode查找
+4. 否则遍历链表进行查重
 
 
 参考文档：
