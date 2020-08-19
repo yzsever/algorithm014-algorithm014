@@ -315,10 +315,10 @@ Comparison of Stack and Deque methods
 #### 0811 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[206](https://leetcode.com/problems/reverse-linked-list/)    |reverse-linked-list      | Easy  |Linked List |0811/0811|0811/0811|0812/0812|0819/ | |
-|[24](https://leetcode.com/problems/swap-nodes-in-pairs/)     |swap-nodes-in-pairs      | Medium|Linked List |0811/0811|0811/0811|0812/0812|0819/ | |
-|[141](https://leetcode.com/problems/linked-list-cycle/)      |linked-list-cycle        | Easy  |Linked List |0811/0811|0811/0811|0812/0812|0819/ | |
-|[142](https://leetcode.com/problems/linked-list-cycle-ii/)   |linked-list-cycle-ii     | Medium|Linked List |0811/0811|0811/0811|0812/0812|0819/ | |
+|[206](https://leetcode.com/problems/reverse-linked-list/)    |reverse-linked-list      | Easy  |Linked List |0811/0811|0811/0811|0812/0812|0819/0819| |
+|[24](https://leetcode.com/problems/swap-nodes-in-pairs/)     |swap-nodes-in-pairs      | Medium|Linked List |0811/0811|0811/0811|0812/0812|0819/0819| |
+|[141](https://leetcode.com/problems/linked-list-cycle/)      |linked-list-cycle        | Easy  |Linked List |0811/0811|0811/0811|0812/0812|0819/0819| |
+|[142](https://leetcode.com/problems/linked-list-cycle-ii/)   |linked-list-cycle-ii     | Medium|Linked List |0811/0811|0811/0811|0812/0812|0819/0819| |
 
 #### 0812 Wed
 |题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
