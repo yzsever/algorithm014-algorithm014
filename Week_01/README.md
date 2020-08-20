@@ -325,9 +325,9 @@ Comparison of Stack and Deque methods
 |------ | ----      | ----|---- |----                |----  |----  |----| ---- |
 |/         |用add first或add last这套新的API改写Deque的代码 | /   |Queue |0812/0811 | | | | | |
 |/         |分析Queue和Priority Queue的源码               | /   |Queue |0812/0812 | | | | | |
-|[25](https://leetcode.com/problems/reverse-nodes-in-k-group/)|reverse-nodes-in-k-group | Hard  |Linked List |0812/0812|0812/0812|0813/0813|0820/ | |
-|[20](https://leetcode.com/problems/valid-parentheses/)       |valid-parentheses        | Easy  |Stack       |0812/0812|0812/0812|0813/0813|0820/ | |
-|[155](https://leetcode.com/problems/min-stack/)              |min-stack                | Easy  |Stack       |0812/0812|0812/0812|0813/0813|0820/ | |
+|[25](https://leetcode.com/problems/reverse-nodes-in-k-group/)|reverse-nodes-in-k-group | Hard  |Linked List |0812/0812|0812/0812|0813/0813|0820/0820| |
+|[20](https://leetcode.com/problems/valid-parentheses/)       |valid-parentheses        | Easy  |Stack       |0812/0812|0812/0812|0813/0813|0820/0820| |
+|[155](https://leetcode.com/problems/min-stack/)              |min-stack                | Easy  |Stack       |0812/0812|0812/0812|0813/0813|0820/0820| |
 
 #### 0813 Thu
 |题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
