@@ -218,9 +218,11 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 #### 0820 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[70](https://leetcode.com/problems/climbing-stairs/)               |climbing-stairs              |Easy  |Recursion|0820/ | | | | |
-|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Graph    |0820/ | | | | |
-|[22](https://leetcode.com/problems/generate-parentheses/) |generate-parentheses|Medium|Recursion     |0821/ | | | | |
+|[70](https://leetcode.com/problems/climbing-stairs/)     |climbing-stairs     |Easy  |Recursion|0820/0820|0820/0820|0821/ |0827/ |
+|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Graph    |0820/0820|0820/0820|0821/ |0827/ |
+|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|Recursion|0820/0820|0820/0820|0821/ |0827/ |
+|[412](https://leetcode.com/problems/fizz-buzz/)          |fizz-buzz           |Easy  |HashTable|0820/0820|0820/0820|0821/ |0827/ |
+
 
 #### 0821 Fri
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
