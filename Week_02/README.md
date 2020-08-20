@@ -209,11 +209,11 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |/    |[自学HeapSort](https://www.geeksforgeeks.org/heap-sort/)   | /  | Heap |0819/ | | | | |
-|[429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|n-ary-tree-level-order-traversal|Medium|Tree |0819/0819|0819/0819|0820/ |0827/ | |
-|[剑指Offer40](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)|最小的k个数                    |Easy  |Heap |0819/0819|0819/0819|0820/ |0827/ | | 
-|[239](https://leetcode.com/problems/sliding-window-maximum/)|sliding-window-maximum                    |Hard  |Heap |0819/0819|X |X |X |X |
-|[347](https://leetcode.com/problems/top-k-frequent-elements/)|top-k-frequent-elements                  |Medium|Heap |0819/0819|0819/0819|0820/ |0827/ | |
-|[剑指Offer49](https://leetcode-cn.com/problems/chou-shu-lcof/)      |丑数                               |Medium|Heap |0819/0819|0819/0819|0820/ |0827/ | |
+|[429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|n-ary-tree-level-order-traversal|Medium|Tree |0819/0819|0819/0819|0820/0820|0827/ | |
+|[剑指Offer40](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)|最小的k个数  |Easy  |Heap |0819/0819|0819/0819|0820/0820|0827/ | | 
+|[239](https://leetcode.com/problems/sliding-window-maximum/)|sliding-window-maximum  |Hard  |Heap |0819/0819|X |X |X |X |
+|[347](https://leetcode.com/problems/top-k-frequent-elements/)|top-k-frequent-elements|Medium|Heap |0819/0819|0819/0819|0820/0820|0827/ | |
+|[264](https://leetcode.com/problems/ugly-number-ii//)        |ugly-number-ii         |Medium|Heap |0819/0819|0819/0819|0820/0820|0827/ | |
 
 #### 0820 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
