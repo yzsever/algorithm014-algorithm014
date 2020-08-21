@@ -218,10 +218,10 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 #### 0820 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[70](https://leetcode.com/problems/climbing-stairs/)     |climbing-stairs     |Easy  |Recursion|0820/0820|0820/0820|0821/ |0827/ |
-|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Graph    |0820/0820|0820/0820|0821/ |0827/ |
-|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|Recursion|0820/0820|0820/0820|0821/ |0827/ |
-|[412](https://leetcode.com/problems/fizz-buzz/)          |fizz-buzz           |Easy  |HashTable|0820/0820|0820/0820|0821/ |0827/ |
+|[70](https://leetcode.com/problems/climbing-stairs/)     |climbing-stairs     |Easy  |Recursion|0820/0820|0820/0820|0821/0821|0827/ |
+|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Graph    |0820/0820|0820/0820|0821/0821|0827/ |
+|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|Recursion|0820/0820|0820/0820|0821/0821|0827/ |
+|[412](https://leetcode.com/problems/fizz-buzz/)          |fizz-buzz           |Easy  |HashTable|0820/0820|0820/0820|0821/0821|0827/ |
 
 
 #### 0821 Fri
@@ -229,7 +229,8 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[110](https://leetcode.com/problems/balanced-binary-tree/)|balanced-binary-tree|Easy  |Recursion     |0821/ | | | | |
 |[50](https://leetcode.com/problems/powx-n/)               |powx-n              |Medium|Divide&Conquer|0821/ | | | | |
-|[78](https://leetcode.com/problems/subsets/)                |subsets  |Medium|Backtracking  |0822/ | | | | |
+|[78](https://leetcode.com/problems/subsets/)              |subsets             |Medium|Backtracking  |0821/ | | | | |
+|[258](https://leetcode.com/problems/add-digits/)          |add-digits          |Easy  |Recursion     |0821/ | | | | |
 
 #### 0822 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
