@@ -332,10 +332,10 @@ Comparison of Stack and Deque methods
 #### 0813 Thu
 |题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
 |------ | ----      | ----|---- |----                |----  |----  |----| ---- |
-|[84](https://leetcode.com/problems/largest-rectangle-in-histogram/)     |largest-rectangle-in-histogram     | Hard  |Stack |0813/0813|0813/0813|0814/0814|0821/ | |
-|[239](https://leetcode.com/problems/sliding-window-maximum/)            |sliding-window-maximum             | Hard  |Queue |0813/0813|0813/0813|0814/0814|0821/ | |
-|[26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|remove-duplicates-from-sorted-array| Easy  |Array |0813/0813|0813/0813|0814/0814|0821/ | |
-|[189](https://leetcode.com/problems/rotate-array/ )                     |rotate-array                       | Easy  |Array |0813/0813|0813/0813|0814/0814|0821/ | |
+|[84](https://leetcode.com/problems/largest-rectangle-in-histogram/)     |largest-rectangle-in-histogram     | Hard  |Stack |0813/0813|0813/0813|0814/0814|0821/0822| |
+|[239](https://leetcode.com/problems/sliding-window-maximum/)            |sliding-window-maximum             | Hard  |Queue |0813/0813|0813/0813|0814/0814|0821/0822| |
+|[26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|remove-duplicates-from-sorted-array| Easy  |Array |0813/0813|0813/0813|0814/0814|0821/0822| |
+|[189](https://leetcode.com/problems/rotate-array/ )                     |rotate-array                       | Easy  |Array |0813/0813|0813/0813|0814/0814|0821/0822| |
 
 #### 0814 Fri
 |题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
