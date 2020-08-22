@@ -218,19 +218,19 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 #### 0820 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[70](https://leetcode.com/problems/climbing-stairs/)     |climbing-stairs     |Easy  |Recursion|0820/0820|0820/0820|0821/0821|0827/ |
-|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Graph    |0820/0820|0820/0820|0821/0821|0827/ |
-|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|Recursion|0820/0820|0820/0820|0821/0821|0827/ |
-|[412](https://leetcode.com/problems/fizz-buzz/)          |fizz-buzz           |Easy  |HashTable|0820/0820|0820/0820|0821/0821|0827/ |
+|[70](https://leetcode.com/problems/climbing-stairs/)     |climbing-stairs     |Easy  |Recursion|0820/0820|0820/0820|0821/0821|0828/ |
+|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Graph    |0820/0820|0820/0820|0821/0821|0828/ |
+|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|Recursion|0820/0820|0820/0820|0821/0821|0828/ |
+|[412](https://leetcode.com/problems/fizz-buzz/)          |fizz-buzz           |Easy  |HashTable|0820/0820|0820/0820|0821/0821|0828/ |
 
 
 #### 0822 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[110](https://leetcode.com/problems/balanced-binary-tree/)         |balanced-binary-tree         |Easy  |Recursion      |0822/0822|0822/0822| | | |
-|[258](https://leetcode.com/problems/add-digits/)                   |add-digits                   |Easy  |Recursion      |0822/0822|0822/0822| | | |
-|[647](https://leetcode.com/problems/palindromic-substrings/)       |palindromic-substrings       |Medium|DP             |0822/0822|0822/0822| | | |
-|[350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|intersection-of-two-arrays-ii|Easy  |Array,HashTable|0822/0822|0822/0822| | | |
+|[110](https://leetcode.com/problems/balanced-binary-tree/)         |balanced-binary-tree         |Easy  |Recursion      |0822/0822|0822/0822|0823/ |0830/ | |
+|[258](https://leetcode.com/problems/add-digits/)                   |add-digits                   |Easy  |Recursion      |0822/0822|0822/0822|0823/ |0830/ | |
+|[647](https://leetcode.com/problems/palindromic-substrings/)       |palindromic-substrings       |Medium|DP             |0822/0822|0822/0822|0823/ |0830/ | |
+|[350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|intersection-of-two-arrays-ii|Easy  |Array,HashTable|0822/0822|0822/0822|0823/ |0830/ | |
 
 #### 0823 Sun
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
@@ -240,6 +240,11 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 |[50](https://leetcode.com/problems/powx-n/)    |powx-n   |Medium|Divide&Conquer|0823/ | | | | |
 |[104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|maximum-depth-of-binary-tree|Easy|DFS/BFS|0823/ | | | | |
 
+---
+
+本周总结：
+首先，很开心又坚持下来了！给自己鼓掌！
+本周的课程相关的总题量有所减少，后面几天的题目以预习+群里老师推荐+每周推荐进行补充。从本周开始，要增加复刷上周的题目，按每天的题量为3-4题计算，之后的每天题量都会维持在10-12的样子。目前每天的刷题时间差不多快有6个小时，同时如果工作繁忙的情况下会有不小的压力。目前采取动态调整计划的方式，每周留一定的可调整时间用于完成计划。课程的学习在周日完成，做好学习总结并安排下周计划。接下来据说最难坚持的第3周和第4周加油！
 
 ---
 
