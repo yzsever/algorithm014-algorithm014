@@ -224,20 +224,21 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 |[412](https://leetcode.com/problems/fizz-buzz/)          |fizz-buzz           |Easy  |HashTable|0820/0820|0820/0820|0821/0821|0827/ |
 
 
-#### 0821 Fri
-|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
-|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[110](https://leetcode.com/problems/balanced-binary-tree/)|balanced-binary-tree|Easy  |Recursion     |0821/ | | | | |
-|[50](https://leetcode.com/problems/powx-n/)               |powx-n              |Medium|Divide&Conquer|0821/ | | | | |
-|[78](https://leetcode.com/problems/subsets/)              |subsets             |Medium|Backtracking  |0821/ | | | | |
-|[258](https://leetcode.com/problems/add-digits/)          |add-digits          |Easy  |Recursion     |0821/ | | | | |
-
 #### 0822 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[51](https://leetcode.com/problems/n-queens/)               |n-queens |Hard  |Backtracking  |0822/ | | | | |
-|[647](https://leetcode.com/problems/palindromic-substrings/)|palindromic-substrings|Medium|DP |0822/ | | | | |
-|[350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|intersection-of-two-arrays-ii|Easy  |Array|0820/ | | | | |
+|[110](https://leetcode.com/problems/balanced-binary-tree/)         |balanced-binary-tree         |Easy  |Recursion      |0822/0822|0822/0822| | | |
+|[258](https://leetcode.com/problems/add-digits/)                   |add-digits                   |Easy  |Recursion      |0822/0822|0822/0822| | | |
+|[647](https://leetcode.com/problems/palindromic-substrings/)       |palindromic-substrings       |Medium|DP             |0822/0822|0822/0822| | | |
+|[350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|intersection-of-two-arrays-ii|Easy  |Array,HashTable|0822/0822|0822/0822| | | |
+
+#### 0823 Sun
+|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
+|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[78](https://leetcode.com/problems/subsets/)   |subsets  |Medium|Backtracking  |0823/ | | | | |
+|[51](https://leetcode.com/problems/n-queens/)  |n-queens |Hard  |Backtracking  |0823/ | | | | |
+|[50](https://leetcode.com/problems/powx-n/)    |powx-n   |Medium|Divide&Conquer|0823/ | | | | |
+|[104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|maximum-depth-of-binary-tree|Easy|DFS/BFS|0823/ | | | | |
 
 
 ---
