@@ -227,10 +227,10 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 #### 0822 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[110](https://leetcode.com/problems/balanced-binary-tree/)         |balanced-binary-tree         |Easy  |Recursion      |0822/0822|0822/0822|0823/ |0830/ | |
-|[258](https://leetcode.com/problems/add-digits/)                   |add-digits                   |Easy  |Recursion      |0822/0822|0822/0822|0823/ |0830/ | |
-|[647](https://leetcode.com/problems/palindromic-substrings/)       |palindromic-substrings       |Medium|DP             |0822/0822|0822/0822|0823/ |0830/ | |
-|[350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|intersection-of-two-arrays-ii|Easy  |Array,HashTable|0822/0822|0822/0822|0823/ |0830/ | |
+|[110](https://leetcode.com/problems/balanced-binary-tree/)         |balanced-binary-tree         |Easy  |Recursion      |0822/0822|0822/0822|0823/0823|0830/ | |
+|[258](https://leetcode.com/problems/add-digits/)                   |add-digits                   |Easy  |Recursion      |0822/0822|0822/0822|0823/0823|0830/ | |
+|[647](https://leetcode.com/problems/palindromic-substrings/)       |palindromic-substrings       |Medium|DP             |0822/0822|0822/0822|0823/0823|0830/ | |
+|[350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|intersection-of-two-arrays-ii|Easy  |Array,HashTable|0822/0822|0822/0822|0823/0823|0830/ | |
 
 ---
 
