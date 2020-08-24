@@ -340,16 +340,16 @@ Comparison of Stack and Deque methods
 #### 0814 Fri
 |题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
 |------ | ----      | ----|---- |----                |----  |----  |----| ---- |
-|[21](https://leetcode.com/problems/merge-two-sorted-lists/)             |merge-two-sorted-lists             | Easy  |Linked List |0814/0814|0814/0814|0815/0815|0822/0822| |
-|[88](https://leetcode.com/problems/merge-sorted-array/)                 |merge-sorted-array                 | Easy  |Array       |0814/0814|0814/0814|0815/0815|0822/0822| |
-|[1](https://leetcode.com/problems/two-sum/)                             |two-sum                            | Easy  |Array       |0814/0814|0814/0814|0815/0815|0822/0822| |
-|[66](https://leetcode.com/problems/plus-one/)                           |plus-one                           | Easy  |Array       |0814/0814|0814/0814|0815/0815|0822/0822| |
+|[21](https://leetcode.com/problems/merge-two-sorted-lists/)             |merge-two-sorted-lists             | Easy  |Linked List |0814/0814|0814/0814|0815/0815|0822/0823| |
+|[88](https://leetcode.com/problems/merge-sorted-array/)                 |merge-sorted-array                 | Easy  |Array       |0814/0814|0814/0814|0815/0815|0822/0823| |
+|[1](https://leetcode.com/problems/two-sum/)                             |two-sum                            | Easy  |Array       |0814/0814|0814/0814|0815/0815|0822/0823| |
+|[66](https://leetcode.com/problems/plus-one/)                           |plus-one                           | Easy  |Array       |0814/0814|0814/0814|0815/0815|0822/0823| |
 
 #### 0815 Sta
 |题目编号| 题目名称   | 难度 | 类型 | #1 | #2 | #3 | #4 | #5 |
 |------ | ----      | ----|---- |----                |----  |----  |----| ---- |
-|[641](https://leetcode.com/problems/design-circular-deque/ ) |design-circular-deque| Medium |Queue、Array|0815/0815|0815/0815|0816/0816|0823/ | |
-|[42](https://leetcode.com/problems/trapping-rain-water/)     |trapping-rain-water  | Hard   |Array、Stack|0815/0815|0815/0815|0816/0816|0823/ | |
-|[146](https://leetcode.com/problems/lru-cache/)              |lru-cache            | Medium |Linked List |0815/0815|0815/0815|0816/0816|0823/ | |
-|[299](https://leetcode.com/problems/bulls-and-cows/)         |bulls-and-cows       | Easy   |Array       |0815/0815|0815/0815|0816/0816|0823/ | |
+|[641](https://leetcode.com/problems/design-circular-deque/ ) |design-circular-deque| Medium |Queue、Array|0815/0815|0815/0815|0816/0816|0823/0823| |
+|[42](https://leetcode.com/problems/trapping-rain-water/)     |trapping-rain-water  | Hard   |Array、Stack|0815/0815|0815/0815|0816/0816|0823/0823| |
+|[146](https://leetcode.com/problems/lru-cache/)              |lru-cache            | Medium |Linked List |0815/0815|0815/0815|0816/0816|0823/0823| |
+|[299](https://leetcode.com/problems/bulls-and-cows/)         |bulls-and-cows       | Easy   |Array       |0815/0815|0815/0815|0816/0816|0823/0823| |
 
