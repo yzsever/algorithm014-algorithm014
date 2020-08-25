@@ -83,10 +83,10 @@
 #### 0824 Mon
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|lowest-common-ancestor-of-a-binary-tree|Medium|Recursion|0824/0824|0824/0824|0825/ |0901/ | |
-|[105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|construct-binary-tree-from-preorder-and-inorder-traversal                   |Medium|Recursion  |0824/0824|0824/0824|0825/ |0901/ | |
-|[77](https://leetcode.com/problems/combinations/)       |combinations      |Medium|Recursion  |0824/0824|0824/0824|0825/ |0901/ | |
-|[226](https://leetcode.com/problems/invert-binary-tree/)|invert-binary-tree|Easy  |Recursion  |0824/0824|0824/0824|0825/ |0901/ | |
+|[236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|lowest-common-ancestor-of-a-binary-tree|Medium|Recursion|0824/0824|0824/0824|0825/0825|0901/ | |
+|[105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|construct-binary-tree-from-preorder-and-inorder-traversal                   |Medium|Recursion  |0824/0824|0824/0824|0825/0825|0901/ | |
+|[77](https://leetcode.com/problems/combinations/)       |combinations      |Medium|Recursion  |0824/0824|0824/0824|0825/0825|0901/ | |
+|[226](https://leetcode.com/problems/invert-binary-tree/)|invert-binary-tree|Easy  |Recursion  |0824/0824|0824/0824|0825/0825|0901/ | |
 
 
 #### 0825 Tue
