@@ -74,10 +74,10 @@
 #### 0823 Sun
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|serialize-and-deserialize-binary-tree|Hard|Recursion  |0823/0823|0823/0823|0824/ |0831/ | |
+|[297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|serialize-and-deserialize-binary-tree|Hard|Recursion  |0823/0823|0823/0823|0824/0824|0831/ | |
 |[98](https://leetcode.com/problems/validate-binary-search-tree/)           |validate-binary-search-tree          |Medium|Recursion|0823/0823|0823/0823|0824/ |0831/ | |
-|[104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)         |maximum-depth-of-binary-tree         |Easy|Recursion  |0823/0823|0823/0823|0824/ |0831/ | |
-|[111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)         |minimum-depth-of-binary-tree         |Easy|Recursion  |0823/0823|0823/0823|0824/ |0831/ | |
+|[104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)         |maximum-depth-of-binary-tree         |Easy|Recursion  |0823/0823|0823/0823|0824/0824|0831/ | |
+|[111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)         |minimum-depth-of-binary-tree         |Easy|Recursion  |0823/0823|0823/0823|0824/0824|0831/ | |
 
 
 #### 0824 Mon
@@ -92,10 +92,10 @@
 #### 0825 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[51](https://leetcode.com/problems/n-queens/)         |n-queens        |Hard  |Backtracking|0825/ | | | | |
-|[46](https://leetcode.com/problems/permutations/)     |permutations    |Medium|Recursion   |0825/ | | | | |
-|[47](https://leetcode.com/problems/permutations-ii/)  |permutations-ii |Medium|Recursion   |0825/ | | | | |
-|[169](https://leetcode.com/problems/majority-element/)|majority-element|Easy  |            |0825/ | | | | |
+|[51](https://leetcode.com/problems/n-queens/)         |n-queens        |Hard  |Backtracking|0825/0825|0825/0825|0826/ |0902/ | |
+|[46](https://leetcode.com/problems/permutations/)     |permutations    |Medium|Recursion   |0825/0825|0825/0825|0826/ |0902/ | |
+|[47](https://leetcode.com/problems/permutations-ii/)  |permutations-ii |Medium|Recursion   |0825/0825|0825/0825|0826/ |0902/ | |
+|[169](https://leetcode.com/problems/majority-element/)|majority-element|Easy  |DivideConquer|0825/0825|0825/0825|0826/ |0902/ | |
 
 
 #### 0826 Wed
