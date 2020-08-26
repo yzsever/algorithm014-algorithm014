@@ -101,10 +101,10 @@
 #### 0826 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[78](https://leetcode.com/problems/subsets/)                              |subsets                              |Medium|Backtracking  |0826/ | | | | |
-|[50](https://leetcode.com/problems/powx-n/)                               |powx-n                               |Medium|Divide&Conquer|0826/ | | | | |
-|[17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|letter-combinations-of-a-phone-number|Medium|              |0826/ | | | | |
-|[455](https://leetcode.com/problems/assign-cookies/)                      |assign-cookies                       |Easy  |              |0826/ | | | | |
+|[78](https://leetcode.com/problems/subsets/)                              |subsets                              |Medium|Backtracking  |0826/0826|0826/0826|0827/ |0903/ | |
+|[50](https://leetcode.com/problems/powx-n/)                               |powx-n                               |Medium|Divide&Conquer|0826/0826|0826/0826|0827/ |0903/ | |
+|[17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|letter-combinations-of-a-phone-number|Medium|Backtracking|0826/0826|0826/0826|0827/ |0903/ | |
+|[455](https://leetcode.com/problems/assign-cookies/)                      |assign-cookies                       |Easy  |Greedy      |0826/0826|0826/0826|0827/ |0903/ | |
 ### 预习题目
 
 #### 0827 Thu
