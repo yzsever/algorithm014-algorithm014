@@ -92,10 +92,10 @@
 #### 0825 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[51](https://leetcode.com/problems/n-queens/)         |n-queens        |Hard  |Backtracking|0825/0825|0825/0825|0826/ |0902/ | |
-|[46](https://leetcode.com/problems/permutations/)     |permutations    |Medium|Recursion   |0825/0825|0825/0825|0826/ |0902/ | |
-|[47](https://leetcode.com/problems/permutations-ii/)  |permutations-ii |Medium|Recursion   |0825/0825|0825/0825|0826/ |0902/ | |
-|[169](https://leetcode.com/problems/majority-element/)|majority-element|Easy  |DivideConquer|0825/0825|0825/0825|0826/ |0902/ | |
+|[51](https://leetcode.com/problems/n-queens/)         |n-queens        |Hard  |Backtracking|0825/0825|0825/0825|0826/0826|0902/ | |
+|[46](https://leetcode.com/problems/permutations/)     |permutations    |Medium|Recursion   |0825/0825|0825/0825|0826/0826|0902/ | |
+|[47](https://leetcode.com/problems/permutations-ii/)  |permutations-ii |Medium|Recursion   |0825/0825|0825/0825|0826/0826|0902/ | |
+|[169](https://leetcode.com/problems/majority-element/)|majority-element|Easy |DivideConquer|0825/0825|0825/0825|0826/0826|0902/ | |
 
 
 #### 0826 Wed
