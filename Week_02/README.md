@@ -199,10 +199,10 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |/    | 关于HashMap的小总结   | /  | HashMap |0818/0819 | | | | |
-|[144](https://leetcode.com/problems/binary-tree-preorder-traversal/)  |binary-tree-preorder-traversal  |Medium|Tree |0818/0818|0818/0818|0819/0819|0826/ | |
-|[590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)  |n-ary-tree-postorder-traversal  |Easy  |Tree |0818/0818|0818/0818|0819/0819|0826/ | |
-|[589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)   |n-ary-tree-preorder-traversal   |Easy  |Tree |0818/0818|0818/0818|0819/0819|0826/ | |
-|[1021](https://leetcode.com/problems/remove-outermost-parentheses/)   |remove-outermost-parentheses    |Easy  |Other|0818/0818|0818/0818|0819/0819|0826/ | |
+|[144](https://leetcode.com/problems/binary-tree-preorder-traversal/)  |binary-tree-preorder-traversal  |Medium|Tree |0818/0818|0818/0818|0819/0819|0826/0826| |
+|[590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)  |n-ary-tree-postorder-traversal  |Easy  |Tree |0818/0818|0818/0818|0819/0819|0826/0826| |
+|[589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)   |n-ary-tree-preorder-traversal   |Easy  |Tree |0818/0818|0818/0818|0819/0819|0826/0826| |
+|[1021](https://leetcode.com/problems/remove-outermost-parentheses/)   |remove-outermost-parentheses    |Easy  |Other|0818/0818|0818/0818|0819/0819|0826/0826| |
 
 
 #### 0819 Wed
