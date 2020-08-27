@@ -110,9 +110,9 @@
 #### 0827 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[102](https://leetcode.com/problems/binary-tree-level-order-traversal/) |binary-tree-level-order-traversal  |Medium|  |0827/ | | | | |
-|[55](https://leetcode.com/problems/jump-game/)                          |jump-game                          |Medium|  |0827/ | | | | |
-|[122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|best-time-to-buy-and-sell-stock-ii |Easy  |  |0827/ | | | | |
+|[102](https://leetcode.com/problems/binary-tree-level-order-traversal/) |binary-tree-level-order-traversal |Medium|DFS&BFS|0827/0827|0827/0827|0828/ |0904/ | |
+|[55](https://leetcode.com/problems/jump-game/)                          |jump-game                         |Medium|Greedy |0827/0827|0827/0827|0828/ |0904/ | |
+|[122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|best-time-to-buy-and-sell-stock-ii|Easy  |Greedy |0827/0827|0827/0827|0828/ |0904/ | |
 
 
 #### 0828 Fri
@@ -125,4 +125,13 @@ Have a day off;
 |[367](https://leetcode.com/problems/valid-perfect-square/) |valid-perfect-square|Easy|  |0829/ | | | | |
 |[]()   | |Medium|  |0829/ | | | | |
 |[]()   | |Medium|  |0829/ | | | | |
+
+#### 备用题目
+|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
+|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[剑指Offer05](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|替换空格 |Easy|  |0829/ | | | | |
+|[剑指Offer06](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)|从尾到头打印链表 |Easy|  |0829/ | | | | |
+
+
+
 
