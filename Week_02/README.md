@@ -218,10 +218,10 @@ Heap: 可以迅速找到一堆数中的最大或者最小值的数据结构
 #### 0820 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[70](https://leetcode.com/problems/climbing-stairs/)     |climbing-stairs     |Easy  |Recursion|0820/0820|0820/0820|0821/0821|0828/ |
-|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Graph    |0820/0820|0820/0820|0821/0821|0828/ |
-|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|Recursion|0820/0820|0820/0820|0821/0821|0828/ |
-|[412](https://leetcode.com/problems/fizz-buzz/)          |fizz-buzz           |Easy  |HashTable|0820/0820|0820/0820|0821/0821|0828/ |
+|[70](https://leetcode.com/problems/climbing-stairs/)     |climbing-stairs     |Easy  |Recursion|0820/0820|0820/0820|0821/0821|0828/0829|
+|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Graph    |0820/0820|0820/0820|0821/0821|0828/0829|
+|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|Recursion|0820/0820|0820/0820|0821/0821|0828/0829|
+|[412](https://leetcode.com/problems/fizz-buzz/)          |fizz-buzz           |Easy  |HashTable|0820/0820|0820/0820|0821/0821|0828/0829|
 
 
 #### 0822 Sta
