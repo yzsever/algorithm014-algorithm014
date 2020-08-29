@@ -128,19 +128,16 @@ Have a day off;
 #### 0829 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[18](https://leetcode.com/problems/4sum/)                 |4sum                |Medium|  |0829/ | | | | |
-|[69](https://leetcode.com/problems/sqrtx/)                |sqrtx               |Easy  |  |0829/ | | | | |
-|[367](https://leetcode.com/problems/valid-perfect-square/)|valid-perfect-square|Easy  |  |0829/ | | | | |
-
+|[69](https://leetcode.com/problems/sqrtx/)                |sqrtx               |Easy  |BinarySearch|0829/0829|0829/0829|0830/ |0906/ | |
+|[367](https://leetcode.com/problems/valid-perfect-square/)|valid-perfect-square|Easy  |BinarySearch|0829/0829|0829/0829|0830/ |0906/ | |
+|[剑指Offer05](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|替换空格   |Easy  |Array       |0829/0829|0829/0829|0830/ |0906/ | |
+|[剑指Offer06](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)|从尾到头打印链表 |Easy|Stack|0829/0829|0829/0829|0830/ |0906/ | |
 
 #### 备用题目
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[剑指Offer05](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|替换空格 |Easy|  |/ | | | | |
-|[剑指Offer06](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)|从尾到头打印链表 |Easy  |  |0829/ | | | | |
-
 |[1498](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |number-of-subsequences-that-satisfy-the-given-sum-condition|Medium |  |0829/ | | | | |
-
+|[18](https://leetcode.com/problems/4sum/)                 |4sum                |Medium|  |0829/ | | | | |
 
 
 
