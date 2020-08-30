@@ -128,10 +128,10 @@ Have a day off;
 #### 0829 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[69](https://leetcode.com/problems/sqrtx/)                |sqrtx               |Easy  |BinarySearch|0829/0829|0829/0829|0830/ |0906/ | |
-|[367](https://leetcode.com/problems/valid-perfect-square/)|valid-perfect-square|Easy  |BinarySearch|0829/0829|0829/0829|0830/ |0906/ | |
-|[剑指Offer05](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|替换空格   |Easy  |Array       |0829/0829|0829/0829|0830/ |0906/ | |
-|[剑指Offer06](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)|从尾到头打印链表 |Easy|Stack|0829/0829|0829/0829|0830/ |0906/ | |
+|[69](https://leetcode.com/problems/sqrtx/)                |sqrtx               |Easy  |BinarySearch|0829/0829|0829/0829|0830/0830|0906/ | |
+|[367](https://leetcode.com/problems/valid-perfect-square/)|valid-perfect-square|Easy  |BinarySearch|0829/0829|0829/0829|0830/0830|0906/ | |
+|[剑指Offer05](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|替换空格   |Easy  |Array       |0829/0829|0829/0829|0830/0830|0906/ | |
+|[剑指Offer06](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)|从尾到头打印链表 |Easy|Stack|0829/0829|0829/0829|0830/0830|0906/ | |
 
 
 
