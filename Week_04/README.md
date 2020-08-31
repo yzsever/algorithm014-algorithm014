@@ -158,22 +158,22 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 #### 0831 Mon
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[433](https://leetcode.com/problems/minimum-genetic-mutation/)|minimum-genetic-mutation|Medium|DFS&BFS|0831/| | | | |
-|[515](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|find-largest-value-in-each-tree-row|Medium|DFS&BFS|0831/| | | | |
-|[860](https://leetcode.com/problems/lemonade-change/)         |lemonade-change |Easy |Greedy|0901/| | | | |
+|[433](https://leetcode.com/problems/minimum-genetic-mutation/)|minimum-genetic-mutation|Medium|DFS&BFS|0831/0831|0831/0831|0901/ |0908/ | |
+|[515](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|find-largest-value-in-each-tree-row|Medium|DFS&BFS|0831/0831|0831/0831|0901/ |0908/ | |
+|[860](https://leetcode.com/problems/lemonade-change/)         |lemonade-change |Easy |Greedy|0831/0831|0831/0831|0901/ |0908/ | |
 
 #### 0901 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[127](https://leetcode.com/problems/word-ladder/)|word-ladder |Medium|DFS&BFS|0831/| | | | |
-|[126](https://leetcode.com/problems/word-ladder-ii/)|word-ladder-ii|Hard|DFS&BFS|0831/| | | | |
+|[127](https://leetcode.com/problems/word-ladder/)|word-ladder |Medium|DFS&BFS|0901/| | | | |
+|[126](https://leetcode.com/problems/word-ladder-ii/)|word-ladder-ii|Hard|DFS&BFS|0901/| | | | |
 |[529](https://leetcode.com/problems/minesweeper/)|minesweeper |Medium|DFS&BFS|0901/| | | | |
 |[874](https://leetcode.com/problems/walking-robot-simulation/)|walking-robot-simulation|Easy |Greedy|0901/| | | | |
 
 #### 0902 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[322](https://leetcode.com/problems/coin-change/)|coin-change |Medium|Greedy |0901/| | | | |
+|[322](https://leetcode.com/problems/coin-change/)|coin-change |Medium|Greedy |0902/| | | | |
 |[45](https://leetcode.com/problems/jump-game-ii/)|jump-game-ii |Greedy |Hard |0902/| | | | |
 |[33](https://leetcode.com/problems/search-in-rotated-sorted-array/)|search-in-rotated-sorted-array |BinarySearch |Medium |0902/| | | | |
 
@@ -181,8 +181,8 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 #### 0903 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[74](https://leetcode.com/problems/search-a-2d-matrix/)|search-a-2d-matrix |BinarySearch |Medium |0902/| | | | |
-|[153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|find-minimum-in-rotated-sorted-array |BinarySearch|Medium  |0902/| | | | |
+|[74](https://leetcode.com/problems/search-a-2d-matrix/)|search-a-2d-matrix |BinarySearch |Medium |0903/| | | | |
+|[153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|find-minimum-in-rotated-sorted-array |BinarySearch|Medium  |0903/| | | | |
 |[]()| | | |0903/| | | | |
 |[]()| | | |0903/| | | | |
 
@@ -197,8 +197,8 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 #### 0905 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[1498](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |number-of-subsequences-that-satisfy-the-given-sum-condition|Medium |  |0829/ | | | | |
-|[18](https://leetcode.com/problems/4sum/)                 |4sum                |Medium|  |0829/ | | | | |
+|[1498](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |number-of-subsequences-that-satisfy-the-given-sum-condition|Medium |  |0905/ | | | | |
+|[18](https://leetcode.com/problems/4sum/)                 |4sum                |Medium|  |0905/ | | | | |
 |[17.09](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/)|get-kth-magic-number-lcci|Medium | |0905/| | | | |
 
 
