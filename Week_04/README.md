@@ -165,34 +165,28 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 #### 0901 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[127](https://leetcode.com/problems/word-ladder/)|word-ladder |Medium|DFS&BFS|0901/0901|0901/0901| | | |
-|[126](https://leetcode.com/problems/word-ladder-ii/)|word-ladder-ii|Hard|DFS&BFS|0901/| | | | |
-|[529](https://leetcode.com/problems/minesweeper/)|minesweeper |Medium|DFS&BFS|0901/| | | | |
-|[874](https://leetcode.com/problems/walking-robot-simulation/)|walking-robot-simulation|Easy |Greedy|0901/0901| | | | |
+|[127](https://leetcode.com/problems/word-ladder/)|word-ladder |Medium|DFS&BFS|0901/0901|0901/0901|0902/ |0909/ | |
+|[529](https://leetcode.com/problems/minesweeper/)|minesweeper |Medium|DFS&BFS|0901/0901|0901/0901|0902/ |0909/ | |
+|[874](https://leetcode.com/problems/walking-robot-simulation/)|walking-robot-simulation|Easy |Greedy|0901/0901|0901/0901|0902/ |0909/ | |
 
 #### 0902 Wed
-|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
-|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[322](https://leetcode.com/problems/coin-change/)|coin-change |Medium|Greedy |0902/| | | | |
-|[45](https://leetcode.com/problems/jump-game-ii/)|jump-game-ii |Greedy |Hard |0902/| | | | |
-|[33](https://leetcode.com/problems/search-in-rotated-sorted-array/)|search-in-rotated-sorted-array |BinarySearch |Medium |0902/| | | | |
-
+Have a day off!
 
 #### 0903 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[74](https://leetcode.com/problems/search-a-2d-matrix/)|search-a-2d-matrix |BinarySearch |Medium |0903/| | | | |
-|[153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|find-minimum-in-rotated-sorted-array |BinarySearch|Medium  |0903/| | | | |
-|[]()| | | |0903/| | | | |
-|[]()| | | |0903/| | | | |
+|[126](https://leetcode.com/problems/word-ladder-ii/)|word-ladder-ii|Hard|DFS&BFS|0903/| | | | |
+|[322](https://leetcode.com/problems/coin-change/)|coin-change |Medium|Greedy |0903/| | | | |
+|[33](https://leetcode.com/problems/search-in-rotated-sorted-array/)|search-in-rotated-sorted-array |BinarySearch |Medium |0903/| | | | |
+
 
 #### 0904 Fri
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[]()| | | |0904/| | | | |
-|[]()| | | |0904/| | | | |
-|[]()| | | |0904/| | | | |
-|[]()| | | |0904/| | | | |
+|[45](https://leetcode.com/problems/jump-game-ii/)|jump-game-ii |Greedy |Hard |0904/| | | | |
+|[74](https://leetcode.com/problems/search-a-2d-matrix/)|search-a-2d-matrix |BinarySearch |Medium |0904/| | | | |
+|[153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|find-minimum-in-rotated-sorted-array |BinarySearch|Medium  |0904/| | | | |
+
 
 #### 0905 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
