@@ -81,10 +81,10 @@
 #### 0823 Sun
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|serialize-and-deserialize-binary-tree|Hard|Recursion  |0823/0823|0823/0823|0824/0824|0831/ | |
-|[98](https://leetcode.com/problems/validate-binary-search-tree/)           |validate-binary-search-tree          |Medium|Recursion|0823/0823|0823/0823|0824/0825|0831/ | |
-|[104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)         |maximum-depth-of-binary-tree         |Easy|Recursion  |0823/0823|0823/0823|0824/0824|0831/ | |
-|[111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)         |minimum-depth-of-binary-tree         |Easy|Recursion  |0823/0823|0823/0823|0824/0824|0831/ | |
+|[297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|serialize-and-deserialize-binary-tree|Hard|Recursion  |0823/0823|0823/0823|0824/0824|0831/0831| |
+|[98](https://leetcode.com/problems/validate-binary-search-tree/)           |validate-binary-search-tree          |Medium|Recursion|0823/0823|0823/0823|0824/0825|0831/0831| |
+|[104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)         |maximum-depth-of-binary-tree         |Easy|Recursion  |0823/0823|0823/0823|0824/0824|0831/0831| |
+|[111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)         |minimum-depth-of-binary-tree         |Easy|Recursion  |0823/0823|0823/0823|0824/0824|0831/0831| |
 
 
 #### 0824 Mon
