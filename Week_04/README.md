@@ -158,16 +158,16 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 #### 0831 Mon
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[433](https://leetcode.com/problems/minimum-genetic-mutation/)|minimum-genetic-mutation|Medium|DFS&BFS|0831/0831|0831/0831|0901/ |0908/ | |
-|[515](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|find-largest-value-in-each-tree-row|Medium|DFS&BFS|0831/0831|0831/0831|0901/ |0908/ | |
-|[860](https://leetcode.com/problems/lemonade-change/)         |lemonade-change |Easy |Greedy|0831/0831|0831/0831|0901/ |0908/ | |
+|[433](https://leetcode.com/problems/minimum-genetic-mutation/)|minimum-genetic-mutation|Medium|DFS&BFS|0831/0831|0831/0831|0901/0902|0908/ | |
+|[515](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|find-largest-value-in-each-tree-row|Medium|DFS&BFS|0831/0831|0831/0831|0901/0902|0908/ | |
+|[860](https://leetcode.com/problems/lemonade-change/)         |lemonade-change |Easy |Greedy|0831/0831|0831/0831|0901/0902|0908/ | |
 
 #### 0901 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[127](https://leetcode.com/problems/word-ladder/)|word-ladder |Medium|DFS&BFS|0901/0901|0901/0901|0902/ |0909/ | |
 |[529](https://leetcode.com/problems/minesweeper/)|minesweeper |Medium|DFS&BFS|0901/0901|0901/0901|0902/ |0909/ | |
-|[874](https://leetcode.com/problems/walking-robot-simulation/)|walking-robot-simulation|Easy |Greedy|0901/0901|0901/0901|0902/ |0909/ | |
+|[874](https://leetcode.com/problems/walking-robot-simulation/)|walking-robot-simulation|Easy |Greedy|0901/0901|0901/0901|0902/0902|0909/ | |
 
 #### 0902 Wed
 Have a day off!
