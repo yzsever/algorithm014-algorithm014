@@ -165,8 +165,8 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 #### 0901 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[127](https://leetcode.com/problems/word-ladder/)|word-ladder |Medium|DFS&BFS|0901/0901|0901/0901|0902/ |0909/ | |
-|[529](https://leetcode.com/problems/minesweeper/)|minesweeper |Medium|DFS&BFS|0901/0901|0901/0901|0902/ |0909/ | |
+|[127](https://leetcode.com/problems/word-ladder/)|word-ladder |Medium|DFS&BFS|0901/0901|0901/0901|0902/0904|0909/ | |
+|[529](https://leetcode.com/problems/minesweeper/)|minesweeper |Medium|DFS&BFS|0901/0901|0901/0901|0902/0904|0909/ | |
 |[874](https://leetcode.com/problems/walking-robot-simulation/)|walking-robot-simulation|Easy |Greedy|0901/0901|0901/0901|0902/0902|0909/ | |
 
 #### 0902 Wed
@@ -195,5 +195,11 @@ Have a day off!
 |[18](https://leetcode.com/problems/4sum/)                 |4sum                |Medium|  |0905/ | | | | |
 |[17.09](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/)|get-kth-magic-number-lcci|Medium | |0905/| | | | |
 
-
+#### 0906 Sun (第六周预习)
+|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
+|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[1143](https://leetcode.com/problems/longest-common-subsequence/)|longest-common-subsequence|Medium|DP  |0906/ | | | | |
+|[120](https://leetcode.com/problems/triangle/)                   |triangle                  |Medium|DP  |0906/ | | | | |
+|[53](https://leetcode.com/problems/maximum-subarray/)            |maximum-subarray          |Easy  |DP  |0906/ | | | | |
+|[198](https://leetcode.com/problems/house-robber/)               |house-robber              |Easy  |DP  |0906/ | | | | |
 
