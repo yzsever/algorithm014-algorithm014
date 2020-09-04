@@ -176,15 +176,15 @@ Have a day off!
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[126](https://leetcode.com/problems/word-ladder-ii/)|word-ladder-ii|Hard|DFS&BFS|0903/| | | | |
-|[322](https://leetcode.com/problems/coin-change/)|coin-change |Medium|Greedy |0903/| | | | |
-|[33](https://leetcode.com/problems/search-in-rotated-sorted-array/)|search-in-rotated-sorted-array |BinarySearch |Medium |0903/| | | | |
+|[322](https://leetcode.com/problems/coin-change/)|coin-change |Medium|Greedy |0903//0904|0904/0904|0905/ |0912/ | |
+|[33](https://leetcode.com/problems/search-in-rotated-sorted-array/)|search-in-rotated-sorted-array |BinarySearch |Medium |0903//0904|0904/0904|0905/ |0912/ | |
 
 
 #### 0904 Fri
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[45](https://leetcode.com/problems/jump-game-ii/)|jump-game-ii |Greedy |Hard |0904/| | | | |
-|[74](https://leetcode.com/problems/search-a-2d-matrix/)|search-a-2d-matrix |BinarySearch |Medium |0904/| | | | |
+|[45](https://leetcode.com/problems/jump-game-ii/)|jump-game-ii |Greedy |Hard |0904/0904|0904/0904|0905/ |0912/ | |
+|[74](https://leetcode.com/problems/search-a-2d-matrix/)|search-a-2d-matrix |BinarySearch |Medium |0904/0904|0904/0904|0905/ |0912/ | |
 |[153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|find-minimum-in-rotated-sorted-array |BinarySearch|Medium  |0904/| | | | |
 
 
