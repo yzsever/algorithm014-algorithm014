@@ -117,9 +117,9 @@
 #### 0827 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[102](https://leetcode.com/problems/binary-tree-level-order-traversal/) |binary-tree-level-order-traversal |Medium|DFS&BFS|0827/0827|0827/0827|0828/0829|0904/ | |
-|[55](https://leetcode.com/problems/jump-game/)                          |jump-game                         |Medium|Greedy |0827/0827|0827/0827|0828/0828|0904/ | |
-|[122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|best-time-to-buy-and-sell-stock-ii|Easy  |Greedy |0827/0827|0827/0827|0828/0828|0904/ | |
+|[102](https://leetcode.com/problems/binary-tree-level-order-traversal/) |binary-tree-level-order-traversal |Medium|DFS&BFS|0827/0827|0827/0827|0828/0829|0904/0904| |
+|[55](https://leetcode.com/problems/jump-game/)                          |jump-game                         |Medium|Greedy |0827/0827|0827/0827|0828/0828|0904/0904| |
+|[122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|best-time-to-buy-and-sell-stock-ii|Easy  |Greedy |0827/0827|0827/0827|0828/0828|0904/0904| |
 
 
 #### 0828 Fri
