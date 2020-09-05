@@ -150,7 +150,22 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 ### 课后作业
 使用二分查找，寻找一个半有序数组 [4, 5, 6, 7, 0, 1, 2] 中间无序的地方
 说明：同学们可以将自己的思路、代码写在学习总结中
-
+```java
+    // 寻找中间无序的位置即寻找最小值所在位置
+    // 如果mid大于最右元素，则最小值在右边
+    public int findMinIndex(int[] nums) {
+        int left = 0, right = nums.length - 1, mid;
+        while (left < right) {
+            mid = (right - left) / 2 + left;
+            if (nums[mid] > nums[right]) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        }
+        return left;
+    }
+```
 ---
 
 ### 实战题目&作业
@@ -193,7 +208,7 @@ Have a day off!
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[1498](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |number-of-subsequences-that-satisfy-the-given-sum-condition|Medium |  |0905/0905|0905/0905|0906/ |0913/ | |
 |[18](https://leetcode.com/problems/4sum/)                 |4sum                |Medium|  |0905/| | | | |
-|[17.09](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/)|get-kth-magic-number-lcci|Medium | |0905/0905|0905/0905|0913/ | | |
+|[17.09](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/)|get-kth-magic-number-lcci|Medium | |0905/0905|0905/0905|0906/ |0913/ | |
 
 #### 0906 Sun (第六周预习)
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
