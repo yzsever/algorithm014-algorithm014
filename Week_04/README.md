@@ -200,20 +200,20 @@ Have a day off!
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[45](https://leetcode.com/problems/jump-game-ii/)|jump-game-ii |Greedy |Hard |0904/0904|0904/0904|0905/0905|0912/ | |
 |[74](https://leetcode.com/problems/search-a-2d-matrix/)|search-a-2d-matrix |BinarySearch |Medium |0904/0904|0904/0904|0905/0905|0912/ | |
-|[153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|find-minimum-in-rotated-sorted-array |BinarySearch|Medium  |0904/0905|0904/0905|0906/ |0912/ | |
+|[153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|find-minimum-in-rotated-sorted-array |BinarySearch|Medium  |0904/0905|0904/0905|0906/0906|0912/ | |
 
 
 #### 0905 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[1498](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |number-of-subsequences-that-satisfy-the-given-sum-condition|Medium |  |0905/0905|0905/0905|0906/ |0913/ | |
-|[18](https://leetcode.com/problems/4sum/)                 |4sum                |Medium|  |0905/| | | | |
-|[17.09](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/)|get-kth-magic-number-lcci|Medium | |0905/0905|0905/0905|0906/ |0913/ | |
+|[1498](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |number-of-subsequences-that-satisfy-the-given-sum-condition          |Medium|BinarySearch|0905/0905|0905/0905|0906/0906|0913/ | |
+|[18](https://leetcode.com/problems/4sum/)                  |4sum    |Medium|Array  |0905/ |0907/ |0913/ | | |
+|[17.09](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/)|get-kth-magic-number-lcci|Medium |Array |0905/0905|0905/0905|0906/0906|0913/ | |
 
 #### 0906 Sun (第六周预习)
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[1143](https://leetcode.com/problems/longest-common-subsequence/)|longest-common-subsequence|Medium|DP  |0906/ | | | | |
+|[1143](https://leetcode.com/problems/longest-common-subsequence/)|longest-common-subsequence|Medium|DP  |0906/ |0906/ | |0907/ |0914/ |
 |[120](https://leetcode.com/problems/triangle/)                   |triangle                  |Medium|DP  |0906/ | | | | |
 |[53](https://leetcode.com/problems/maximum-subarray/)            |maximum-subarray          |Easy  |DP  |0906/ | | | | |
 |[198](https://leetcode.com/problems/house-robber/)               |house-robber              |Easy  |DP  |0906/ | | | | |
