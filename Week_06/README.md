@@ -1,1 +1,52 @@
 学习笔记
+
+## 第十二课 动态规划
+
+---
+
+### 实战题目&作业
+
+#### 0914 Mon
+|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
+|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[62](https://leetcode.com/problems/unique-paths/)             |unique-paths   |Medium|High-Level DP|0914/ | | | | |
+|[63](https://leetcode.com/problems/unique-paths-ii/)          |unique-paths-ii|Medium|High-Level DP|0914/ | | | | |
+|[70](https://leetcode.com/problems/climbing-stairs/)          |climbing-stairs           |Easy  |DP|0914/ | | | | |
+|[152](https://leetcode.com/problems/maximum-product-subarray/)|maximum-product-subarray  |Medium|DP|0914/ | | | | |
+
+#### 0915 Tue
+|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
+|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|best-time-to-buy-and-sell-stock |Easy |DP |0915/ | | | | |
+|[122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|best-time-to-buy-and-sell-stock-ii |Easy |DP |0915/ | | | | |
+|[123](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|best-time-to-buy-and-sell-stock-iii |Hard |DP |0915/ | | | | |
+
+#### 0916 Wed
+|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
+|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|best-time-to-buy-and-sell-stock-with-cooldown |Medium |DP |0916/ | | | | |
+|[188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|best-time-to-buy-and-sell-stock-iv |Hard |DP |0916/ | | | | |
+|[714](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|best-time-to-buy-and-sell-stock-with-transaction-fee |Medium |DP |0916/ | | | | |
+
+#### 0917 Thu
+|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
+|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[72](https://leetcode.com/problems/edit-distance/)   |edit-distance  |Hard  |High-Level DP|0917/ | | | | |
+|[322](https://leetcode.com/problems/coin-change/)    |coin-change    |Medium|High-Level DP |0917/ | | | | |
+|[213](https://leetcode.com/problems/house-robber-ii/)|house-robber-ii|Medium|DP  |0917/ | | | | |
+
+
+#### 0918 Fri
+|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
+|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[279](https://leetcode.com/problems/perfect-squares/)|perfect-squares|Medium|High-Level DP|0918/ | | | | |
+|[55](https://leetcode.com/problems/jump-game/)       |jump-game      |Mediun|High-Level DP|0918/ | | | | |
+|[45](https://leetcode.com/problems/jump-game-ii/)    |jump-game-ii   |Hard  |High-Level DP|0918/ | | | | |
+
+
+#### 0919 Sta
+|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
+|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[980](https://leetcode.com/problems/unique-paths-iii/)|unique-paths-iii|Hard  |High-Level DP|0919/ | | | | |
+|[518](https://leetcode.com/problems/coin-change-2/)   |coin-change-2   |Medium|High-Level DP|0919/ | | | | |
+|[]()   |  | | | | | | | |
