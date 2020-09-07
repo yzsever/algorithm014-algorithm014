@@ -99,19 +99,19 @@
 #### 0825 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[51](https://leetcode.com/problems/n-queens/)         |n-queens        |Hard  |Backtracking|0825/0825|0825/0825|0826/0826|0902/ | |
-|[46](https://leetcode.com/problems/permutations/)     |permutations    |Medium|Recursion   |0825/0825|0825/0825|0826/0826|0902/ | |
-|[47](https://leetcode.com/problems/permutations-ii/)  |permutations-ii |Medium|Recursion   |0825/0825|0825/0825|0826/0826|0902/ | |
-|[169](https://leetcode.com/problems/majority-element/)|majority-element|Easy |DivideConquer|0825/0825|0825/0825|0826/0826|0902/ | |
+|[51](https://leetcode.com/problems/n-queens/)         |n-queens        |Hard  |Backtracking|0825/0825|0825/0825|0826/0826|0902/0906| |
+|[46](https://leetcode.com/problems/permutations/)     |permutations    |Medium|Recursion   |0825/0825|0825/0825|0826/0826|0902/0906| |
+|[47](https://leetcode.com/problems/permutations-ii/)  |permutations-ii |Medium|Recursion   |0825/0825|0825/0825|0826/0826|0902/0906| |
+|[169](https://leetcode.com/problems/majority-element/)|majority-element|Easy |DivideConquer|0825/0825|0825/0825|0826/0826|0902/0906| |
 
 
 #### 0826 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[78](https://leetcode.com/problems/subsets/)                              |subsets                              |Medium|Backtracking  |0826/0826|0826/0826|0827/0827|0903/ | |
-|[50](https://leetcode.com/problems/powx-n/)                               |powx-n                               |Medium|Divide&Conquer|0826/0826|0826/0826|0827/0827|0903/ | |
-|[17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|letter-combinations-of-a-phone-number|Medium|Backtracking|0826/0826|0826/0826|0827/0827|0903/ | |
-|[455](https://leetcode.com/problems/assign-cookies/)                      |assign-cookies                       |Easy  |Greedy      |0826/0826|0826/0826|0827/0827|0903/ | |
+|[78](https://leetcode.com/problems/subsets/)                              |subsets                              |Medium|Backtracking  |0826/0826|0826/0826|0827/0827|0903/0905| |
+|[50](https://leetcode.com/problems/powx-n/)                               |powx-n                               |Medium|Divide&Conquer|0826/0826|0826/0826|0827/0827|0903/0905| |
+|[17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|letter-combinations-of-a-phone-number|Medium|Backtracking|0826/0826|0826/0826|0827/0827|0903/0905| |
+|[455](https://leetcode.com/problems/assign-cookies/)                      |assign-cookies                       |Easy  |Greedy      |0826/0826|0826/0826|0827/0827|0903/0905| |
 ### 预习题目
 
 #### 0827 Thu
@@ -128,10 +128,10 @@ Have a day off;
 #### 0829 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[69](https://leetcode.com/problems/sqrtx/)                |sqrtx               |Easy  |BinarySearch|0829/0829|0829/0829|0830/0830|0906/ | |
-|[367](https://leetcode.com/problems/valid-perfect-square/)|valid-perfect-square|Easy  |BinarySearch|0829/0829|0829/0829|0830/0830|0906/ | |
-|[剑指Offer05](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|替换空格   |Easy  |Array       |0829/0829|0829/0829|0830/0830|0906/ | |
-|[剑指Offer06](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)|从尾到头打印链表 |Easy|Stack|0829/0829|0829/0829|0830/0830|0906/ | |
+|[69](https://leetcode.com/problems/sqrtx/)                |sqrtx               |Easy  |BinarySearch|0829/0829|0829/0829|0830/0830|0906/0906| |
+|[367](https://leetcode.com/problems/valid-perfect-square/)|valid-perfect-square|Easy  |BinarySearch|0829/0829|0829/0829|0830/0830|0906/0906| |
+|[剑指Offer05](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|替换空格   |Easy  |Array       |0829/0829|0829/0829|0830/0830|0906/0906| |
+|[剑指Offer06](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)|从尾到头打印链表 |Easy|Stack|0829/0829|0829/0829|0830/0830|0906/0906| |
 
 
 
