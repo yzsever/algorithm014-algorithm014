@@ -180,9 +180,9 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 #### 0901 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[127](https://leetcode.com/problems/word-ladder/)|word-ladder |Medium|DFS&BFS|0901/0901|0901/0901|0902/0904|0909/ | |
-|[529](https://leetcode.com/problems/minesweeper/)|minesweeper |Medium|DFS&BFS|0901/0901|0901/0901|0902/0904|0909/ | |
-|[874](https://leetcode.com/problems/walking-robot-simulation/)|walking-robot-simulation|Easy |Greedy|0901/0901|0901/0901|0902/0902|0909/ | |
+|[127](https://leetcode.com/problems/word-ladder/)|word-ladder |Medium|DFS&BFS|0901/0901|0901/0901|0902/0904|0909/0909| |
+|[529](https://leetcode.com/problems/minesweeper/)|minesweeper |Medium|DFS&BFS|0901/0901|0901/0901|0902/0904|0909/0909| |
+|[874](https://leetcode.com/problems/walking-robot-simulation/)|walking-robot-simulation|Easy |Greedy|0901/0901|0901/0901|0902/0902|0909/0909| |
 
 #### 0902 Wed
 Have a day off!
