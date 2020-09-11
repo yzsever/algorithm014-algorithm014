@@ -10,16 +10,16 @@
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[152](https://leetcode.com/problems/maximum-product-subarray/)|maximum-product-subarray |Medium|DP|0914/0909|0914/|0915/ |0922/ | |
-|[64](https://leetcode.com/problems/minimum-path-sum/)         |minimum-path-sum         |Medium|DP|0914/0909|0914/|0915/ |0922/ | |
+|[64](https://leetcode.com/problems/minimum-path-sum/)         |minimum-path-sum         |Medium|DP|0914/0909|0914/0910|0915/ |0922/ | |
 |[32](https://leetcode.com/problems/longest-valid-parentheses/)|longest-valid-parentheses|Hard  |DP|0914/0909|0914/|0915/ |0922/ | |
 
 #### 0915 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)    |best-time-to-buy-and-sell-stock |Easy |DP |0915/ | | | | |
-|[122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |best-time-to-buy-and-sell-stock-ii |Easy |DP |0915/ | | | | |
-|[123](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|best-time-to-buy-and-sell-stock-iii |Hard |DP |0915/ | | | | |
-|[309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|best-time-to-buy-and-sell-stock-with-cooldown |Medium |DP |0915/ | | | | |
+|[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)    |best-time-to-buy-and-sell-stock |Easy |DP |0915/0911| | | | |
+|[122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |best-time-to-buy-and-sell-stock-ii |Easy |DP |0915/0911| | | | |
+|[123](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|best-time-to-buy-and-sell-stock-iii |Hard |DP |0915/0911| | | | |
+|[309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|best-time-to-buy-and-sell-stock-with-cooldown |Medium |DP |0915/0911| | | | |
 
 #### 0916 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
