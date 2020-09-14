@@ -213,7 +213,7 @@ Have a day off!
 #### 0906 Sun (第六周预习)
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[1143](https://leetcode.com/problems/longest-common-subsequence/)|longest-common-subsequence|Medium|DP  |0906/0906|0906/0906|0907/0907|0914/ | |
-|[120](https://leetcode.com/problems/triangle/)                   |triangle                  |Medium|DP  |0906/0906|0906/0906|0907/0907|0914/ | |
-|[53](https://leetcode.com/problems/maximum-subarray/)            |maximum-subarray          |Easy  |DP  |0906/0906|0906/0906|0907/0907|0914/ | |
-|[198](https://leetcode.com/problems/house-robber/)               |house-robber              |Easy  |DP  |0906/0906|0906/0906|0907/0907|0914/ | |
+|[1143](https://leetcode.com/problems/longest-common-subsequence/)|longest-common-subsequence|Medium|DP  |0906/0906|0906/0906|0907/0907|0914/0914| |
+|[120](https://leetcode.com/problems/triangle/)                   |triangle                  |Medium|DP  |0906/0906|0906/0906|0907/0907|0914/0914| |
+|[53](https://leetcode.com/problems/maximum-subarray/)            |maximum-subarray          |Easy  |DP  |0906/0906|0906/0906|0907/0907|0914/0914| |
+|[198](https://leetcode.com/problems/house-robber/)               |house-robber              |Easy  |DP  |0906/0906|0906/0906|0907/0907|0914/0914| |
