@@ -206,9 +206,9 @@ Have a day off!
 #### 0905 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[1498](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |number-of-subsequences-that-satisfy-the-given-sum-condition          |Medium|BinarySearch|0905/0905|0905/0905|0906/0906|0913/ | |
-|[18](https://leetcode.com/problems/4sum/)                  |4sum    |Medium|Array  |0905/0906|0906/0906|0907/0907|0913/ | |
-|[17.09](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/)|get-kth-magic-number-lcci|Medium |Array |0905/0905|0905/0905|0906/0906|0913/ | |
+|[1498](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |number-of-subsequences-that-satisfy-the-given-sum-condition          |Medium|BinarySearch|0905/0905|0905/0905|0906/0906|0913/0914| |
+|[18](https://leetcode.com/problems/4sum/)                  |4sum    |Medium|Array  |0905/0906|0906/0906|0907/0907|0913/0914| |
+|[17.09](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/)|get-kth-magic-number-lcci|Medium |Array |0905/0905|0905/0905|0906/0906|0913/0914| |
 
 #### 0906 Sun (第六周预习)
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
