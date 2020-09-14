@@ -2,6 +2,38 @@
 
 ## 第十二课 动态规划
 
+### 分治+回溯+递归+动态规划
+
+#### 分治
+1. 人肉递归低效、很累
+2. 找到最近最简方法，将其拆解成可重复解决的问题
+3. 数学归纳法思想（抵制人肉递归的诱惑）
+
+本质：寻找重复性->计算机指令集
+
+#### 动态规划 Dynamic Programming定义
+1. “Simlifying a complicated problem by breaking it down into simpler sub-problems” (in a recursive manner)
+   - In both contexts it refers to simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner. While some decision problems cannot be taken apart this way, decisions that span several points in time do often break apart recursively. Likewise, in computer science, if a problem can be solved optimally by breaking it into sub-problems and then recursively finding the optimal solutions to the sub-problems, then it is said to have optimal substructure.
+   - 在这两种情况下，它都是指通过以递归的方式将其分解为更简单的子问题来简化复杂的问题。虽然无法以这种方式解决某些决策问题，但跨越多个时间点的决策通常会递归拆分。同样，在计算机科学中，如果可以通过将问题分解为子问题然后递归地找到子问题的最优解来最佳地解决问题，则可以说它具有最优子结构。
+2. Divide & Conquer + Optimal substructure (分治+最优子结构)
+
+#### 对比关键点
+1. 动态规划和递归或者分治没有根本上的区别（**关键看有无最优的子结构**）
+2. **共性：找到重复子问题**
+3. 差异性：最优子结构、中途可以**淘汰**次优解
+
+### 动态规划关键点
+1. 最优子结构 opt[n] = best_of(opt[n-1], opt[n-2], ...)
+2. 存储中间状态: opt[i]
+3. 递推公式（美其名曰：状态转移方程或DP方程）
+ Fib：opt[i] = opt[n-1] + opt[n-2]
+ 二维路径：opt[i, j] = opt[i+1][j] + opt[i][j+1](且判断a[i, j]是否空地)
+ 
+### 动态规划小结
+1. 打破自己的思维惯性，形成机器思维
+2. 理解复杂逻辑的关键
+3. 也是职业进阶的要点要领
+
 ---
 
 ### 实战题目&作业
