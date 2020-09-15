@@ -41,17 +41,17 @@
 #### 0914 Mon
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[152](https://leetcode.com/problems/maximum-product-subarray/)|maximum-product-subarray |Medium|DP|0914/0909|0914/|0915/ |0922/ | |
+|[152](https://leetcode.com/problems/maximum-product-subarray/)|maximum-product-subarray |Medium|DP|0914/0909|0914/0909|0915/ |0922/ | |
 |[64](https://leetcode.com/problems/minimum-path-sum/)         |minimum-path-sum         |Medium|DP|0914/0909|0914/0910|0915/ |0922/ | |
-|[32](https://leetcode.com/problems/longest-valid-parentheses/)|longest-valid-parentheses|Hard  |DP|0914/0909|0914/|0915/ |0922/ | |
+|[32](https://leetcode.com/problems/longest-valid-parentheses/)|longest-valid-parentheses|Hard  |DP|0914/0909|0914/0909|0915/ |0922/ | |
 
 #### 0915 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)    |best-time-to-buy-and-sell-stock |Easy |DP |0915/0911| | | | |
-|[122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |best-time-to-buy-and-sell-stock-ii |Easy |DP |0915/0911| | | | |
-|[123](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|best-time-to-buy-and-sell-stock-iii |Hard |DP |0915/0911| | | | |
-|[309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|best-time-to-buy-and-sell-stock-with-cooldown |Medium |DP |0915/0911| | | | |
+|[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)    |best-time-to-buy-and-sell-stock |Easy |DP |0915/0911|0915/0911|0916/ |0923/ | |
+|[122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |best-time-to-buy-and-sell-stock-ii |Easy |DP |0915/0911|0915/0911|0916/ |0923/ | |
+|[123](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|best-time-to-buy-and-sell-stock-iii |Hard |DP |0915/0911|0915/0911|0916/ |0923/ | |
+|[309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|best-time-to-buy-and-sell-stock-with-cooldown |Medium |DP |0915/0911|0915/0911|0916/ |0923/ | |
 
 #### 0916 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
@@ -64,10 +64,10 @@
 #### 0917 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[213](https://leetcode.com/problems/house-robber-ii/)|house-robber-ii|Medium|DP|0917/ | | | | |
-|[221](https://leetcode.com/problems/maximal-square/) |maximal-square |Medium|DP|0917/ | | | | |
-|[363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|max-sum-of-rectangle-no-larger-than-k|Hard |DP |0917/ | | | | |
-|[403](https://leetcode.com/problems/frog-jump/)      |frog-jump  |Hard |DP |0917/ | | | | |
+|[213](https://leetcode.com/problems/house-robber-ii/)|house-robber-ii|Medium|DP|0917/0915|0917/0915|0918/ |0925/ | |
+|[221](https://leetcode.com/problems/maximal-square/) |maximal-square |Medium|DP|0917/0915|0917/0915|0918/ |0925/ | |
+|[363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|max-sum-of-rectangle-no-larger-than-k|Hard |DP |0917/0915|0917/0915|0918/ |0925/ | |
+|[403](https://leetcode.com/problems/frog-jump/)      |frog-jump  |Hard |DP |0917/0915|0917/0915|0918/ |0925/ | |
 
 #### 0918 Fri
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
