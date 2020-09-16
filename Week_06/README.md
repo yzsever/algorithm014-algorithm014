@@ -72,10 +72,10 @@
 #### 0918 Fri
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[612](https://leetcode.com/problems/task-scheduler/)         |task-scheduler        |Medium|DP|0918/ | | | | |
-|[647](https://leetcode.com/problems/palindromic-substrings/) |palindromic-substrings|Medium|DP|0918/ | | | | |
-|[410](https://leetcode.com/problems/split-array-largest-sum/)|split-array-largest-sum|Hard |DP|0918/ | | | | |
-|[552](https://leetcode.com/problems/student-attendance-record-ii/)|student-attendance-record-ii|Hard|DP|0918/ | | | | |
+|[612](https://leetcode.com/problems/task-scheduler/)         |task-scheduler        |Medium|DP|Need VIP X|X |X |X |X |
+|[647](https://leetcode.com/problems/palindromic-substrings/) |palindromic-substrings|Medium|DP|0918/0915|0918/0915|0919/ |0926/ | |
+|[410](https://leetcode.com/problems/split-array-largest-sum/)|split-array-largest-sum|Hard |DP|0918/0915|0918/0915|0919/ |0926/ | |
+|[552](https://leetcode.com/problems/student-attendance-record-ii/)|student-attendance-record-ii|Hard|DP|0918/0915|0918/0915|0919/ |0926/ | |
 
 
 #### 0919 Sta
@@ -88,13 +88,13 @@
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[208](https://leetcode.com/problems/implement-trie-prefix-tree/)|implement-trie-prefix-tree|Medium| |0919/ | | | | |
-|[212](https://leetcode.com/problems/word-search-ii/)            |word-search-ii            |Hard  | |0919 | | | | |
+|[200](https://leetcode.com/problems/number-of-islands/)         |number-of-islands         |Medium| |0919/ | | | | |
 
 
 #### 0920 Sun 预习题目（第七周）
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[200](https://leetcode.com/problems/number-of-islands/)|number-of-islands|Medium| |0920/ | | | | |
+|[212](https://leetcode.com/problems/word-search-ii/)   |word-search-ii   |Hard  | |0920/ | | | | |
 |[36](https://leetcode.com/problems/valid-sudoku/)      |valid-sudoku     |Medium| |0920/ | | | | |
 |[51](https://leetcode.com/problems/n-queens/)          |n-queens         |Hard  | |0920/ | | | | |
 |[127](https://leetcode.com/problems/word-ladder/)      |word-ladder      |Medium| |0920/ | | | | |
