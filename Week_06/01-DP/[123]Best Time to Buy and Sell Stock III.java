@@ -87,5 +87,23 @@ class Solution {
         }
         return dp[n-1][k-1][0];
     }
+
+    // state machine T:O(N) S:O(1)
+    public int maxProfit2(int[] prices) {
+        int n = prices.length;
+        if (n < 2) return 0;
+        int s1 = -prices[0], s2 = Integer.MIN_VALUE, s3 = Integer.MIN_VALUE, s4 = Integer.MIN_VALUE;
+        for (int i = 1; i < n; i++) {
+            // s1: buy cheaper stock
+            s1 = Math.max(s1, -prices[i]);
+            // s2: sell stock or do nothing
+            s2 = Math.max(s2, s1 + prices[i]);
+            // s3: buy 2nd stock or do nothing
+            s3 = Math.max(s3, s2 - prices[i]);
+            // s4: sell 2nd stock or do nothing
+            s4 = Math.max(s4, s3 + prices[i]);
+        }
+        return Math.max(0, s4);
+    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
