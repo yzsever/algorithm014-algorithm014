@@ -84,3 +84,7 @@
 |[76](https://leetcode.com/problems/minimum-window-substring/)|minimum-window-substring|Hard|DP|0919/0919|0919/0919|0920/ |0927/ | |
 |[312](https://leetcode.com/problems/burst-balloons/)         |burst-balloons          |Hard|DP|0919/0919|0919/0919|0920/ |0927/ | |
 
+---
+
+学习心得：
+本周题量和题目的难度确实增加了，所以做题所花的时间比之前要多，而且复刷的时候依然有的题会感觉有难度，需要刷更多的次数去熟练掌握。
