@@ -57,7 +57,7 @@
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|best-time-to-buy-and-sell-stock-iv |Hard |DP |0916/0914|0916/ |0917/ |0924/ | |
-|[714](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|best-time-to-buy-and-sell-stock-with-transaction-fee |Medium |DP |0916/0914|0916/ |0917/ |0924/ | |
+|[714](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|best-time-to-buy-and-sell-stock-with-transaction-fee |Medium |DP |0916/0914|0916/0914|0917/0917|0924/ | |
 |[91](https://leetcode.com/problems/decode-ways/)    |decode-ways  |Medium|DP|0916/0914|0916/ |0917/ |0924/ | |
 |[72](https://leetcode.com/problems/edit-distance/)  |edit-distance|Hard  |DP|0916/0914|0916/ |0917/ |0924/ | |
 
@@ -81,34 +81,6 @@
 #### 0919 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[76](https://leetcode.com/problems/minimum-window-substring/)|minimum-window-substring|Hard|DP|0919/ | | | | |
-|[312](https://leetcode.com/problems/burst-balloons/)         |burst-balloons          |Hard|DP|0919/| | | | |
+|[76](https://leetcode.com/problems/minimum-window-substring/)|minimum-window-substring|Hard|DP|0919/0919|0919/0919|0920/ |0927/ | |
+|[312](https://leetcode.com/problems/burst-balloons/)         |burst-balloons          |Hard|DP|0919/0919|0919/0919|0920/ |0927/ | |
 
-#### 0919 Sta 预习题目（第七周）
-|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
-|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[208](https://leetcode.com/problems/implement-trie-prefix-tree/)|implement-trie-prefix-tree|Medium| |0919/ | | | | |
-|[200](https://leetcode.com/problems/number-of-islands/)         |number-of-islands         |Medium| |0919/ | | | | |
-
-
-#### 0920 Sun 预习题目（第七周）
-|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
-|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[212](https://leetcode.com/problems/word-search-ii/)   |word-search-ii   |Hard  | |0920/ | | | | |
-|[36](https://leetcode.com/problems/valid-sudoku/)      |valid-sudoku     |Medium| |0920/ | | | | |
-|[51](https://leetcode.com/problems/n-queens/)          |n-queens         |Hard  | |0920/ | | | | |
-|[127](https://leetcode.com/problems/word-ladder/)      |word-ladder      |Medium| |0920/ | | | | |
-|[1091](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|shortest-path-in-binary-matrix|Medium | |0920/ | | | | |
-
-
-#### 高级DP实战题目（第九周）
-|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
-|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[62](https://leetcode.com/problems/unique-paths/)     |unique-paths    |Medium|High-Level DP| | | | | |
-|[63](https://leetcode.com/problems/unique-paths-ii/)  |unique-paths-ii |Medium|High-Level DP| | | | | |
-|[322](https://leetcode.com/problems/coin-change/)     |coin-change     |Medium|High-Level DP| | | | | |
-|[279](https://leetcode.com/problems/perfect-squares/) |perfect-squares |Medium|High-Level DP| | | | | |
-|[55](https://leetcode.com/problems/jump-game/)        |jump-game       |Mediun|High-Level DP| | | | | |
-|[45](https://leetcode.com/problems/jump-game-ii/)     |jump-game-ii    |Hard  |High-Level DP| | | | | |
-|[980](https://leetcode.com/problems/unique-paths-iii/)|unique-paths-iii|Hard  |High-Level DP| | | | | |
-|[518](https://leetcode.com/problems/coin-change-2/)   |coin-change-2   |Medium|High-Level DP| | | | | |
