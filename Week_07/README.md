@@ -157,9 +157,7 @@ public class AStar
 	Queue<Node> openList = new PriorityQueue<Node>(); // 优先队列(升序)
 	List<Node> closeList = new ArrayList<Node>();
 	
-	/**
-	 * 开始算法
-	 */
+	// 开始算法
 	public void start(MapInfo mapInfo)
 	{
 		if(mapInfo==null) return;
@@ -171,10 +169,7 @@ public class AStar
 		moveNodes(mapInfo);
 	}
 
-
-	/**
-	 * 移动当前结点
-	 */
+	// 移动当前结点
 	private void moveNodes(MapInfo mapInfo)
 	{
 		while (!openList.isEmpty())
@@ -190,9 +185,7 @@ public class AStar
 		}
 	}
 	
-	/**
-	 * 在二维数组中绘制路径
-	 */
+	// 在二维数组中绘制路径
 	private void drawPath(int[][] maps, Node end)
 	{
 		if(end==null||maps==null) return;
@@ -205,10 +198,7 @@ public class AStar
 		}
 	}
 
-
-	/**
-	 * 添加所有邻结点到open表
-	 */
+	// 添加所有邻结点到open表
 	private void addNeighborNodeInOpen(MapInfo mapInfo,Node current)
 	{
 		int x = current.coord.x;
@@ -231,10 +221,7 @@ public class AStar
 		addNeighborNodeInOpen(mapInfo,current, x - 1, y + 1, OBLIQUE_VALUE);
 	}
 
-
-	/**
-	 * 添加一个邻结点到open表
-	 */
+	// 添加一个邻结点到open表
 	private void addNeighborNodeInOpen(MapInfo mapInfo,Node current, int x, int y, int value)
 	{
 		if (canAddNodeToOpen(mapInfo,x, y))
@@ -268,10 +255,7 @@ public class AStar
 		}
 	}
 
-
-	/**
-	 * 从Open列表中查找结点
-	 */
+	// 从Open列表中查找结点
 	private Node findNodeInOpen(Coord coord)
 	{
 		if (coord == null || openList.isEmpty()) return null;
@@ -285,27 +269,20 @@ public class AStar
 		return null;
 	}
 
-	/**
-	 * 计算H的估值：“曼哈顿”法，坐标分别取差值相加
-	 */
+	// 计算H的估值：“曼哈顿”法，坐标分别取差值相加
 	private int calcH(Coord end,Coord coord)
 	{
 		return Math.abs(end.x - coord.x)
 				+ Math.abs(end.y - coord.y);
 	}
 	
-	/**
-	 * 判断结点是否是最终结点
-	 */
+	// 判断结点是否是最终结点
 	private boolean isEndNode(Coord end,Coord coord)
 	{
 		return coord != null && end.equals(coord);
 	}
 
-
-	/**
-	 * 判断结点能否放入Open列表
-	 */
+	// 判断结点能否放入Open列表
 	private boolean canAddNodeToOpen(MapInfo mapInfo,int x, int y)
 	{
 		// 是否在地图中
@@ -314,24 +291,16 @@ public class AStar
 		if (mapInfo.maps[y][x] == BAR) return false;
 		// 判断结点是否存在close表
 		if (isCoordInClose(x, y)) return false;
-
-
 		return true;
 	}
 
-
-	/**
-	 * 判断坐标是否在close表中
-	 */
+	// 判断坐标是否在close表中
 	private boolean isCoordInClose(Coord coord)
 	{
 		return coord!=null&&isCoordInClose(coord.x, coord.y);
 	}
 
-
-	/**
-	 * 判断坐标是否在close表中
-	 */
+	// 判断坐标是否在close表中
 	private boolean isCoordInClose(int x, int y)
 	{
 		if (closeList.isEmpty()) return false;
