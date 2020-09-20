@@ -429,7 +429,7 @@ public class AStar
 |[208](https://leetcode.com/problems/implement-trie-prefix-tree/)|implement-trie-prefix-tree|Medium|Trie |0921/ | | | | |
 |[212](https://leetcode.com/problems/word-search-ii/)   |word-search-ii   |Hard  |Trie |0921/ | | | | |
 |[547](https://leetcode.com/problems/friend-circles/)   |friend-circles   |Medium|Disjoint Set|0921/ | | | | |
-|[]()|分析单词搜索2用Tire树方式实现的时间复杂度 |Medium| |0921/ |X |X |X |X |
+|[X]()|分析单词搜索2用Tire树方式实现的时间复杂度 |Medium|Trie |0921/ |X |X |X |X |
 
 #### 0922 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
@@ -462,7 +462,7 @@ public class AStar
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[146](https://leetcode.com/problems/lru-cache/)|lru-cache |Medium| |0925/ | | | | |
 |[242](https://leetcode-cn.com/problems/valid-anagram/)|valid-anagram |Easy| |0925/ | | | | |
-|[]()|总结双向 BFS 代码模版 |Medium| |0925/ |X |X |X |X |
+|[X]()|总结双向 BFS 代码模版 |Medium|双向BFS  |0925/ |X |X |X |X |
 
 #### 0926 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
