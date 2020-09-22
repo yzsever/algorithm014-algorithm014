@@ -67,8 +67,6 @@ class Trie {
 }
 ```
 
-#### 作业：
-分析单词搜索2用Tire树方式实现的时间复杂度，请同学们提交在学习总结中。
 
 ### 并查集 Disjoint Set
 
@@ -395,33 +393,46 @@ public class AStar
 #### 0921 Mon
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[208](https://leetcode.com/problems/implement-trie-prefix-tree/)|implement-trie-prefix-tree|Medium|Trie |0921/ | | | | |
-|[212](https://leetcode.com/problems/word-search-ii/)   |word-search-ii   |Hard  |Trie |0921/ | | | | |
-|[547](https://leetcode.com/problems/friend-circles/)   |friend-circles   |Medium|Disjoint Set|0921/ | | | | |
+|[208](https://leetcode.com/problems/implement-trie-prefix-tree/)|implement-trie-prefix-tree|Medium|Trie |0921/0921|0921/0921|0922/0922|0929/ | |
+|[212](https://leetcode.com/problems/word-search-ii/)   |word-search-ii   |Hard  |Trie |0921/0922|0921/0922|0923/ |0929 | |
+|[547](https://leetcode.com/problems/friend-circles/)   |friend-circles   |Medium|Disjoint Set|0921/0922|0921/0922|0923/ |0929 | |
 |[X]()|分析单词搜索2用Tire树方式实现的时间复杂度 |Medium|Trie |0921/ |X |X |X |X |
+
+#### 作业：
+分析单词搜索2用Tire树方式实现的时间复杂度，请同学们提交在学习总结中。
+[Ref](https://leetcode-cn.com/problems/word-search-ii/solution/dan-ci-sou-suo-ii-by-leetcode/)
+1. 时间复杂度：O(M(4⋅3^(L−1))O(M(4⋅3L−1))，其中M 是二维网格中的单元格数，L 是单词的最大长度。
+   - 计算回溯算法将执行的确切步数是一个棘手的问题。我们为这个问题的最坏情况提供了该步骤的上限。该算法循环遍历二维网格中的所有单元，因此在复杂度公式中我们有M作为因子。然后将其归结为每个启动单元所需的最大步骤数（即 4⋅3^(L−1)）。
+   - 假设单词的最大长度是 L，从一个单元格开始，最初我们最多可以探索 4 个方向。假设每个方向都是有效的（即最坏情况），在接下来的探索中，我们最多有3个相邻的单元（不包括我们来的单元）要探索。因此，在回溯探索期间，我们最多遍历 4⋅3^(L−1) 个单元格。
+   - 你可能会想最坏的情况是什么样子。这里有一个例子。想象一下，二维网格中的每个单元都包含字母 a，单词词典包含一个单词 ['aaaa']。这是算法将遇到的最坏的情况之一。
+> 注意，上述时间复杂性是在Trie数据结构一旦构建就不会改变的假设下估计的。如果采用优化策略逐步删除Trie中的节点，则可以大大提高时间复杂度，因为一旦匹配词典中的所有单词，即 Trie 变为空，回溯的成本就会降低到零。
+
+2. 空间复杂度：O(N)，其中 N 是字典中的字母总数。
+   - 算法消耗的主要空间是我们构建的 Trie数据结构。在最坏的情况下，如果单词之间没有前缀重叠，则Trie将拥有与所有单词的字母一样多的节点。也可以选择在 Trie 中保留单词的副本。因此，我们可能需要 2N 的空间用于 Trie。
+
 
 #### 0922 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[200](https://leetcode.com/problems/number-of-islands/)|number-of-islands|Medium|Disjoint Set|0921/ | | | | |
-|[130](https://leetcode.com/problems/surrounded-regions/)|surrounded-regions|Medium|Disjoint Set|0922/ | | | | |
-|[70](https://leetcode.com/problems/climbing-stairs/)|climbing-stairs|Medium|剪枝|0922/ | | | | |
-|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|剪枝|0922/ | | | | |
+|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Disjoint Set|0922/ | | | | |
+|[130](https://leetcode.com/problems/surrounded-regions/) |surrounded-regions  |Medium|Disjoint Set|0922/ | | | | |
+|[70](https://leetcode.com/problems/climbing-stairs/)     |climbing-stairs     |Medium|Pruning     |0922/ | | | | |
+|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|Pruning     |0922/ | | | | |
 
 #### 0923 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[51](https://leetcode.com/problems/n-queens/)          |n-queens         |Hard  |剪枝 |0922/ | | | | |
-|[36](https://leetcode.com/problems/valid-sudoku/)      |valid-sudoku     |Medium|剪枝 |0923/ | | | | |
-|[37](https://leetcode.com/problems/sudoku-solver/)|sudoku-solver |Hard|剪枝/A*|0923/ | | | | |
+|[51](https://leetcode.com/problems/n-queens/)     |n-queens     |Hard  |Pruning   |0923/ | | | | |
+|[36](https://leetcode.com/problems/valid-sudoku/) |valid-sudoku |Medium|Pruning   |0923/ | | | | |
+|[37](https://leetcode.com/problems/sudoku-solver/)|sudoku-solver|Hard  |Pruning/A*|0923/ | | | | |
 
 #### 0924 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[127](https://leetcode.com/problems/word-ladder/)      |word-ladder      |Medium|双向BFS |0920/ | | | | |
-|[433](https://leetcode.com/problems/minimum-genetic-mutation/)|minimum-genetic-mutation|Medium|双向BFS|0923/ | | | | |
-|[1091](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|shortest-path-in-binary-matrix|Medium |A* |0923/ | | | | |
-|[733](https://leetcode.com/problems/sliding-puzzle/)|sliding-puzzle |Hard|A* |0924/ | | | | |
+|[127](https://leetcode.com/problems/word-ladder/)                    |word-ladder                   |Medium|Two-End BFS|0923/ | | | | |
+|[433](https://leetcode.com/problems/minimum-genetic-mutation/)       |minimum-genetic-mutation      |Medium|Two-End BFS|0923/ | | | | |
+|[1091](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|shortest-path-in-binary-matrix|Medium|A* |0923/ | | | | |
+|[733](https://leetcode.com/problems/sliding-puzzle/)                 |sliding-puzzle                |Hard  |A* |0923/ | | | | |
 
 > https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/313347/A*-search-in-Python
 > https://zxi.mytechroad.com/blog/searching/8-puzzles-bidirectional-astar-vs-bidirectional-bfs/
@@ -429,8 +440,8 @@ public class AStar
 #### 0925 Fri 预习
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[146](https://leetcode.com/problems/lru-cache/)|lru-cache |Medium| |0925/ | | | | |
-|[242](https://leetcode-cn.com/problems/valid-anagram/)|valid-anagram |Easy| |0925/ | | | | |
+|[146](https://leetcode.com/problems/lru-cache/)       |lru-cache    |Medium| |0925/ | | | | |
+|[242](https://leetcode-cn.com/problems/valid-anagram/)|valid-anagram|Easy  | |0925/ | | | | |
 |[X]()|总结双向 BFS 代码模版 |Medium|双向BFS  |0925/ |X |X |X |X |
 
 #### 0926 Sta
