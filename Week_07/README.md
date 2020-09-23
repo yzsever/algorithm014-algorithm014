@@ -422,17 +422,17 @@ public class AStar
 #### 0923 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[51](https://leetcode.com/problems/n-queens/)     |n-queens     |Hard  |Pruning   |0923/ | | | | |
-|[36](https://leetcode.com/problems/valid-sudoku/) |valid-sudoku |Medium|Pruning   |0923/ | | | | |
-|[37](https://leetcode.com/problems/sudoku-solver/)|sudoku-solver|Hard  |Pruning/A*|0923/ | | | | |
+|[51](https://leetcode.com/problems/n-queens/)     |n-queens     |Hard  |Pruning|0923/0923|0923/0923|0924/ |10/01 | |
+|[36](https://leetcode.com/problems/valid-sudoku/) |valid-sudoku |Medium|Pruning|0923/0923|0923/0923|0924/ |10/01 | |
+|[37](https://leetcode.com/problems/sudoku-solver/)|sudoku-solver|Hard  |Pruning|0923/0923|0923/0923|0924/ |10/01 | |
 
 #### 0924 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[127](https://leetcode.com/problems/word-ladder/)                    |word-ladder                   |Medium|Two-End BFS|0923/ | | | | |
-|[433](https://leetcode.com/problems/minimum-genetic-mutation/)       |minimum-genetic-mutation      |Medium|Two-End BFS|0923/ | | | | |
-|[1091](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|shortest-path-in-binary-matrix|Medium|A* |0923/ | | | | |
-|[733](https://leetcode.com/problems/sliding-puzzle/)                 |sliding-puzzle                |Hard  |A* |0923/ | | | | |
+|[127](https://leetcode.com/problems/word-ladder/)                    |word-ladder                   |Medium|Two-End BFS|0924/ | | | | |
+|[433](https://leetcode.com/problems/minimum-genetic-mutation/)       |minimum-genetic-mutation      |Medium|Two-End BFS|0924/ | | | | |
+|[1091](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|shortest-path-in-binary-matrix|Medium|A* |0924/ | | | | |
+|[37](https://leetcode.com/problems/sudoku-solver/)                   |sudoku-solver                 |Hard  |A* |0924/ | | | | |
 
 > https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/313347/A*-search-in-Python
 > https://zxi.mytechroad.com/blog/searching/8-puzzles-bidirectional-astar-vs-bidirectional-bfs/
@@ -440,6 +440,7 @@ public class AStar
 #### 0925 Fri 预习
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[733](https://leetcode.com/problems/sliding-puzzle/)                 |sliding-puzzle                |Hard  |A* |0924/ | | | | |
 |[146](https://leetcode.com/problems/lru-cache/)       |lru-cache    |Medium| |0925/ | | | | |
 |[242](https://leetcode-cn.com/problems/valid-anagram/)|valid-anagram|Easy  | |0925/ | | | | |
 |[X]()|总结双向 BFS 代码模版 |Medium|双向BFS  |0925/ |X |X |X |X |
