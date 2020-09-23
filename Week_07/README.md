@@ -394,8 +394,8 @@ public class AStar
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[208](https://leetcode.com/problems/implement-trie-prefix-tree/)|implement-trie-prefix-tree|Medium|Trie |0921/0921|0921/0921|0922/0922|0929/ | |
-|[212](https://leetcode.com/problems/word-search-ii/)   |word-search-ii   |Hard  |Trie |0921/0922|0921/0922|0923/ |0929 | |
-|[547](https://leetcode.com/problems/friend-circles/)   |friend-circles   |Medium|Disjoint Set|0921/0922|0921/0922|0923/ |0929 | |
+|[212](https://leetcode.com/problems/word-search-ii/)   |word-search-ii   |Hard  |Trie |0921/0922|0921/0922|0923/0923|0929 | |
+|[547](https://leetcode.com/problems/friend-circles/)   |friend-circles   |Medium|Disjoint Set|0921/0922|0921/0922|0923/0923|0929 | |
 |[X]()|分析单词搜索2用Tire树方式实现的时间复杂度 |Medium|Trie |0921/ |X |X |X |X |
 
 #### 作业：
