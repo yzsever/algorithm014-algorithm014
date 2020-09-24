@@ -422,14 +422,14 @@ public class AStar
 #### 0923 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[51](https://leetcode.com/problems/n-queens/)     |n-queens     |Hard  |Pruning|0923/0923|0923/0923|0924/ |10/01 | |
-|[36](https://leetcode.com/problems/valid-sudoku/) |valid-sudoku |Medium|Pruning|0923/0923|0923/0923|0924/ |10/01 | |
-|[37](https://leetcode.com/problems/sudoku-solver/)|sudoku-solver|Hard  |Pruning|0923/0923|0923/0923|0924/ |10/01 | |
+|[51](https://leetcode.com/problems/n-queens/)     |n-queens     |Hard  |Pruning|0923/0923|0923/0923|0924/0924|1001/ | |
+|[36](https://leetcode.com/problems/valid-sudoku/) |valid-sudoku |Medium|Pruning|0923/0923|0923/0923|0924/0924|1001/ | |
+|[37](https://leetcode.com/problems/sudoku-solver/)|sudoku-solver|Hard  |Pruning|0923/0923|0923/0923|0924/0924|1001/ | |
 
 #### 0924 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[127](https://leetcode.com/problems/word-ladder/)                    |word-ladder                   |Medium|Two-End BFS|0924/ | | | | |
+|[127](https://leetcode.com/problems/word-ladder/)                    |word-ladder                   |Medium|Two-End BFS|0924/0924|0924/0924|0925/ |1002/ | |
 |[433](https://leetcode.com/problems/minimum-genetic-mutation/)       |minimum-genetic-mutation      |Medium|Two-End BFS|0924/ | | | | |
 |[1091](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|shortest-path-in-binary-matrix|Medium|A* |0924/ | | | | |
 |[37](https://leetcode.com/problems/sudoku-solver/)                   |sudoku-solver                 |Hard  |A* |0924/ | | | | |
@@ -440,10 +440,41 @@ public class AStar
 #### 0925 Fri 预习
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[733](https://leetcode.com/problems/sliding-puzzle/)                 |sliding-puzzle                |Hard  |A* |0924/ | | | | |
-|[146](https://leetcode.com/problems/lru-cache/)       |lru-cache    |Medium| |0925/ | | | | |
-|[242](https://leetcode-cn.com/problems/valid-anagram/)|valid-anagram|Easy  | |0925/ | | | | |
-|[X]()|总结双向 BFS 代码模版 |Medium|双向BFS  |0925/ |X |X |X |X |
+|[733](https://leetcode.com/problems/sliding-puzzle/)  |sliding-puzzle|Hard  |A* |0925/ | | | | |
+|[146](https://leetcode.com/problems/lru-cache/)       |lru-cache     |Medium|   |0925/ | | | | |
+|[242](https://leetcode-cn.com/problems/valid-anagram/)|valid-anagram |Easy  |   |0925/ | | | | |
+|[X]()|总结双向 BFS 代码模版 |Medium|双向BFS  |0925/0924|X |X |X |X |
+
+#### 作业：
+总结双向 BFS 代码模版，请同学们提交在学习总结中。
+```java
+    public int twoEndBFS(String beginWord, String endWord, List<String> wordList) {
+        if (beginWord == null || beginWord.length() == 0 || endWord == null
+                || endWord.length() == 0 || beginWord.length() != endWord.length()) return 0;
+        Set<String> wordSet = new HashSet<>(wordList);
+        if (!wordSet.contains(endWord)) return 0;
+        Set<String> qs = new HashSet<>(), qe = new HashSet<>(), visited = new HashSet<>(), qn;
+        qs.add(beginWord);
+        visited.add(beginWord);
+        qe.add(endWord);
+        visited.add(endWord);
+        for (int len = 2; !qs.isEmpty(); len++) {
+            qn = new HashSet<>();
+            for (String word : qs) {
+                Set<String> nexts = getNextWords(word, wordSet);
+                for (String next : nexts) {
+                    if (qe.contains(next)) return len;
+                    if (visited.contains(next)) continue;
+                    qn.add(next);
+                    visited.add(next);
+                }
+            }
+            qs = (qn.size() < qe.size()) ? qn : qe;
+            qe = (qs == qe) ? qn : qe;
+        }
+        return 0;
+    }
+```
 
 #### 0926 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
