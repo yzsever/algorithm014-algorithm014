@@ -430,8 +430,8 @@ public class AStar
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[127](https://leetcode.com/problems/word-ladder/)                    |word-ladder                   |Medium|Two-End BFS|0924/0924|0924/0924|0925/ |1002/ | |
-|[433](https://leetcode.com/problems/minimum-genetic-mutation/)       |minimum-genetic-mutation      |Medium|Two-End BFS|0924/ | | | | |
-|[1091](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|shortest-path-in-binary-matrix|Medium|A* |0924/ | | | | |
+|[433](https://leetcode.com/problems/minimum-genetic-mutation/)       |minimum-genetic-mutation      |Medium|Two-End BFS|0924/0924|0924/0924|0925/ |1002/ | |
+|[1091](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|shortest-path-in-binary-matrix|Medium|A* |0924/0924|0924/0924|0925/ |1002/ | |
 |[37](https://leetcode.com/problems/sudoku-solver/)                   |sudoku-solver                 |Hard  |A* |0924/ | | | | |
 
 > https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/313347/A*-search-in-Python
