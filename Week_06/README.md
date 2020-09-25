@@ -56,10 +56,10 @@
 #### 0916 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|best-time-to-buy-and-sell-stock-iv |Hard |DP |0916/0914|0916/0914|0917/0919|0924/ | |
-|[714](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|best-time-to-buy-and-sell-stock-with-transaction-fee |Medium |DP |0916/0914|0916/0914|0917/0917|0924/ | |
-|[91](https://leetcode.com/problems/decode-ways/)    |decode-ways  |Medium|DP|0916/0914|0916/0914|0917/0919|0924/ | |
-|[72](https://leetcode.com/problems/edit-distance/)  |edit-distance|Hard  |DP|0916/0914|0916/0914|0917/0919|0924/ | |
+|[188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|best-time-to-buy-and-sell-stock-iv |Hard |DP |0916/0914|0916/0914|0917/0919|0924/0924| |
+|[714](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|best-time-to-buy-and-sell-stock-with-transaction-fee |Medium |DP |0916/0914|0916/0914|0917/0917|0924/0924| |
+|[91](https://leetcode.com/problems/decode-ways/)    |decode-ways  |Medium|DP|0916/0914|0916/0914|0917/0919|0924/0924| |
+|[72](https://leetcode.com/problems/edit-distance/)  |edit-distance|Hard  |DP|0916/0914|0916/0914|0917/0919|0924/0924| |
 
 #### 0917 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
