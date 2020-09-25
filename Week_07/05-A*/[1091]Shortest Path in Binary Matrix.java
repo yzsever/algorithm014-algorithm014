@@ -147,8 +147,6 @@ class Solution {
             int x = node.x;
             int y = node.y;
 
-            // skip disallowed area
-            if (x < 0 || x >= m || y < 0 || y >= n || grid[x][y] == 1) continue;
 
             // if node is the goal, stop search
             if (x == endX && y == endY) return node.g;
@@ -162,6 +160,8 @@ class Solution {
 
             // generate 8 successors to node
             for (int[] dir : DIRECTIONS) {
+                // skip disallowed area
+                if (x + dir[0] < 0 || x + dir[0] >= m || y + dir[1] < 0 || y + dir[1] >= n || grid[x + dir[0]][y + dir[1]] == 1) continue;
                 // for each successor
                 // successor.g = node.g + distance between successor and node (equals to 1)
                 // successor.h = estimate distance from successor to goal
