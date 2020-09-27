@@ -440,9 +440,9 @@ public class AStar
 #### 0925 Fri 预习
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[733](https://leetcode.com/problems/sliding-puzzle/)  |sliding-puzzle|Hard  |A* |0925/ | | | | |
-|[146](https://leetcode.com/problems/lru-cache/)       |lru-cache     |Medium|   |0925/ | | | | |
-|[242](https://leetcode-cn.com/problems/valid-anagram/)|valid-anagram |Easy  |   |0925/ | | | | |
+|[773](https://leetcode.com/problems/sliding-puzzle/)  |sliding-puzzle|Hard  |A* |0925/0927|0925/0927|0928/ |1003/ | |
+|[146](https://leetcode.com/problems/lru-cache/)       |lru-cache     |Medium|LRU Cache|0925/0927|0925/0927|0928/ |1003/ | |
+|[242](https://leetcode-cn.com/problems/valid-anagram/)|valid-anagram |Easy  |Sort     |0925/0927|0925/0927|0928/ |1003/ | |
 |[X]()|总结双向 BFS 代码模版 |Medium|双向BFS  |0925/0924|X |X |X |X |
 
 #### 作业：
