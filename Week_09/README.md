@@ -5,7 +5,6 @@
 #### 高级DP实战题目（第九周）
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[62](https://leetcode.com/problems/unique-paths/)     |unique-paths    |Medium|High-Level DP| | | | | |
 |[63](https://leetcode.com/problems/unique-paths-ii/)  |unique-paths-ii |Medium|High-Level DP| | | | | |
 |[322](https://leetcode.com/problems/coin-change/)     |coin-change     |Medium|High-Level DP| | | | | |
 |[279](https://leetcode.com/problems/perfect-squares/) |perfect-squares |Medium|High-Level DP| | | | | |

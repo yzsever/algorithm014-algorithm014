@@ -14,8 +14,8 @@
 |------   | ----           | ----                  |
 | 左移       | <<           | 0011 => 0110 |
 | 右移       | >>           | 0110 => 0011 |
-| 按位或   |  &#124    | 0011 => 0110 |
-| 按位与   |  &           | 0011 => 0110 |
+| 按位或   |  I    | 0011 => 0110 |
+| 按位与  |  &           | 0011 => 0110 |
 | 按位取反|  ~           | 0011 => 0110 |
 | 按位异或|  ^           | 0011 => 0110 |
 
@@ -57,41 +57,40 @@
 |[191](https://leetcode.com/problems/number-of-1-bits/) |number-of-1-bits|Easy|Bit Operation|0928/ | | | | |
 |[231](https://leetcode.com/problems/power-of-two/)     |power-of-two    |Easy|Bit Operation|0928/ | | | | |
 |[190](https://leetcode.com/problems/reverse-bits/)     |reverse-bits    |Easy|Bit Operation|0928/ | | | | |
-|[51](https://leetcode.com/problems/n-queens/)          |n-queens        |Hard|Bit Operation|0928/ | | | | |
-
 
 #### 0929 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[52](https://leetcode.com/problems/n-queens-ii/)     |n-queens-ii    |Hard  |Bit Operation |0929/ | | | | |
-|[338](https://leetcode.com/problems/counting-bits/)  |counting-bits  |Medium|Bit Operation |0929/ | | | | |
-|[]()     |    |Medium| | | | | | |
-|[]()     |    |Medium| | | | | | |
+|[51](https://leetcode.com/problems/n-queens/)      |n-queens       |Hard  |Bit Operation|0929/ | | | | |
+|[52](https://leetcode.com/problems/n-queens-ii/)   |n-queens-ii    |Hard  |Bit Operation|0929/ | | | | |
+|[338](https://leetcode.com/problems/counting-bits/)|counting-bits  |Medium|Bit Operation|0929/ | | | | |
 
 #### 0930 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[]()     |    |Medium| | | | | | |
-|[]()     |    |Medium| | | | | | |
-|[]()     |    |Medium| | | | | | |
-|[]()     |    |Medium| | | | | | |
+|[1122](https://leetcode.com/problems/relative-sort-array/)|relative-sort-array|Easy  |Sort |0930/ | | | | |
+|[56](https://leetcode.com/problems/merge-intervals/)      |merge-intervals    |Medium|Sort |0930/ | | | | |
+|[493](https://leetcode.com/problems/reverse-pairs/)       |reverse-pairs      |Hard  |Sort |0930/ | | | | |
 
 
 #### 1001 Thu
 Have a day off!
 
-#### 1002 Fri
+#### 1002 Fri 预习第九周
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[]()     |    |Medium| | | | | | |
-|[]()     |    |Medium| | | | | | |
+|[62](https://leetcode.com/problems/unique-paths/)     |unique-paths    |Medium|High-Level DP|1002/ | | | | |
+|[64](https://leetcode.com/problems/minimum-path-sum/) |minimum-path-sum|Medium|High-Level DP|1002/ | | | | |
 |[]()     |    |Medium| | | | | | |
 |[]()     |    |Medium| | | | | | |
 
-#### 1003 Sta
+#### 1003 Sta 每日一题补充
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[240](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)|search-a-2d-matrix-ii|Medium|1003/ | | | | | |
+|[16](https://leetcode.com/problems/3sum-closest/)             |3sum-closest         |Medium|1003/ | | | | | |
 |[]()     |    |Medium| | | | | | |
 |[]()     |    |Medium| | | | | | |
-|[]()     |    |Medium| | | | | | |
-|[]()     |    |Medium| | | | | | |
+
+#### 课后作业
+用自己熟悉的编程语言，手写各种初级排序代码，提交到学习总结中。
