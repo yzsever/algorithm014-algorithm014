@@ -50,6 +50,54 @@
 5. x & ~x --> 0
 
 
+## 第十七课 布隆过滤器、LRU Cache
+
+### 布隆过滤器 Bloom Filter
+- HashTable + 拉链存储重复元素
+- Bloom Filter vs Hash Table
+   - 一个很长的二进制向量和一系列随机映射函数。布隆过滤器可以用于检索一个元素是否再一个集合中。
+
+优点：空间效率和查询时间都远远超过一般的算法
+缺点：有一定的误识别率和删除困难
+> 布隆过滤器使用在第一层过滤，可以识别肯定不存在的数据。
+
+#### 案例
+1. 比特币网络
+2. 分布式系统（Map-Reduce）—— Hadoop、search engine
+3. Redis缓存
+4. 垃圾邮件、评价等的过滤
+
+
+科普：
+- [布隆过滤器的原理和实现](https://www.cnblogs.com/cpselvis/p/6265825.html)
+- [使用布隆过滤器解决缓存击穿、垃圾邮件识别、集合判重](https://blog.csdn.net/tianyaleixiaowu/article/details/74721877)
+
+#### 实现
+- [布隆过滤器 Python 代码示例](https://shimo.im/docs/UITYMj1eK88JCJTH/read)
+- [布隆过滤器 Python 实现示例](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/)
+- [高性能布隆过滤器 Python 实现示例](https://github.com/jhgg/pybloof)
+- [布隆过滤器 Java 实现示例 1](https://github.com/lovasoa/bloomfilter/blob/master/src/main/java/BloomFilter.java)
+- [布隆过滤器 Java 实现示例 2](https://github.com/Baqend/Orestes-Bloomfilter)
+
+### LRU Cache
+
+#### Cache 缓存
+1. 记忆
+2. 钱包 - 储物柜
+3. 代码模块
+
+#### LRU cache
+1. 两个要素：大小、替换策略
+2. Hash Table + Double LinkedList
+3. O(1) 查询 O(1) 修改、更新
+
+#### 替换策略
+1. LFU - least frequently used
+2. LRU - least recently used
+
+[替换算法总览](https://en.wikipedia.org/wiki/Cache_replacement_policies)
+[LRU Cache Python 代码示例](https://shimo.im/docs/CoyPAyXooGcDuLQo/read)
+
 ### 实战和课后做题
 #### 0928 Mon
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
