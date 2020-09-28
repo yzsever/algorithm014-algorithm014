@@ -64,8 +64,8 @@
 #### 0917 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[213](https://leetcode.com/problems/house-robber-ii/)|house-robber-ii|Medium|DP|0917/0915|0917/0915|0918/0920|0925/ | |
-|[221](https://leetcode.com/problems/maximal-square/) |maximal-square |Medium|DP|0917/0915|0917/0915|0918/0921|0925/ | |
+|[213](https://leetcode.com/problems/house-robber-ii/)|house-robber-ii|Medium|DP|0917/0915|0917/0915|0918/0920|0925/0926| |
+|[221](https://leetcode.com/problems/maximal-square/) |maximal-square |Medium|DP|0917/0915|0917/0915|0918/0921|0925/0927| |
 |[363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|max-sum-of-rectangle-no-larger-than-k|Hard |DP |0917/0915|0917/0915|0918/0921|0925/ | |
 |[403](https://leetcode.com/problems/frog-jump/)      |frog-jump  |Hard |DP |0917/0915|0917/0915|0918/0921|0925/ | |
 
@@ -73,7 +73,7 @@
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[612](https://leetcode.com/problems/task-scheduler/)         |task-scheduler        |Medium|DP|Need VIP X|X |X |X |X |
-|[647](https://leetcode.com/problems/palindromic-substrings/) |palindromic-substrings|Medium|DP|0918/0915|0918/0915|0919/0921|0926/ | |
+|[647](https://leetcode.com/problems/palindromic-substrings/) |palindromic-substrings|Medium|DP|0918/0915|0918/0915|0919/0921|0926/0927| |
 |[410](https://leetcode.com/problems/split-array-largest-sum/)|split-array-largest-sum|Hard |DP|0918/0915|0918/0915|0919/0921|0926/ | |
 |[552](https://leetcode.com/problems/student-attendance-record-ii/)|student-attendance-record-ii|Hard|DP|0918/0915|0918/0915|0919/0921|0926/ | |
 
