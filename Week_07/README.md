@@ -414,10 +414,10 @@ public class AStar
 #### 0922 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Disjoint Set|0922/0922|0922/0922|0923/0923|0930/ | |
-|[130](https://leetcode.com/problems/surrounded-regions/) |surrounded-regions  |Medium|Disjoint Set|0922/0922|0922/0922|0923/0923|0930/ | |
-|[70](https://leetcode.com/problems/climbing-stairs/)     |climbing-stairs     |Medium|Pruning     |0922/0922|0922/0922|0923/0923|0930/ | |
-|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|Pruning     |0922/0922|0922/0922|0923/0923|0930/ | |
+|[200](https://leetcode.com/problems/number-of-islands/)  |number-of-islands   |Medium|Disjoint Set|0922/0922|0922/0922|0923/0923|0930/0930| |
+|[130](https://leetcode.com/problems/surrounded-regions/) |surrounded-regions  |Medium|Disjoint Set|0922/0922|0922/0922|0923/0923|0930/0930| |
+|[70](https://leetcode.com/problems/climbing-stairs/)     |climbing-stairs     |Medium|Pruning     |0922/0922|0922/0922|0923/0923|0930/0930| |
+|[22](https://leetcode.com/problems/generate-parentheses/)|generate-parentheses|Medium|Pruning     |0922/0922|0922/0922|0923/0923|0930/0930| |
 
 #### 0923 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
