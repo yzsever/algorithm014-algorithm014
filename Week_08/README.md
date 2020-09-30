@@ -252,9 +252,9 @@ public static void heapSort(int[] array) {
 #### 0929 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[51](https://leetcode.com/problems/n-queens/)      |n-queens       |Hard  |Bit Manipulation|0929/0929|0929/0929|0930/ |1007/ | |
-|[52](https://leetcode.com/problems/n-queens-ii/)   |n-queens-ii    |Hard  |Bit Manipulation|0929/0929|0929/0929|0930/ |1007/ | |
-|[338](https://leetcode.com/problems/counting-bits/)|counting-bits  |Medium|Bit Manipulation|0929/0929|0929/0929|0930/ |1007/ | |
+|[51](https://leetcode.com/problems/n-queens/)      |n-queens       |Hard  |Bit Manipulation|0929/0929|0929/0929|0930/0930|1007/ | |
+|[52](https://leetcode.com/problems/n-queens-ii/)   |n-queens-ii    |Hard  |Bit Manipulation|0929/0929|0929/0929|0930/0930|1007/ | |
+|[338](https://leetcode.com/problems/counting-bits/)|counting-bits  |Medium|Bit Manipulation|0929/0929|0929/0929|0930/0930|1007/ | |
 
 #### 0930 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
