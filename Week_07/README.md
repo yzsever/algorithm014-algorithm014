@@ -422,9 +422,9 @@ public class AStar
 #### 0923 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[51](https://leetcode.com/problems/n-queens/)     |n-queens     |Hard  |Pruning|0923/0923|0923/0923|0924/0924|1001/ | |
-|[36](https://leetcode.com/problems/valid-sudoku/) |valid-sudoku |Medium|Pruning|0923/0923|0923/0923|0924/0924|1001/ | |
-|[37](https://leetcode.com/problems/sudoku-solver/)|sudoku-solver|Hard  |Pruning|0923/0923|0923/0923|0924/0924|1001/ | |
+|[51](https://leetcode.com/problems/n-queens/)     |n-queens     |Hard  |Pruning|0923/0923|0923/0923|0924/0924|1001/1002| |
+|[36](https://leetcode.com/problems/valid-sudoku/) |valid-sudoku |Medium|Pruning|0923/0923|0923/0923|0924/0924|1001/1002| |
+|[37](https://leetcode.com/problems/sudoku-solver/)|sudoku-solver|Hard  |Pruning|0923/0923|0923/0923|0924/0924|1001/1002| |
 
 #### 0924 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
