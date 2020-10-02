@@ -228,6 +228,31 @@ public static void heapSort(int[] array) {
 1. 计数排序（Counting Sort）
 计数排序要求输入的数据必须是有确定范围的整数。将输入的数据值转化为键存储在额外的数组空间中；然后依次把计数大于1的填充回原数组
 
+```java
+function countingSort(arr, maxValue) {
+    var bucket = new Array(maxValue + 1),
+        sortedIndex = 0;
+        arrLen = arr.length,
+        bucketLen = maxValue + 1;
+ 
+    for (var i = 0; i < arrLen; i++) {
+        if (!bucket[arr[i]]) {
+            bucket[arr[i]] = 0;
+        }
+        bucket[arr[i]]++;
+    }
+ 
+    for (var j = 0; j < bucketLen; j++) {
+        while(bucket[j] > 0) {
+            arr[sortedIndex++] = j;
+            bucket[j]--;
+        }
+    }
+ 
+    return arr;
+}
+```
+
 2. 桶排序（Bucket Sort）
 假设输入数据服从均匀分布，将数据分到有限数量的桶里，每个桶再分别排序（有可能再使用别的排序算法或是递归方式继续使用桶排序进行排）。
 
@@ -259,9 +284,9 @@ public static void heapSort(int[] array) {
 #### 0930 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[1122](https://leetcode.com/problems/relative-sort-array/)|relative-sort-array|Easy  |Sort |0930/ | | | | |
-|[56](https://leetcode.com/problems/merge-intervals/)      |merge-intervals    |Medium|Sort |0930/ | | | | |
-|[493](https://leetcode.com/problems/reverse-pairs/)       |reverse-pairs      |Hard  |Sort |0930/ | | | | |
+|[1122](https://leetcode.com/problems/relative-sort-array/)|relative-sort-array|Easy  |Counting Sort|0930/1002|0930/1002|1003/ |1008/ | |
+|[56](https://leetcode.com/problems/merge-intervals/)      |merge-intervals    |Medium|Sort |0930/1002|0930/1002|1003/ |1008/ | |
+|[493](https://leetcode.com/problems/reverse-pairs/)       |reverse-pairs      |Hard  |Sort |0930/1002|0930/1002|1003/ |1008/ | |
 
 
 #### 1001 Thu
@@ -271,9 +296,8 @@ Have a day off!
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[62](https://leetcode.com/problems/unique-paths/)     |unique-paths    |Medium|High-Level DP|1002/ | | | | |
+|[63](https://leetcode.com/problems/unique-paths-ii/)  |unique-paths-ii |Medium|High-Level DP|1002/ | | | | |
 |[64](https://leetcode.com/problems/minimum-path-sum/) |minimum-path-sum|Medium|High-Level DP|1002/ | | | | |
-|[]()     |    |Medium| | | | | | |
-|[]()     |    |Medium| | | | | | |
 
 #### 1003 Sta 每日一题补充
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
