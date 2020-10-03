@@ -302,10 +302,63 @@ Have a day off!
 #### 1003 Sta 每日一题补充
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[240](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)|search-a-2d-matrix-ii|Medium| |1003/ | | | | |
-|[16](https://leetcode.com/problems/3sum-closest/)             |3sum-closest         |Medium| |1003/ | | | | |
-|[]()     |    |Medium| | | | | | |
-|[]()     |    |Medium| | | | | | |
+|[240](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)|search-a-2d-matrix-ii|Medium|Search|1003/1003|1003/1003|1004/ |1010/ | |
+|[16](https://leetcode.com/problems/3sum-closest/)             |3sum-closest         |Medium|Pointer|1003/1003|1003/1003|1004/ |1010/ | |
+|[X]()|用自己熟悉的编程语言，手写各种初级排序代码                                           |Easy  |Sort  |1003/1003|X |X |X |X |
 
 #### 课后作业
 用自己熟悉的编程语言，手写各种初级排序代码，提交到学习总结中。
+1. 选择排序（Selection Sort）
+每次找最小值，然后放在待排序数组的起始位置
+```java
+    public static void selectionSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            int minIndex = i;
+            for (int j = i; j < n; j++) {
+                if (arr[j] < arr[minIndex]) {
+                    minIndex = j;
+                }
+            }
+            int tmp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = tmp;
+        }
+    }
+```
+
+2. 插入排序
+从前到后逐步构建有序序列；对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入
+```java
+    public static void insertionSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 1; i < n; i++) {
+            int prevIndex = i - 1;
+            while (prevIndex >= 0 && arr[prevIndex] > arr[i]) {
+                arr[prevIndex + 1] = arr[prevIndex];
+                prevIndex--;
+            }
+            arr[prevIndex + 1] = arr[i];
+        }
+    }
+```
+
+3. 冒泡排序
+嵌套循环，每次查看相邻的元素如果逆序，则交换
+```java
+    public static void bubbleSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            boolean swap = false;
+            for (int j = 0; j < n - 1 - i; j++) {
+                if(arr[j] > arr[j+1]){
+                    swap = true;
+                    int tmp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = tmp;
+                }
+            }
+            if(!swap) return;
+        }
+    }
+```
