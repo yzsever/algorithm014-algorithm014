@@ -284,9 +284,9 @@ function countingSort(arr, maxValue) {
 #### 0930 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[1122](https://leetcode.com/problems/relative-sort-array/)|relative-sort-array|Easy  |Counting Sort|0930/1002|0930/1002|1003/ |1008/ | |
-|[56](https://leetcode.com/problems/merge-intervals/)      |merge-intervals    |Medium|Sort |0930/1002|0930/1002|1003/ |1008/ | |
-|[493](https://leetcode.com/problems/reverse-pairs/)       |reverse-pairs      |Hard  |Merge Sort|0930/1002|0930/1002|1003/ |1008/ | |
+|[1122](https://leetcode.com/problems/relative-sort-array/)|relative-sort-array|Easy  |Counting Sort|0930/1002|0930/1002|1003/1003|1008/ | |
+|[56](https://leetcode.com/problems/merge-intervals/)      |merge-intervals    |Medium|Sort |0930/1002|0930/1002|1003/1003|1008/ | |
+|[493](https://leetcode.com/problems/reverse-pairs/)       |reverse-pairs      |Hard  |Merge Sort|0930/1002|0930/1002|1003/1003|1008/ | |
 
 
 #### 1001 Thu
