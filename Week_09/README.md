@@ -170,7 +170,7 @@ for 0 <= i < n:
 |[125](https://leetcode.com/problems/valid-palindrome/)     |valid-palindrome    |Easy |String|1010/ | | | | |
 |[680](https://leetcode.com/problems/valid-palindrome-ii/)  |valid-palindrome-ii |Easy |String|1010/ | | | | |
 |[5](https://leetcode.com/problems/longest-palindromic-substring/)|longest-palindromic-substring|Medium |String|1010/ | | | | |
-|[44](https://leetcode.com/problems/wildcard-matching/)           |wildcard-matching    |Hard |1010/ | | | | | |
+|[44](https://leetcode.com/problems/wildcard-matching/)           |wildcard-matching    |String|Hard |1010/ | | | | |
 
 #### 1011 Sun
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
