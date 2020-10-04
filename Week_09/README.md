@@ -43,17 +43,17 @@ f(n) = f(n-1) + f(n-2), f(1)=1, f(0)=0
 递归公式：
 f(x, y) = f(x-1, y) + f(x, y-1)
 3. 打家劫舍
-一维数组：
-dp[i]的状态定义：max $ of robbing A[0->i]
-dp[i] = max(dp[i-2] + nums[i], dp[i-1])
-二维数组：
-dp[i][0]状态定义：max $ of robbing A[0->i]且没偷 nums[i]
-dp[i][i]状态定义：max $ of robbing A[0->i]且偷了 nums[i]
-dp[i][0] = max(dp[i-1][0], dp[i-1][1]);
-dp[i][1] = dp[i-1][0] + nums[i];
+- 一维数组：
+   - dp[i]的状态定义：max $ of robbing A[0->i]
+   - dp[i] = max(dp[i-2] + nums[i], dp[i-1])
+- 二维数组：
+   - dp[i][0]状态定义：max $ of robbing A[0->i]且没偷 nums[i]
+   - dp[i][i]状态定义：max $ of robbing A[0->i]且偷了 nums[i]
+   - dp[i][0] = max(dp[i-1][0], dp[i-1][1]);
+   - dp[i][1] = dp[i-1][0] + nums[i];
 4. 最小路径和
-dp[i][j]状态的定义：minPath(A[1->i][1->j])
-dp[i][j] = min(dp[i-1][j], dp[i][j-1]) + A[i][j]
+   - dp[i][j]状态的定义：minPath(A[1->i][1->j])
+   - dp[i][j] = min(dp[i-1][j], dp[i][j-1]) + A[i][j]
 5. 股票买卖
 dp[i][k][0 or 1]  (0 <= i <= n-1, 1 <= k <= K)
    - i 为天数
