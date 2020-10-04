@@ -442,7 +442,7 @@ public class AStar
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[773](https://leetcode.com/problems/sliding-puzzle/)  |sliding-puzzle|Hard  |A* |0925/0927|0925/0927|0928/ |1003/ | |
 |[146](https://leetcode.com/problems/lru-cache/)       |lru-cache     |Medium|LRU Cache|0925/0927|0925/0927|0928/ |1003/ | |
-|[242](https://leetcode-cn.com/problems/valid-anagram/)|valid-anagram |Easy  |Sort     |0925/0927|0925/0927|0928/ |1003/ | |
+|[242](https://leetcode-cn.com/problems/valid-anagram/)|valid-anagram |Easy  |Sort     |0925/0927|0925/0927|0928/1003|1003/ | |
 |[X]()|总结双向 BFS 代码模版 |Medium|双向BFS  |0925/0924|X |X |X |X |
 
 #### 作业：
