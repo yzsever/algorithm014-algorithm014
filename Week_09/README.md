@@ -43,9 +43,10 @@ f(n) = f(n-1) + f(n-2), f(1)=1, f(0)=0
 递归公式：
 f(x, y) = f(x-1, y) + f(x, y-1)
 3. 打家劫舍
+一维数组：
 dp[i]的状态定义：max $ of robbing A[0->i]
 dp[i] = max(dp[i-2] + nums[i], dp[i-1])
--
+二维数组：
 dp[i][0]状态定义：max $ of robbing A[0->i]且没偷 nums[i]
 dp[i][i]状态定义：max $ of robbing A[0->i]且偷了 nums[i]
 dp[i][0] = max(dp[i-1][0], dp[i-1][1]);
@@ -59,23 +60,22 @@ dp[i][k][0 or 1]  (0 <= i <= n-1, 1 <= k <= K)
    - k 为最多交易次数
    - [0, 1] 为是否持有股票
 总状态数：n*K*2 种状态
+```
 for 0 <= i < n:
 	for 1 <= k <= K:
 		for s in {0, 1}:
 			dp[i][k][s] = max{buy, sell, rest}
-
-// max( 选择rest， 选择sell)
-dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
-// max( 选择rest， 选择buy)
-dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
--
-初始状态：
-dp[-1][k][0] = dp[i][0][0] = 0
-dp[-1][k][1] = dp[i][0][1] = -infinity
--
-状态转移方程：
-dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
-dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
+```			
+- 思路：max( 选择rest， 选择sell)
+   - dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
+- 思路：max( 选择rest， 选择buy)
+   - dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
+- 初始状态：
+   - dp[-1][k][0] = dp[i][0][0] = 0
+   - dp[-1][k][1] = dp[i][0][1] = -infinity
+- 状态转移方程：
+   - dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
+   - dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
 
 ### 高阶的DP问题
 
