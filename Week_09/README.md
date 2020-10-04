@@ -115,6 +115,7 @@ for 0 <= i < n:
 1. 暴力法(brute force) - O(mn)
 2. Rabin-Karp 算法
 3. KMP 算法
+
 课后了解：
 1. [Boyer-Moore算法](https://www.ruanyifeng.com/blog/2013/05/boyer-moore_string_search_algorithm.html)
 2. [Sunday算法](https://blog.csdn.net/u012505432/article/details/52210975)
