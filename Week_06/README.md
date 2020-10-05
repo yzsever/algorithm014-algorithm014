@@ -74,8 +74,8 @@
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[612](https://leetcode.com/problems/task-scheduler/)         |task-scheduler        |Medium|DP|Need VIP X|X |X |X |X |
 |[647](https://leetcode.com/problems/palindromic-substrings/) |palindromic-substrings|Medium|DP|0918/0915|0918/0915|0919/0921|0926/0927| |
-|[410](https://leetcode.com/problems/split-array-largest-sum/)|split-array-largest-sum|Hard |DP|0918/0915|0918/0915|0919/0921|0926/ | |
-|[552](https://leetcode.com/problems/student-attendance-record-ii/)|student-attendance-record-ii|Hard|DP|0918/0915|0918/0915|0919/0921|0926/ | |
+|[410](https://leetcode.com/problems/split-array-largest-sum/)|split-array-largest-sum|Hard |DP|0918/0915|0918/0915|0919/0921|0926/1005| |
+|[552](https://leetcode.com/problems/student-attendance-record-ii/)|student-attendance-record-ii|Hard|DP|0918/0915|0918/0915|0919/0921|0926/1005| |
 
 
 #### 0919 Sta
