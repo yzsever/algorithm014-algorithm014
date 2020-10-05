@@ -125,10 +125,10 @@ for 0 <= i < n:
 #### 1005 Mon
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[85](https://leetcode.com/problems/maximal-rectangle/)|maximal-rectangle|Hard |High-Level DP|1005/ | | | | |
-|[746](https://leetcode.com/problems/min-cost-climbing-stairs/) |min-cost-climbing-stairs     |Easy |High-Level DP|1005/ | | | | |
-|[300](https://leetcode.com/problems/longest-increasing-subsequence/)|longest-increasing-subsequence|Medium |High-Level DP|1005/ | | | | |
-|[709](https://leetcode.com/problems/to-lower-case/)   |to-lower-case    |Easy |String|1005/ | | | | |
+|[85](https://leetcode.com/problems/maximal-rectangle/)|maximal-rectangle|Hard |High-Level DP|1005/1005|1005/1005|1006/ |1013/ | |
+|[746](https://leetcode.com/problems/min-cost-climbing-stairs/) |min-cost-climbing-stairs     |Easy |High-Level DP|1005/1005|1005/1005|1006/ |1013/ | |
+|[300](https://leetcode.com/problems/longest-increasing-subsequence/)|longest-increasing-subsequence|Medium |High-Level DP|1005/1005|1005/1005|1006/ |1013/ | |
+|[709](https://leetcode.com/problems/to-lower-case/)   |to-lower-case    |Easy |String|1005/1005|1005/1005|1006/ |1013/ | |
 
 #### 1006 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
