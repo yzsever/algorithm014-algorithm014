@@ -270,9 +270,9 @@ function countingSort(arr, maxValue) {
 #### 0928 Mon
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[191](https://leetcode.com/problems/number-of-1-bits/) |number-of-1-bits|Easy|Bit Manipulation|0928/0928|0928/0928|0929/0929|1006/ | |
-|[231](https://leetcode.com/problems/power-of-two/)     |power-of-two    |Easy|Bit Manipulation|0928/0928|0928/0928|0929/0929|1006/ | |
-|[190](https://leetcode.com/problems/reverse-bits/)     |reverse-bits    |Easy|Bit Manipulation|0928/0928|0928/0928|0929/0929|1006/ | |
+|[191](https://leetcode.com/problems/number-of-1-bits/) |number-of-1-bits|Easy|Bit Manipulation|0928/0928|0928/0928|0929/0929|1006/1006| |
+|[231](https://leetcode.com/problems/power-of-two/)     |power-of-two    |Easy|Bit Manipulation|0928/0928|0928/0928|0929/0929|1006/1006| |
+|[190](https://leetcode.com/problems/reverse-bits/)     |reverse-bits    |Easy|Bit Manipulation|0928/0928|0928/0928|0929/0929|1006/1006| |
 
 #### 0929 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
