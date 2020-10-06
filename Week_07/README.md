@@ -440,8 +440,8 @@ public class AStar
 #### 0925 Fri 预习
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[773](https://leetcode.com/problems/sliding-puzzle/)  |sliding-puzzle|Hard  |A* |0925/0927|0925/0927|0928/|0928/1005|1003/ |
-|[146](https://leetcode.com/problems/lru-cache/)       |lru-cache     |Medium|LRU Cache|0925/0927|0925/0927|0928/1005|1003/ | |
+|[773](https://leetcode.com/problems/sliding-puzzle/)  |sliding-puzzle|Hard  |BFS |0925/0927|0925/0927|0928/1005|1003/1006| |
+|[146](https://leetcode.com/problems/lru-cache/)       |lru-cache     |Medium|LRU Cache|0925/0927|0925/0927|0928/1005|1003/1006| |
 |[242](https://leetcode-cn.com/problems/valid-anagram/)|valid-anagram |Easy  |Sort     |0925/0927|0925/0927|0928/1003|1003/1005| |
 |[X]()|总结双向 BFS 代码模版 |Medium|双向BFS  |0925/0924|X |X |X |X |
 
@@ -480,5 +480,8 @@ public class AStar
 #### 总结：
 本周的A*的部分还需要再深入理解，其他部分觉得还不错，目前代码测试时不知道是不是leetcode上数量级的问题，A\*的算法比普通的BFS的使用时间更慢。推测是小数量级中，A*中计算距离所消耗的时间拉平了优化的时间。
 
-
+#### 待完成算法
+|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
+|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[773](https://leetcode.com/problems/sliding-puzzle/)  |sliding-puzzle|Hard  |A* | | | | | | |
 
