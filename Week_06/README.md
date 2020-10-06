@@ -81,8 +81,8 @@
 #### 0919 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[76](https://leetcode.com/problems/minimum-window-substring/)|minimum-window-substring|Hard|DP|0919/0919|0919/0919|0920/ |0927/ | |
-|[312](https://leetcode.com/problems/burst-balloons/)         |burst-balloons          |Hard|DP|0919/0919|0919/0919|0920/ |0927/ | |
+|[76](https://leetcode.com/problems/minimum-window-substring/)|minimum-window-substring|Hard|DP|0919/0919|0919/0919|0920/ |0927/1006| |
+|[312](https://leetcode.com/problems/burst-balloons/)         |burst-balloons          |Hard|DP|0919/0919|0919/0919|0920/ |0927/1006| |
 
 ---
 
