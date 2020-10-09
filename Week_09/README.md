@@ -125,54 +125,58 @@ for 0 <= i < n:
 #### 1005 Mon
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[85](https://leetcode.com/problems/maximal-rectangle/)|maximal-rectangle|Hard |High-Level DP|1005/1005|1005/1005|1006/ |1013/ | |
-|[746](https://leetcode.com/problems/min-cost-climbing-stairs/) |min-cost-climbing-stairs     |Easy |High-Level DP|1005/1005|1005/1005|1006/ |1013/ | |
-|[300](https://leetcode.com/problems/longest-increasing-subsequence/)|longest-increasing-subsequence|Medium |High-Level DP|1005/1005|1005/1005|1006/ |1013/ | |
-|[709](https://leetcode.com/problems/to-lower-case/)   |to-lower-case    |Easy |String|1005/1005|1005/1005|1006/ |1013/ | |
+|[85](https://leetcode.com/problems/maximal-rectangle/)|maximal-rectangle|Hard |High-Level DP|1005/1005|1005/1005|1006/1006|1013/ | |
+|[746](https://leetcode.com/problems/min-cost-climbing-stairs/) |min-cost-climbing-stairs     |Easy |High-Level DP|1005/1005|1005/1005|1006/1006|1013/ | |
+|[300](https://leetcode.com/problems/longest-increasing-subsequence/)|longest-increasing-subsequence|Medium |High-Level DP|1005/1005|1005/1005|1006/1006|1013/ | |
+|[709](https://leetcode.com/problems/to-lower-case/)   |to-lower-case    |Easy |String|1005/1005|1005/1005|1006/1006|1013/ | |
 
 #### 1006 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[818](https://leetcode.com/problems/race-car/)          |race-car           |Hard |High-Level DP|1006/1006|1006/1006|1007/ | |1014/ |
-|[58](https://leetcode.com/problems/length-of-last-word/)|length-of-last-word|Easy |String|1006/1006|1006/1006|1007/ | |1014/ |
-|[771](https://leetcode.com/problems/jewels-and-stones/) |jewels-and-stones  |Easy |String|1006/1006|1006/1006|1007/ | |1014/ |
-|[387](https://leetcode.com/problems/first-unique-character-in-a-string/)|first-unique-character-in-a-string|Easy |String|1006/1006|1006/1006|1007/ | |1014/ |
+|[818](https://leetcode.com/problems/race-car/)          |race-car           |Hard |High-Level DP|1006/1006|1006/1006|1007/ |1014/ | |
+|[58](https://leetcode.com/problems/length-of-last-word/)|length-of-last-word|Easy |String|1006/1006|1006/1006|1007/ |1014/ | |
+|[771](https://leetcode.com/problems/jewels-and-stones/) |jewels-and-stones  |Easy |String|1006/1006|1006/1006|1007/ |1014/ | |
+|[387](https://leetcode.com/problems/first-unique-character-in-a-string/)|first-unique-character-in-a-string|Easy |String|1006/1006|1006/1006|1007/ |1014/ | |
 
 #### 1007 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[115](https://leetcode.com/problems/distinct-subsequences/)|distinct-subsequences |Hard  |High-Level DP|1007/ | | | | |
 |[8](https://leetcode.com/problems/string-to-integer-atoi/) |string-to-integer-atoi|Medium|String|1007/ | | | | |
-|[14](https://leetcode.com/problems/longest-common-prefix/) |longest-common-prefix |Easy  |String|1007/ | | | | |
-|[344](https://leetcode.com/problems/reverse-string/)       |reverse-string        |Easy  |String|1007/ | | | | |
+|[14](https://leetcode.com/problems/longest-common-prefix/) |longest-common-prefix |Easy  |String|1007/1007| | | | |
+|[344](https://leetcode.com/problems/reverse-string/)       |reverse-string        |Easy  |String|1007/1007| | | | |
 
 
 #### 1008 Thu
-|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
-|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[541](https://leetcode.com/problems/reverse-string-ii/)            |reverse-string-ii    |Easy |String |1008/ | | | | |
-|[151](https://leetcode.com/problems/reverse-words-in-a-string/)    |reverse-words-in-a-string|Medium|String |1008/ | | | | |
-|[557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|reverse-words-in-a-string-iii|Easy |String |1008/ | | | | |
-|[917](https://leetcode.com/problems/reverse-only-letters/)         |reverse-only-letters    |Easy |String |1008/ | | | | |
+Have a day off!
 
 #### 1009 Fri
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[10](https://leetcode.com/problems/regular-expression-matching/)|regular-expression-matching|Hard |String |1009/ | | | | |
-|[242](https://leetcode.com/problems/valid-anagram/)     |valid-anagram    |Easy  |String |1009/ | | | | |
-|[49](https://leetcode.com/problems/group-anagrams/)     |group-anagrams   |Medium|String |1009/ | | | | |
-|[438](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|find-all-anagrams-in-a-string|Medium |String |1009/ | | | | |
-
+|[541](https://leetcode.com/problems/reverse-string-ii/)            |reverse-string-ii    |Easy |String |1008/1008| | | | |
+|[151](https://leetcode.com/problems/reverse-words-in-a-string/)    |reverse-words-in-a-string|Medium|String |1009/ | | | | |
+|[557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|reverse-words-in-a-string-iii|Easy |String |1009/ | | | | |
+|[917](https://leetcode.com/problems/reverse-only-letters/)         |reverse-only-letters    |Easy |String |1009/ | | | | |
 
 #### 1010 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[125](https://leetcode.com/problems/valid-palindrome/)     |valid-palindrome    |Easy |String|1010/ | | | | |
-|[680](https://leetcode.com/problems/valid-palindrome-ii/)  |valid-palindrome-ii |Easy |String|1010/ | | | | |
-|[5](https://leetcode.com/problems/longest-palindromic-substring/)|longest-palindromic-substring|Medium |String|1010/ | | | | |
-|[44](https://leetcode.com/problems/wildcard-matching/)           |wildcard-matching    |String|Hard |1010/ | | | | |
+|[10](https://leetcode.com/problems/regular-expression-matching/)|regular-expression-matching|Hard |String |1010/ | | | | |
+|[242](https://leetcode.com/problems/valid-anagram/)     |valid-anagram    |Easy  |String |1010/ | | | | |
+|[49](https://leetcode.com/problems/group-anagrams/)     |group-anagrams   |Medium|String |1010/ | | | | |
+|[438](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|find-all-anagrams-in-a-string|Medium |String |1010/ | | | | |
+
 
 #### 1011 Sun
+|题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
+|------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
+|[125](https://leetcode.com/problems/valid-palindrome/)     |valid-palindrome    |Easy |String|1011/ | | | | |
+|[680](https://leetcode.com/problems/valid-palindrome-ii/)  |valid-palindrome-ii |Easy |String|1011/ | | | | |
+|[5](https://leetcode.com/problems/longest-palindromic-substring/)|longest-palindromic-substring|Medium |String|1011/ | | | | |
+|[44](https://leetcode.com/problems/wildcard-matching/)           |wildcard-matching    |String|Hard |1011/ | | | | |
+
+
+#### Other
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
 |[322](https://leetcode.com/problems/coin-change/)     |coin-change     |Medium|High-Level DP| | | | | |
