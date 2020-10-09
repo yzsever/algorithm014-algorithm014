@@ -284,9 +284,9 @@ function countingSort(arr, maxValue) {
 #### 0930 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[1122](https://leetcode.com/problems/relative-sort-array/)|relative-sort-array|Easy  |Counting Sort|0930/1002|0930/1002|1003/1003|1008/ | |
-|[56](https://leetcode.com/problems/merge-intervals/)      |merge-intervals    |Medium|Sort |0930/1002|0930/1002|1003/1003|1008/ | |
-|[493](https://leetcode.com/problems/reverse-pairs/)       |reverse-pairs      |Hard  |Merge Sort|0930/1002|0930/1002|1003/1003|1008/ | |
+|[1122](https://leetcode.com/problems/relative-sort-array/)|relative-sort-array|Easy  |Counting Sort|0930/1002|0930/1002|1003/1003|1008/1009| |
+|[56](https://leetcode.com/problems/merge-intervals/)      |merge-intervals    |Medium|Sort |0930/1002|0930/1002|1003/1003|1008/1009| |
+|[493](https://leetcode.com/problems/reverse-pairs/)       |reverse-pairs      |Hard  |Merge Sort|0930/1002|0930/1002|1003/1003|1008/1009| |
 
 
 #### 1001 Thu
@@ -295,15 +295,15 @@ Have a day off!
 #### 1002 Fri 预习第九周
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[62](https://leetcode.com/problems/unique-paths/)     |unique-paths    |Medium|High-Level DP|1002/1003|1002/1003|1004/1004|1009/ | |
-|[63](https://leetcode.com/problems/unique-paths-ii/)  |unique-paths-ii |Medium|High-Level DP|1002/1003|1002/1003|1004/1004|1009/ | |
-|[55](https://leetcode.com/problems/jump-game/)        |jump-game       |Mediun|High-Level DP|1002/1003|1002/1003|1004/1004|1009/ | |
+|[62](https://leetcode.com/problems/unique-paths/)     |unique-paths    |Medium|High-Level DP|1002/1003|1002/1003|1004/1004|1010/ | |
+|[63](https://leetcode.com/problems/unique-paths-ii/)  |unique-paths-ii |Medium|High-Level DP|1002/1003|1002/1003|1004/1004|1010/ | |
+|[55](https://leetcode.com/problems/jump-game/)        |jump-game       |Mediun|High-Level DP|1002/1003|1002/1003|1004/1004|1010/ | |
 
 #### 1003 Sta 每日一题补充
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[240](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)|search-a-2d-matrix-ii|Medium|Search|1003/1003|1003/1003|1004/1004|1010/ | |
-|[16](https://leetcode.com/problems/3sum-closest/)             |3sum-closest         |Medium|Pointer|1003/1003|1003/1003|1004/1004|1010/ | |
+|[240](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)|search-a-2d-matrix-ii|Medium|Search|1003/1003|1003/1003|1004/1004|1011/ | |
+|[16](https://leetcode.com/problems/3sum-closest/)             |3sum-closest         |Medium|Pointer|1003/1003|1003/1003|1004/1004|1011/ | |
 |[X]()|用自己熟悉的编程语言，手写各种初级排序代码                                           |Easy  |Sort  |1003/1003|X |X |X |X |
 
 #### 课后作业
