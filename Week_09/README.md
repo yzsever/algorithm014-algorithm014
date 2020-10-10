@@ -156,10 +156,10 @@ Have a day off!
 #### 1010 Sta
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[541](https://leetcode.com/problems/reverse-string-ii/)            |reverse-string-ii            |Easy  |String |1008/1008| | | | |
-|[151](https://leetcode.com/problems/reverse-words-in-a-string/)    |reverse-words-in-a-string    |Medium|String |1010/ | | | | |
-|[557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|reverse-words-in-a-string-iii|Easy  |String |1010/ | | | | |
-|[917](https://leetcode.com/problems/reverse-only-letters/)         |reverse-only-letters         |Easy  |String |1010/ | | | | |
+|[541](https://leetcode.com/problems/reverse-string-ii/)            |reverse-string-ii            |Easy  |String |1008/1008|1008/1008|1011/ |1018/ | |
+|[151](https://leetcode.com/problems/reverse-words-in-a-string/)    |reverse-words-in-a-string    |Medium|String |1010/1010|1010/1010|1011/ |1018/ | |
+|[557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|reverse-words-in-a-string-iii|Easy  |String |1010/1010|1010/1010|1011/ |1018/ | |
+|[917](https://leetcode.com/problems/reverse-only-letters/)         |reverse-only-letters         |Easy  |String |1010/1010|1010/1010|1011/ |1018/ | |
 
 #### 1011 Sun
 Learn videos
