@@ -295,9 +295,9 @@ Have a day off!
 #### 1002 Fri 预习第九周
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[62](https://leetcode.com/problems/unique-paths/)     |unique-paths    |Medium|High-Level DP|1002/1003|1002/1003|1004/1004|1010/ | |
-|[63](https://leetcode.com/problems/unique-paths-ii/)  |unique-paths-ii |Medium|High-Level DP|1002/1003|1002/1003|1004/1004|1010/ | |
-|[55](https://leetcode.com/problems/jump-game/)        |jump-game       |Mediun|High-Level DP|1002/1003|1002/1003|1004/1004|1010/ | |
+|[62](https://leetcode.com/problems/unique-paths/)     |unique-paths    |Medium|High-Level DP|1002/1003|1002/1003|1004/1004|1010/1012| |
+|[63](https://leetcode.com/problems/unique-paths-ii/)  |unique-paths-ii |Medium|High-Level DP|1002/1003|1002/1003|1004/1004|1010/1012| |
+|[55](https://leetcode.com/problems/jump-game/)        |jump-game       |Medium|High-Level DP|1002/1003|1002/1003|1004/1004|1010/1012| |
 
 #### 1003 Sta 每日一题补充
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
