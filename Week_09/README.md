@@ -167,15 +167,15 @@ Learn videos
 #### 1012 Mon
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[10](https://leetcode.com/problems/regular-expression-matching/)   |regular-expression-matching  |Hard   |String |1012/ | | | | |
-|[49](https://leetcode.com/problems/group-anagrams/)                |group-anagrams               |Medium |String |1012/1012|1012/1012|1013/ |1020/ | |
+|[10](https://leetcode.com/problems/regular-expression-matching/)   |regular-expression-matching  |Hard   |String |1012/1013|1012/1013|1014/ |1020/ | |
+|[49](https://leetcode.com/problems/group-anagrams/)                |group-anagrams               |Medium |String |1012/1013|1012/1013|1014/ |1020/ | |
 |[438](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|find-all-anagrams-in-a-string|Medium |String |1012/ | | | | |
 
 
 #### 1013 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[44](https://leetcode.com/problems/wildcard-matching/)           |wildcard-matching    |String|Hard |1013/ | | | | |
+|[44](https://leetcode.com/problems/wildcard-matching/)           |wildcard-matching    |String|Hard |1013/| | | | |
 |[5](https://leetcode.com/problems/longest-palindromic-substring/)|longest-palindromic-substring|Medium |String|1013/ | | | | |
 |[125](https://leetcode.com/problems/valid-palindrome/)           |valid-palindrome    |Easy |String|1013/ | | | | |
 
