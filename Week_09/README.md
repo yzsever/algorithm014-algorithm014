@@ -147,10 +147,10 @@ Have a day off!
 #### 1009 Fri
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[115](https://leetcode.com/problems/distinct-subsequences/)|distinct-subsequences |Hard  |High-Level DP|1007/1009|1009/1009|1010/ |1017/  | |
-|[8](https://leetcode.com/problems/string-to-integer-atoi/) |string-to-integer-atoi|Medium|String|1007/1009|1009/1009|1010/ |1017/  | |
-|[14](https://leetcode.com/problems/longest-common-prefix/) |longest-common-prefix |Easy  |String|1007/1009|1009/1009|1010/ |1017/  | |
-|[344](https://leetcode.com/problems/reverse-string/)       |reverse-string        |Easy  |String|1007/1009|1009/1009|1010/ |1017/  | |
+|[115](https://leetcode.com/problems/distinct-subsequences/)|distinct-subsequences|Hard|High-Level DP|1007/1009|1009/1009|1010/1013|1017/  | |
+|[8](https://leetcode.com/problems/string-to-integer-atoi/) |string-to-integer-atoi|Medium|String    |1007/1009|1009/1009|1010/1013|1017/  | |
+|[14](https://leetcode.com/problems/longest-common-prefix/) |longest-common-prefix |Easy  |String    |1007/1009|1009/1009|1010/1013|1017/  | |
+|[344](https://leetcode.com/problems/reverse-string/)       |reverse-string        |Easy  |String    |1007/1009|1009/1009|1010/1013|1017/  | |
 
 
 #### 1010 Sta
