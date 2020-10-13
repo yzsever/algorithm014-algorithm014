@@ -302,8 +302,8 @@ Have a day off!
 #### 1003 Sta 每日一题补充
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[240](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)|search-a-2d-matrix-ii|Medium|Search|1003/1003|1003/1003|1004/1004|1011/ | |
-|[16](https://leetcode.com/problems/3sum-closest/)             |3sum-closest         |Medium|Pointer|1003/1003|1003/1003|1004/1004|1011/ | |
+|[240](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)|search-a-2d-matrix-ii|Medium|Search|1003/1003|1003/1003|1004/1004|1011/1013| |
+|[16](https://leetcode.com/problems/3sum-closest/)             |3sum-closest         |Medium|Pointer|1003/1003|1003/1003|1004/1004|1011/1013| |
 |[X]()|用自己熟悉的编程语言，手写各种初级排序代码                                           |Easy  |Sort  |1003/1003|X |X |X |X |
 
 #### 课后作业
