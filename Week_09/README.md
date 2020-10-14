@@ -125,10 +125,10 @@ for 0 <= i < n:
 #### 1005 Mon
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[85](https://leetcode.com/problems/maximal-rectangle/)|maximal-rectangle|Hard |High-Level DP|1005/1005|1005/1005|1006/1006|1013/ | |
-|[746](https://leetcode.com/problems/min-cost-climbing-stairs/) |min-cost-climbing-stairs     |Easy |High-Level DP|1005/1005|1005/1005|1006/1006|1013/ | |
-|[300](https://leetcode.com/problems/longest-increasing-subsequence/)|longest-increasing-subsequence|Medium |High-Level DP|1005/1005|1005/1005|1006/1006|1013/ | |
-|[709](https://leetcode.com/problems/to-lower-case/)   |to-lower-case    |Easy |String|1005/1005|1005/1005|1006/1006|1013/ | |
+|[85](https://leetcode.com/problems/maximal-rectangle/)|maximal-rectangle|Hard |High-Level DP|1005/1005|1005/1005|1006/1006|1013/1014| |
+|[746](https://leetcode.com/problems/min-cost-climbing-stairs/) |min-cost-climbing-stairs     |Easy |High-Level DP|1005/1005|1005/1005|1006/1006|1013/1014| |
+|[300](https://leetcode.com/problems/longest-increasing-subsequence/)|longest-increasing-subsequence|Medium |High-Level DP|1005/1005|1005/1005|1006/1006|1013/1014| |
+|[709](https://leetcode.com/problems/to-lower-case/)   |to-lower-case    |Easy |String|1005/1005|1005/1005|1006/1006|1013/1014| |
 
 #### 1006 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
@@ -198,5 +198,5 @@ Learn videos
 
 #### 课后作业
 在学习总结中，写出不同路径 2 这道题目的状态转移方程。
-if (obstacleGrid[i - 1][j - 1] == 1) dp[i][j] = 0;
-else dp[i][j] = dp[i-1][j] + dp[i][j-1]
+- if (obstacleGrid[i - 1][j - 1] == 1) dp[i][j] = 0;
+- else dp[i][j] = dp[i-1][j] + dp[i][j-1]
