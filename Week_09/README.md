@@ -133,10 +133,10 @@ for 0 <= i < n:
 #### 1006 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[818](https://leetcode.com/problems/race-car/)          |race-car           |Hard |High-Level DP|1006/1006|1006/1006|1007/1009|1014/ | |
-|[58](https://leetcode.com/problems/length-of-last-word/)|length-of-last-word|Easy |String|1006/1006|1006/1006|1007/1009|1014/| |
-|[771](https://leetcode.com/problems/jewels-and-stones/) |jewels-and-stones  |Easy |String|1006/1006|1006/1006|1007/1009|1014/ | |
-|[387](https://leetcode.com/problems/first-unique-character-in-a-string/)|first-unique-character-in-a-string|Easy |String|1006/1006|1006/1006|1007/1009|1014/ | |
+|[818](https://leetcode.com/problems/race-car/)          |race-car           |Hard |High-Level DP|1006/1006|1006/1006|1007/1009|1014/1014| |
+|[58](https://leetcode.com/problems/length-of-last-word/)|length-of-last-word|Easy |String|1006/1006|1006/1006|1007/1009|1014/1014| |
+|[771](https://leetcode.com/problems/jewels-and-stones/) |jewels-and-stones  |Easy |String|1006/1006|1006/1006|1007/1009|1014/1014| |
+|[387](https://leetcode.com/problems/first-unique-character-in-a-string/)|first-unique-character-in-a-string|Easy |String|1006/1006|1006/1006|1007/1009|1014/1014| |
 
 #### 1007 Wed
 Have a day off!
