@@ -175,9 +175,9 @@ Learn videos
 #### 1014 Wed
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[44](https://leetcode.com/problems/wildcard-matching/)           |wildcard-matching    |String|Hard |1014/ | | | | |
-|[5](https://leetcode.com/problems/longest-palindromic-substring/)|longest-palindromic-substring|Medium |String|1014/ | | | | |
-|[125](https://leetcode.com/problems/valid-palindrome/)           |valid-palindrome    |Easy |String|1014/ | | | | |
+|[44](https://leetcode.com/problems/wildcard-matching/)           |wildcard-matching            |Hard  |String|1014/1014|1014/1014|1015/ |1021/ | |
+|[5](https://leetcode.com/problems/longest-palindromic-substring/)|longest-palindromic-substring|Medium|String|1014/1014|1014/1014|1015/ |1021/ | |
+|[125](https://leetcode.com/problems/valid-palindrome/)           |valid-palindrome             |Easy  |String|1014/1014|1014/1014|1015/ |1021/ | |
 
 
 #### 1015 Thu
@@ -186,7 +186,6 @@ Learn videos
 |[680](https://leetcode.com/problems/valid-palindrome-ii/)|valid-palindrome-ii    |Easy |String|1015/ | | | | |
 |[45](https://leetcode.com/problems/jump-game-ii/)      |jump-game-ii     |Hard  |High-Level DP|1015/ | | | | |
 |[279](https://leetcode.com/problems/perfect-squares/)  |perfect-squares  |Medium|High-Level DP|1015/ | | | | |
-
 
 
 #### 1016 Fri
@@ -199,3 +198,5 @@ Learn videos
 
 #### 课后作业
 在学习总结中，写出不同路径 2 这道题目的状态转移方程。
+if (obstacleGrid[i - 1][j - 1] == 1) dp[i][j] = 0;
+else dp[i][j] = dp[i-1][j] + dp[i][j-1]
