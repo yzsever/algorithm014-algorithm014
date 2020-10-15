@@ -183,9 +183,9 @@ Learn videos
 #### 1015 Thu
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[680](https://leetcode.com/problems/valid-palindrome-ii/)|valid-palindrome-ii    |Easy |String|1015/ | | | | |
-|[45](https://leetcode.com/problems/jump-game-ii/)      |jump-game-ii     |Hard  |High-Level DP|1015/ | | | | |
-|[279](https://leetcode.com/problems/perfect-squares/)  |perfect-squares  |Medium|High-Level DP|1015/ | | | | |
+|[680](https://leetcode.com/problems/valid-palindrome-ii/)|valid-palindrome-ii    |Easy |String|1015/1015|1015/1015|1016/ |1022/ | |
+|[45](https://leetcode.com/problems/jump-game-ii/)      |jump-game-ii     |Hard  |High-Level DP|1015/1015|1015/1015|1016/ |1022/ | |
+|[279](https://leetcode.com/problems/perfect-squares/)  |perfect-squares  |Medium|High-Level DP|1015/1015|1015/1015|1016/ |1022/ | |
 
 
 #### 1016 Fri
