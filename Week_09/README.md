@@ -191,9 +191,9 @@ Learn videos
 #### 1016 Fri
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[980](https://leetcode.com/problems/unique-paths-iii/)|unique-paths-iii|Hard  |High-Level DP|1016/ | | | | |
-|[322](https://leetcode.com/problems/coin-change/)     |coin-change     |Medium|High-Level DP|1016/ | | | | |
-|[518](https://leetcode.com/problems/coin-change-2/)   |coin-change-2   |Medium|High-Level DP|1016/ | | | | |
+|[980](https://leetcode.com/problems/unique-paths-iii/)|unique-paths-iii|Hard  |High-Level DP|1016/1015|1016/1015|1017/ |1023/ | |
+|[322](https://leetcode.com/problems/coin-change/)     |coin-change     |Medium|High-Level DP|1016/1015|1016/1015|1017/ |1023/ | |
+|[518](https://leetcode.com/problems/coin-change-2/)   |coin-change-2   |Medium|High-Level DP|1016/1015|1016/1015|1017/ |1023/ | |
 
 
 #### 课后作业
