@@ -167,9 +167,9 @@ Learn videos
 #### 1013 Tue
 |题目编号| 题目名称   | 难度  | 类型 | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----|----                |----  |----  |----| ---- |
-|[10](https://leetcode.com/problems/regular-expression-matching/)   |regular-expression-matching  |Hard   |String |1012/1013|1012/1013|1014/ |1020/ | |
-|[49](https://leetcode.com/problems/group-anagrams/)                |group-anagrams               |Medium |String |1012/1013|1012/1013|1014/ |1020/ | |
-|[438](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|find-all-anagrams-in-a-string|Medium |String |1013/1014|1013/1014|1015/ |1020/ | |
+|[10](https://leetcode.com/problems/regular-expression-matching/)   |regular-expression-matching  |Hard   |String |1012/1013|1012/1013|1014/1016|1020/ | |
+|[49](https://leetcode.com/problems/group-anagrams/)                |group-anagrams               |Medium |String |1012/1013|1012/1013|1014/1016|1020/ | |
+|[438](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|find-all-anagrams-in-a-string|Medium |String |1013/1014|1013/1014|1015/1016|1020/ | |
 
 
 #### 1014 Wed
