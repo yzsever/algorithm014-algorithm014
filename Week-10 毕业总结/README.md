@@ -58,13 +58,15 @@
 
 ---
 ### 毕业刷题路线
+之后刷题将以刷题路线中的新题加学习过程中的老题进行。
+
 #### 基础
 |题目编号| 题目名称   | 难度  | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----                |----  |----  |----| ---- |
-|[1](http://leetcode.com/problems/two-sum)|两数之和 |Easy | |1026/ | | | |
-|[20](http://leetcode.com/problems/valid-parentheses)|有效的括号 |Easy | |1026/ | | | |
-|[394](http://leetcode.com/problems/decode-string/)|字符串解码 |Medium | |1027/ | | | |
-|[146](http://leetcode.com/problems/lru-cache/)|LRU 缓存机制 |Hard | |1027/ | | | |
+|[1](http://leetcode.com/problems/two-sum)|两数之和 |Easy |1026/ | | | | |
+|[20](http://leetcode.com/problems/valid-parentheses)|有效的括号 |Easy |1026/ | | | | |
+|[394](http://leetcode.com/problems/decode-string/)|字符串解码 |Medium |1027/ | | | | |
+|[146](http://leetcode.com/problems/lru-cache/)|LRU 缓存机制 |Hard |1027/ | | | | |
 |[208](http://leetcode.com/problems/implement-trie-prefix-tree/)|实现 Trie（前缀树） |Medium | | | | | |
 |[211](http://leetcode.com/problems/add-and-search-word-data-structure-design/)|添加与搜索单词 - 数据结构设计 |Medium | | | | | |
 |[212](http://leetcode.com/problems/word-search-ii/)|单词搜索 II |Hard | | | | | |
@@ -79,8 +81,8 @@
 |[206](http://leetcode.com/problems/reverse-linked-list)|反转链表 |Easy | | | | | | 
 |[92](http://leetcode.com/problems/reverse-linked-list-ii)|反转链表 II |Medium | | | | | | 
 |[61](http://leetcode.com/problems/rotate-list)|旋转链表 |Medium | | | | | | 
-|[148](http://leetcode.com/problems/sort-list/)|排序链表 | | | | | | | 
-|[剑指Offer22](http://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|链表中倒数第 k 个节点 | | | | | | |
+|[148](http://leetcode.com/problems/sort-list/)|排序链表 |Medium | | | | | | 
+|[剑指Offer22](http://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|链表中倒数第 k 个节点 |Easy | | | | | |
 |[24](http://leetcode.com/problems/swap-nodes-in-pairs)|两两交换链表中的节点 |Medium | | | | | | 
 |[905](http://leetcode.com/problems/sort-array-by-parity/)|按奇偶排序数组 |Easy | | | | | | 
 |[922](http://leetcode.com/problems/sort-array-by-parity-ii/)|按奇偶排序数组 II |Easy | | | | | | 
