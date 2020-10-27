@@ -94,15 +94,15 @@
 |[154](http://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|寻找旋转排序数组中的最小值 II |Hard | | | | | | 
 |[74](http://leetcode.com/problems/search-a-2d-matrix)|搜索二维矩阵 |Medium | | | | | | 
 |[990](http://leetcode.com/problems/satisfiability-of-equality-equations/)|等式方程的可满足性 |Medium | | | | | | 
-|[547](http://leetcode.com/problems/friend-circles/)|朋友圈 |Medium | | | | | | 
-|[721](http://leetcode.com/problems/accounts-merge/)|账户合并 |Medium | | | | | | 
+|[547](http://leetcode.com/problems/friend-circles/)|朋友圈 |Medium |1023/1023| | | | | 
+|[721](http://leetcode.com/problems/accounts-merge/)|账户合并 |Medium |104/1024 | | | | | 
 
 #### 深度优先搜索
 |题目编号| 题目名称   | 难度  | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----                |----  |----  |----| ---- |
-|[104](http://leetcode.com/problems/maximum-depth-of-binary-tree/)|二叉树的最大深度 |Easy | | | | | |
-|[112](http://leetcode.com/problems/path-sum/)|路径总和 |Easy | | | | | |
-|[113](http://leetcode.com/problems/path-sum-ii/)|路径总和 II |Medium | | | | | |
+|[104](http://leetcode.com/problems/maximum-depth-of-binary-tree/)|二叉树的最大深度 |Easy|1025/1025 | | | | |
+|[112](http://leetcode.com/problems/path-sum/)|路径总和 |Easy |1026/1026 | | | | |
+|[113](http://leetcode.com/problems/path-sum-ii/)|路径总和 II |Medium |1027/1027| | | | |
 |[130](http://leetcode.com/problems/surrounded-regions/)|被围绕的区域 |Medium | | | | | |
 |[200](http://leetcode.com/problems/number-of-islands/)|岛屿数量 |Medium | | | | | |
 |[695](http://leetcode.com/problems/max-area-of-island/)|岛屿的最大面积 |Medium | | | | | |
