@@ -63,10 +63,10 @@
 #### 基础
 |题目编号| 题目名称   | 难度  | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----                |----  |----  |----| ---- |
-|[1](http://leetcode.com/problems/two-sum)|两数之和 |Easy |1026/ | | | | |
-|[20](http://leetcode.com/problems/valid-parentheses)|有效的括号 |Easy |1026/ | | | | |
-|[394](http://leetcode.com/problems/decode-string/)|字符串解码 |Medium |1027/ | | | | |
-|[146](http://leetcode.com/problems/lru-cache/)|LRU 缓存机制 |Hard |1027/ | | | | |
+|[1](http://leetcode.com/problems/two-sum)|两数之和 |Easy | | | | | |
+|[20](http://leetcode.com/problems/valid-parentheses)|有效的括号 |Easy | | | | | |
+|[394](http://leetcode.com/problems/decode-string/)|字符串解码 |Medium | | | | | |
+|[146](http://leetcode.com/problems/lru-cache/)|LRU 缓存机制 |Hard | | | | | |
 |[208](http://leetcode.com/problems/implement-trie-prefix-tree/)|实现 Trie（前缀树） |Medium | | | | | |
 |[211](http://leetcode.com/problems/add-and-search-word-data-structure-design/)|添加与搜索单词 - 数据结构设计 |Medium | | | | | |
 |[212](http://leetcode.com/problems/word-search-ii/)|单词搜索 II |Hard | | | | | |
@@ -95,7 +95,7 @@
 |[74](http://leetcode.com/problems/search-a-2d-matrix)|搜索二维矩阵 |Medium | | | | | | 
 |[990](http://leetcode.com/problems/satisfiability-of-equality-equations/)|等式方程的可满足性 |Medium | | | | | | 
 |[547](http://leetcode.com/problems/friend-circles/)|朋友圈 |Medium |1023/1023| | | | | 
-|[721](http://leetcode.com/problems/accounts-merge/)|账户合并 |Medium |104/1024 | | | | | 
+|[721](http://leetcode.com/problems/accounts-merge/)|账户合并 |Medium |1024/1024 | | | | | 
 
 #### 深度优先搜索
 |题目编号| 题目名称   | 难度  | #1  | #2 | #3 | #4 | #5  |
@@ -104,7 +104,7 @@
 |[112](http://leetcode.com/problems/path-sum/)|路径总和 |Easy |1026/1026 | | | | |
 |[113](http://leetcode.com/problems/path-sum-ii/)|路径总和 II |Medium |1027/1027| | | | |
 |[130](http://leetcode.com/problems/surrounded-regions/)|被围绕的区域 |Medium |1028/1028 | | | | |
-|[200](http://leetcode.com/problems/number-of-islands/)|岛屿数量 |Medium | | | | | |
+|[200](http://leetcode.com/problems/number-of-islands/)|岛屿数量 |Medium |1029/1029 | | | | |
 |[695](http://leetcode.com/problems/max-area-of-island/)|岛屿的最大面积 |Medium | | | | | |
 |[979](http://leetcode.com/problems/distribute-coins-in-binary-tree/)|在二叉树中分配硬币 |Medium | | | | | |
 
