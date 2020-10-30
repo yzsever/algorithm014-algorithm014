@@ -105,7 +105,7 @@
 |[113](http://leetcode.com/problems/path-sum-ii/)|路径总和 II |Medium |1027/1027| | | | |
 |[130](http://leetcode.com/problems/surrounded-regions/)|被围绕的区域 |Medium |1028/1028 | | | | |
 |[200](http://leetcode.com/problems/number-of-islands/)|岛屿数量 |Medium |1029/1029 | | | | |
-|[695](http://leetcode.com/problems/max-area-of-island/)|岛屿的最大面积 |Medium | | | | | |
+|[695](http://leetcode.com/problems/max-area-of-island/)|岛屿的最大面积 |Medium |1030/1030 | | | | |
 |[979](http://leetcode.com/problems/distribute-coins-in-binary-tree/)|在二叉树中分配硬币 |Medium | | | | | |
 
 #### 回溯
