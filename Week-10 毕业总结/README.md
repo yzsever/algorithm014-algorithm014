@@ -106,12 +106,12 @@
 |[130](http://leetcode.com/problems/surrounded-regions/)|被围绕的区域 |Medium |1028/1028 | | | | |
 |[200](http://leetcode.com/problems/number-of-islands/)|岛屿数量 |Medium |1029/1029 | | | | |
 |[695](http://leetcode.com/problems/max-area-of-island/)|岛屿的最大面积 |Medium |1030/1030 | | | | |
-|[979](http://leetcode.com/problems/distribute-coins-in-binary-tree/)|在二叉树中分配硬币 |Medium | | | | | |
+|[979](http://leetcode.com/problems/distribute-coins-in-binary-tree/)|在二叉树中分配硬币 |Medium |1031/1031| | | | |
 
 #### 回溯
 |题目编号| 题目名称   | 难度  | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----                |----  |----  |----| ---- |
-|[22](http://leetcode.com/problems/generate-parentheses/)|括号生成 |Medium | | | | | | 
+|[22](http://leetcode.com/problems/generate-parentheses/)|括号生成 |Medium |11/01| | | | | 
 |[51](http://leetcode.com/problems/n-queens/)|N 皇后 |Hard | | | | | | 
 |[52](http://leetcode.com/problems/n-queens-ii/)|N 皇后 II |Hard | | | | | | 
 |[37](http://leetcode.com/problems/sudoku-solver/)|解数独 |Medium | | | | | | 
