@@ -112,7 +112,7 @@
 |题目编号| 题目名称   | 难度  | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----                |----  |----  |----| ---- |
 |[22](http://leetcode.com/problems/generate-parentheses/)|括号生成 |Medium |11/01| | | | | 
-|[51](http://leetcode.com/problems/n-queens/)|N 皇后 |Hard | | | | | | 
+|[51](http://leetcode.com/problems/n-queens/)|N 皇后 |Hard |11/02 | | | | | 
 |[52](http://leetcode.com/problems/n-queens-ii/)|N 皇后 II |Hard | | | | | | 
 |[37](http://leetcode.com/problems/sudoku-solver/)|解数独 |Medium | | | | | | 
 |[980](http://leetcode.com/problems/unique-paths-iii/)|不同路径 III |Hard | | | | | | 
