@@ -115,7 +115,7 @@
 |[51](http://leetcode.com/problems/n-queens/)|N 皇后 |Hard |11/02 | | | | | 
 |[52](http://leetcode.com/problems/n-queens-ii/)|N 皇后 II |Hard |11/04 | | | | | 
 |[37](http://leetcode.com/problems/sudoku-solver/)|解数独 |Medium |11/04 | | | | | 
-|[980](http://leetcode.com/problems/unique-paths-iii/)|不同路径 III |Hard | | | | | | 
+|[980](http://leetcode.com/problems/unique-paths-iii/)|不同路径 III |Hard |11/05 | | | | | 
 |[79](http://leetcode.com/problems/word-search/)|单词搜索 |Medium | | | | | | 
 
 #### 分治
