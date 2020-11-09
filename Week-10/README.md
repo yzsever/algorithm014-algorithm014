@@ -121,9 +121,9 @@
 #### 分治
 |题目编号| 题目名称   | 难度  |  #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----                |----  |----  |----| ---- |
-|[240](http://leetcode.com/problems/search-a-2d-matrix-ii/)|搜索二维矩阵 II |Medium |1108/ | | | | | 
-|[23](http://leetcode.com/problems/merge-k-sorted-lists)|合并 K 个排序链表 |Medium |1108/ | | | | |
-|[241](http://leetcode.com/problems/different-ways-to-add-parentheses)|为运算表达式设计优先级 |Medium | | | | | |
+|[240](http://leetcode.com/problems/search-a-2d-matrix-ii/)|搜索二维矩阵 II |Medium |11/08 | | | | | 
+|[23](http://leetcode.com/problems/merge-k-sorted-lists)|合并 K 个排序链表 |Medium |11/08| | | | |
+|[241](http://leetcode.com/problems/different-ways-to-add-parentheses)|为运算表达式设计优先级 |Medium |11/09 | | | | |
 |[282](http://leetcode.com/problems/expression-add-operators)|给表达式添加运算符 |Hard | | | | | |
 |[215](http://leetcode.com/problems/kth-largest-element-in-an-array)|数组中的第 K 个最大元素 |Medium | | | | | |
 |[973](http://leetcode.com/problems/k-closest-points-to-origin/)|最接近原点的 K 个点 |Medium | | | | | |
