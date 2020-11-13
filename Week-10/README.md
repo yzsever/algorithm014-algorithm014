@@ -133,7 +133,7 @@
 #### 动态规划
 |题目编号| 题目名称   | 难度  | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----                |----  |----  |----| ---- |
-|[746](http://leetcode.com/problems/min-cost-climbing-stairs)|使用最小花费爬楼梯 |Easy | | | | | | 
+|[746](http://leetcode.com/problems/min-cost-climbing-stairs)|使用最小花费爬楼梯 |Easy |11/13 | | | | | 
 |[70](http://leetcode.com/problems/climbing-stairs)|爬楼梯 |Easy | | | | | | 
 |[62](http://leetcode.com/problems/unique-paths/)|不同路径 |Easy | | | | | | 
 |[64](http://leetcode.com/problems/minimum-path-sum/)|最小路径和 |Medium | | | | | | 
