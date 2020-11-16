@@ -134,10 +134,10 @@
 |题目编号| 题目名称   | 难度  | #1  | #2 | #3 | #4 | #5  |
 |------ | ----      | ---- | ----                |----  |----  |----| ---- |
 |[746](http://leetcode.com/problems/min-cost-climbing-stairs)|使用最小花费爬楼梯 |Easy |11/13 | | | | | 
-|[70](http://leetcode.com/problems/climbing-stairs)|爬楼梯 |Easy | | | | | | 
-|[62](http://leetcode.com/problems/unique-paths/)|不同路径 |Easy | | | | | | 
+|[70](http://leetcode.com/problems/climbing-stairs)|爬楼梯 |Easy |11/14 | | | | | 
+|[62](http://leetcode.com/problems/unique-paths/)|不同路径 |Easy |11/16 | | | | | 
 |[64](http://leetcode.com/problems/minimum-path-sum/)|最小路径和 |Medium | | | | | | 
-|[53](http://leetcode.com/problems/maximum-subarray/)|最大子序和 |Easy | | | | | | 
+|[53](http://leetcode.com/problems/maximum-subarray/)|最大子序和 |Easy |11/16 | | | | | 
 |[152](http://leetcode.com/problems/maximum-product-subarray/)|乘积最大子数组 |Medium | | | | | | 
 |[121](http://leetcode.com/problems/best-time-to-buy-and-sell-stock)|买卖股票的最佳时机 |Easy | | | | | | 
 |[122](http://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|买卖股票的最佳时机 II |Easy | | | | | | 
